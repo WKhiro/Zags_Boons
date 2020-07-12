@@ -1,0 +1,145 @@
+{
+  "gods": [
+    {
+      "aphrodite": {
+        "name": "aphrodite",
+        "boons": [
+          {
+            "name": "Heartbreak Strike",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e3/Heartbreak_Strike.png?version=d2273a48d26c0538c3f4752a8141b3f7",
+            "upgrades": [
+              {
+                "name": "Empty Inside",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c9/Empty_Inside.png?version=3bc1389f42196fb587a933e30b206fbe",
+                "other": []
+              },
+              {
+                "name": "Sweet Surrender",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c9/Empty_Inside.png?version=3bc1389f42196fb587a933e30b206fbe",
+                "other": []
+              },
+              {
+                "name": "Broken Resolve",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c9/Empty_Inside.png?version=3bc1389f42196fb587a933e30b206fbe",
+                "other": []
+              },
+              {
+                "name": "Unhealthy Fixation",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c9/Empty_Inside.png?version=3bc1389f42196fb587a933e30b206fbe",
+                "other": ["Empty Inside", "Sweet Surrender", "Broken Resolve"]
+              },
+              {
+                "name": "Curse of Longing",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c9/Empty_Inside.png?version=3bc1389f42196fb587a933e30b206fbe",
+                "other": ["Curse of Agony", "Curse of Pain"]
+              },
+              {
+                "name": "Heart Rend",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c9/Empty_Inside.png?version=3bc1389f42196fb587a933e30b206fbe",
+                "other": [
+                  "Deadly Flourish",
+                  "Deadly Strike",
+                  "Hunter's Flare",
+                  "True Shot"
+                ]
+              },
+              {
+                "name": "Parting Shot",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c9/Empty_Inside.png?version=3bc1389f42196fb587a933e30b206fbe",
+                "other": [
+                  "Athena's Aid",
+                  "Divine Dash",
+                  "Divine Flourish",
+                  "Divine Strike",
+                  "Phalanx Flare",
+                  "Phalanx Shot"
+                ]
+              },
+              {
+                "name": "Cold Embrace",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c9/Empty_Inside.png?version=3bc1389f42196fb587a933e30b206fbe",
+                "other": ["Crystal Beam"]
+              },
+              {
+                "name": "Low Tolerance",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c9/Empty_Inside.png?version=3bc1389f42196fb587a933e30b206fbe",
+                "other": ["Drunken Dash", "Drunken Flourish", "Drunken Strike"]
+              },
+              {
+                "name": "Sweet Nectar",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c9/Empty_Inside.png?version=3bc1389f42196fb587a933e30b206fbe",
+                "other": [
+                  "Flood Shot",
+                  "Poseidon's Aid",
+                  "Tempest Flourish",
+                  "Tempest Strike",
+                  "Tidal Dash"
+                ]
+              },
+              {
+                "name": "Smoldering Air",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c9/Empty_Inside.png?version=3bc1389f42196fb587a933e30b206fbe",
+                "other": [
+                  "Electric Flare",
+                  "Electric Shot",
+                  "Lightning Strike",
+                  "Thunder Dash",
+                  "Thunder Flourish",
+                  "Zeus' Aid"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Heartbreak Flourish",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e9/Heartbreak_Flourish.png?version=80dfdf7b1131f4b9712c65dd3535c2fc",
+            "upgrades": [
+              {
+                "name": "Cold Embrace",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c9/Empty_Inside.png?version=3bc1389f42196fb587a933e30b206fbe",
+                "other": ["Crystal Beam"]
+              }
+            ]
+          }
+        ]
+      },
+      "ares": {
+        "name": "ares",
+        "boons": [
+          {
+            "name": "Curse Strike",
+            "upgrades": [
+              {
+                "name": "Sweet Nectar",
+                "other": [
+                  "Electric Flare",
+                  "Electric Shot",
+                  "Lightning Strike",
+                  "Thunder Dash",
+                  "Thunder Flourish",
+                  "Zeus' Aid"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Curse Flourish",
+            "upgrades": [
+              {
+                "name": "Sweet Nectar",
+                "other": [
+                  "Electric Flare",
+                  "Electric Shot",
+                  "Lightning Strike",
+                  "Thunder Dash",
+                  "Thunder Flourish",
+                  "Zeus' Aid"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

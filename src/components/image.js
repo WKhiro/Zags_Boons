@@ -16,17 +16,95 @@ import Img from "gatsby-image"
 const Image = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "gatsby-astronaut.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 300) {
-            ...GatsbyImageSharpFluid
+      allFile(
+        filter: {
+          extension: { regex: "/(jpg)|(png)|(tif)|(tiff)|(webp)|(jpeg)/" }
+          absolutePath: { regex: "/images/" }
+        }
+      ) {
+        edges {
+          node {
+            name
+            childImageSharp {
+              fluid(maxWidth: 300) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+      }
+      dataJson {
+        gods {
+          aphrodite {
+            boons {
+              name
+              upgrades {
+                name
+                other
+              }
+              iconurl
+            }
+            name
+          }
+          ares {
+            boons {
+              name
+            }
           }
         }
       }
     }
   `)
+  function test(ind) {
+    {
+      ind.upgrades.map((testName, index) => {
+        console.log(testName.name)
+        console.log(testName.other)
+      })
+    }
+  }
+  /*
+returns the name aphrodite
+     {data.dataJson.gods.map((godType, index) => (
+        <h1>{godType.aphro.name}</h1>
+      ))}
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+            {data.dataJson.gods.map((godType, index) => (
+        <h1 key={index}>{godType.aphrodite.boons[0].name}</h1>
+      ))}
+
+            {data.allFile.edges.map(({ node }, i) => (
+        <Img key={i} fluid={node.childImageSharp.fluid} alt={node.name} />
+      ))}
+*/
+  return (
+    <div>
+      <div>
+        {data.dataJson.gods.map((godType, index) => {
+          return godType.aphrodite.boons.map((boonType, index2) => {
+            return <h1>{boonType.name}</h1>
+          })
+        })}
+      </div>
+      <div>
+        {data.dataJson.gods.map((godType, index) => {
+          return godType.aphrodite.boons.map((boonType, index2) => {
+            return (
+              <button key={index}>
+                <img
+                  src={boonType.iconurl}
+                  alt=""
+                  onClick={() => {
+                    test(boonType)
+                  }}
+                ></img>
+              </button>
+            )
+          })
+        })}
+      </div>
+    </div>
+  )
 }
 
 export default Image
