@@ -4,9 +4,11 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import { render } from "react-dom"
+import "./testx.css"
 
 export default function IndexPage({ data }) {
   const gods = data.dataJson.gods
+  const availableBoons = []
   const [display, setDisplay] = useState([false, false])
 
   const toggleDisplay = index => () => {
@@ -29,7 +31,7 @@ export default function IndexPage({ data }) {
   return (
     <Layout>
       <SEO title="Home" />
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+      <div style={{ marginBottom: `1.45rem`, display: `flex` }}>
         <div>
           {gods.map((godType, index) => {
             return godType.aphrodite.boons.map((boonType, index2) => {
@@ -45,40 +47,53 @@ export default function IndexPage({ data }) {
             })
           })}
         </div>
-        {display[0] && (
-          <div>
-            {gods.map((godType, index) =>
-              godType.aphrodite.boons[0].upgrades.map((upgradeType, index2) => (
-                <div>
-                  <div>
-                    <img src={upgradeType.iconurl} alt="" />
-                    <h1>{upgradeType.name}</h1>
-                  </div>
-                  {upgradeType.other.map(element => (
-                    <h3>{element}</h3>
-                  ))}
-                </div>
-              ))
-            )}
-          </div>
-        )}
-        {display[1] && (
-          <div>
-            {gods.map((godType, index) =>
-              godType.aphrodite.boons[1].upgrades.map((upgradeType, index2) => (
-                <div>
-                  <div>
-                    <img src={upgradeType.iconurl} alt="" />
-                    <h1>{upgradeType.name}</h1>
-                  </div>
-                  {upgradeType.other.map(element => (
-                    <h3>{element}</h3>
-                  ))}
-                </div>
-              ))
-            )}
-          </div>
-        )}
+      </div>
+      <div style={{ display: `flex` }}>
+        {availableBoons}
+        {display[0] &&
+          availableBoons.push(
+            <div>
+              {gods.map((godType, index) =>
+                godType.aphrodite.boons[0].upgrades.map(
+                  (upgradeType, index2) => (
+                    <div>
+                      <div className="testin">
+                        <img
+                          className="testimg"
+                          src={upgradeType.iconurl}
+                          alt=""
+                        />
+                        <h3>{upgradeType.name}</h3>
+                      </div>
+                      {upgradeType.other.map(element => (
+                        <h5>{element}</h5>
+                      ))}
+                    </div>
+                  )
+                )
+              )}
+            </div>
+          )}
+        {display[1] &&
+          availableBoons.push(
+            <div>
+              {gods.map((godType, index) =>
+                godType.aphrodite.boons[1].upgrades.map(
+                  (upgradeType, index2) => (
+                    <div>
+                      <div>
+                        <img src={upgradeType.iconurl} alt="" />
+                        <h3>{upgradeType.name}</h3>
+                      </div>
+                      {upgradeType.other.map(element => (
+                        <h5>{element}</h5>
+                      ))}
+                    </div>
+                  )
+                )
+              )}
+            </div>
+          )}
       </div>
       <Link to="/page-2/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
