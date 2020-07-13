@@ -13,6 +13,7 @@ export default function SecondPage({ data }) {
   const [display, setDisplay] = useState([false, false])
 
   const toggleDisplay = index => () => {
+    console.log(index)
     let displayCopy = [...display]
     displayCopy[index] = !displayCopy[index]
     setDisplay(displayCopy)
@@ -45,51 +46,32 @@ export default function SecondPage({ data }) {
           )}
         </div>
         <div className="two">
-          {availableBoons}
-          {display[0] &&
-            availableBoons.push(
-              <div className="contains">
-                {gods.map((godType, index) =>
-                  godType.aphrodite.boons[0].upgrades.map(
-                    (upgradeType, index2) => (
-                      <div className="bordering">
-                        <div className="testin">
-                          <img
-                            className="testimg"
-                            src={upgradeType.iconurl}
-                            alt=""
-                          />
-                          <h3>{upgradeType.name}</h3>
+          {display.map((boolVal, boonNum) => {
+            if (boolVal)
+              return (
+                <div className="contains">
+                  {gods.map((godType, index) =>
+                    godType.aphrodite.boons[boonNum].upgrades.map(
+                      (upgradeType, index2) => (
+                        <div className="bordering">
+                          <div className="testin">
+                            <img
+                              className="testimg"
+                              src={upgradeType.iconurl}
+                              alt=""
+                            />
+                            <h3>{upgradeType.name}</h3>
+                          </div>
+                          {upgradeType.other.map(element => (
+                            <h5>{element}</h5>
+                          ))}
                         </div>
-                        {upgradeType.other.map(element => (
-                          <h5>{element}</h5>
-                        ))}
-                      </div>
+                      )
                     )
-                  )
-                )}
-              </div>
-            )}
-          {display[1] &&
-            availableBoons.push(
-              <div>
-                {gods.map((godType, index) =>
-                  godType.aphrodite.boons[1].upgrades.map(
-                    (upgradeType, index2) => (
-                      <div>
-                        <div>
-                          <img src={upgradeType.iconurl} alt="" />
-                          <h3>{upgradeType.name}</h3>
-                        </div>
-                        {upgradeType.other.map(element => (
-                          <h5>{element}</h5>
-                        ))}
-                      </div>
-                    )
-                  )
-                )}
-              </div>
-            )}
+                  )}
+                </div>
+              )
+          })}
         </div>
         <div className="three">
           <div>
