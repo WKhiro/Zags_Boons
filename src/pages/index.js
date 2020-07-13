@@ -31,12 +31,13 @@ export default function IndexPage({ data }) {
   return (
     <Layout>
       <SEO title="Home" />
-      <div style={{ marginBottom: `1.45rem`, display: `flex` }}>
+      <div className="box">
         <div>
           {gods.map((godType, index) => {
             return godType.aphrodite.boons.map((boonType, index2) => {
               return (
                 <img
+                  className="buttonReadjust"
                   src={boonType.iconurl}
                   alt=""
                   onClick={
@@ -52,11 +53,11 @@ export default function IndexPage({ data }) {
         {availableBoons}
         {display[0] &&
           availableBoons.push(
-            <div>
+            <div className="contains">
               {gods.map((godType, index) =>
                 godType.aphrodite.boons[0].upgrades.map(
                   (upgradeType, index2) => (
-                    <div>
+                    <div className="bordering">
                       <div className="testin">
                         <img
                           className="testimg"

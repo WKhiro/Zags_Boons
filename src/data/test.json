@@ -100,6 +100,28 @@
                 "other": ["Crystal Beam"]
               }
             ]
+          },
+          {
+            "name": "Crush Shot",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/aa/Crush_Shot.png?version=8d114199992ec79e1d979a8592f6e908",
+            "upgrades": [
+              {
+                "name": "Cold Embrace",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c9/Empty_Inside.png?version=3bc1389f42196fb587a933e30b206fbe",
+                "other": ["Crystal Beam"]
+              }
+            ]
+          },
+          {
+            "name": "Passion Dash",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e0/Passion_Dash.png?version=db48eda4a6b90739c4bb166a2761f832",
+            "upgrades": [
+              {
+                "name": "Cold Embrace",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c9/Empty_Inside.png?version=3bc1389f42196fb587a933e30b206fbe",
+                "other": ["Crystal Beam"]
+              }
+            ]
           }
         ]
       },
@@ -108,6 +130,7 @@
         "boons": [
           {
             "name": "Curse Strike",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/aa/Crush_Shot.png?version=8d114199992ec79e1d979a8592f6e908",
             "upgrades": [
               {
                 "name": "Sweet Nectar",
@@ -124,6 +147,7 @@
           },
           {
             "name": "Curse Flourish",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/aa/Crush_Shot.png?version=8d114199992ec79e1d979a8592f6e908",
             "upgrades": [
               {
                 "name": "Sweet Nectar",

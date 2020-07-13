@@ -1,46 +1,130 @@
-import React, { Component } from "react"
-import { Link } from "gatsby"
-import Table from "../components/Table"
-import Form from "../components/Form"
-import "./main.css"
+import React, { useState } from "react"
+import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
+import Image from "../components/image"
 import SEO from "../components/seo"
+import { render } from "react-dom"
+import Boon from "../components/boon"
+import "./testx.css"
 
-class SecondPage extends Component {
-  state = {
-    characters: [],
+export default function SecondPage({ data }) {
+  const gods = data.dataJson.gods
+  const availableBoons = []
+  const [display, setDisplay] = useState([false, false])
+
+  const toggleDisplay = index => () => {
+    let displayCopy = [...display]
+    displayCopy[index] = !displayCopy[index]
+    setDisplay(displayCopy)
   }
 
-  removeCharacter = index => {
-    const { characters } = this.state
-
-    this.setState({
-      characters: characters.filter((character, i) => {
-        return i !== index
-      }),
-    })
+  function test(ind) {
+    {
+      ind.upgrades.map((testName, index) => {
+        console.log(testName.name)
+        {
+          testName.other.forEach(element => console.log(element))
+        }
+      })
+    }
   }
 
-  handleSubmit = character => {
-    this.setState({ characters: [...this.state.characters, character] })
-  }
-
-  render() {
-    const { characters } = this.state
-
-    return (
-      <div className="container">
-        <h1>React Tutorial</h1>
-        <p>Add a character with a name and a job to the table.</p>
-        <Table
-          characterData={characters}
-          removeCharacter={this.removeCharacter}
-        />
-        <h3>Add New</h3>
-        <Form handleSubmit={this.handleSubmit} />
+  return (
+    <Layout>
+      <SEO title="Home" />
+      <div class="box">
+        <div className="one">
+          {data.dataJson.gods.map((godType, index) =>
+            godType.aphrodite.boons.map((boonType, index) => (
+              <Boon
+                name="aphrodite"
+                onClick={toggleDisplay(index)}
+                boonName={boonType}
+              />
+            ))
+          )}
+        </div>
+        <div className="two">
+          {availableBoons}
+          {display[0] &&
+            availableBoons.push(
+              <div className="contains">
+                {gods.map((godType, index) =>
+                  godType.aphrodite.boons[0].upgrades.map(
+                    (upgradeType, index2) => (
+                      <div className="bordering">
+                        <div className="testin">
+                          <img
+                            className="testimg"
+                            src={upgradeType.iconurl}
+                            alt=""
+                          />
+                          <h3>{upgradeType.name}</h3>
+                        </div>
+                        {upgradeType.other.map(element => (
+                          <h5>{element}</h5>
+                        ))}
+                      </div>
+                    )
+                  )
+                )}
+              </div>
+            )}
+          {display[1] &&
+            availableBoons.push(
+              <div>
+                {gods.map((godType, index) =>
+                  godType.aphrodite.boons[1].upgrades.map(
+                    (upgradeType, index2) => (
+                      <div>
+                        <div>
+                          <img src={upgradeType.iconurl} alt="" />
+                          <h3>{upgradeType.name}</h3>
+                        </div>
+                        {upgradeType.other.map(element => (
+                          <h5>{element}</h5>
+                        ))}
+                      </div>
+                    )
+                  )
+                )}
+              </div>
+            )}
+        </div>
+        <div className="three">
+          <div>
+            {gods.map((godType, index) => {
+              console.log(Object.keys(godType))
+              var x = Object.keys(godType)
+              return <h1>{x}</h1>
+            })}
+          </div>
+        </div>
       </div>
-    )
-  }
+    </Layout>
+  )
 }
 
-export default SecondPage
+export const query = graphql`
+  query {
+    dataJson {
+      gods {
+        aphrodite {
+          boons {
+            name
+            iconurl
+            upgrades {
+              iconurl
+              name
+              other
+            }
+          }
+          name
+        }
+        ares {
+          name
+        }
+      }
+    }
+  }
+`
