@@ -15,11 +15,11 @@ h5 {
 }
 
 .bordering {
-  border: 2px solid black;
+  border: 2px solid purple;
 }
 
 .contains {
-  border: 2px solid blue;
+  border: none;
   display: inline-block;
   vertical-align: top;
 }
@@ -57,4 +57,9 @@ h5 {
 .buttonReadjust {
   width: 100px;
   height: 100px;
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.buttonReadjust:hover {
+  opacity: 0.8;
 }

@@ -3,6 +3,16 @@ module.exports = {
     title: `Hades`,
     description: `Hades Boon Website`,
     author: `Wesley Kok`,
+    menuLinks: [
+      {
+        name: "Aphrodite",
+        link: "/",
+      },
+      {
+        name: "Ares",
+        link: "/page-2",
+      },
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

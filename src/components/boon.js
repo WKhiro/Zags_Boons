@@ -1,9 +1,8 @@
 import React, { useState } from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import "./test2.css"
+import "./boonStyle.css"
 
 export default function Boon(props) {
-  console.log(props.boonName)
   const data = useStaticQuery(graphql`
     query {
       dataJson {

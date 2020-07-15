@@ -15,7 +15,7 @@ h5 {
 }
 
 .bordering {
-  border: 2px solid black;
+  border: 2px solid purple;
 }
 
 .contains {
@@ -40,13 +40,13 @@ h5 {
 .three {
   flex: 0 0 50%;
   background: cyan;
-  width: 50%;
+  width: 20%;
 }
 .two {
   flex: 0 0 100%;
   order: 1;
   background: moccasin;
-  width: 50%;
+  width: 80%;
 }
 .three {
   background: tomato;
