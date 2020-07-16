@@ -46,8 +46,7 @@
                 "other": [
                   "Deadly Flourish",
                   "Deadly Strike",
-                  "Hunter's Flare",
-                  "True Shot"
+                  "True Shot/Hunter's Flare"
                 ]
               },
               {
@@ -59,8 +58,7 @@
                   "Divine Dash",
                   "Divine Flourish",
                   "Divine Strike",
-                  "Phalanx Flare",
-                  "Phalanx Shot"
+                  "Phalanx Shot/Phalanx Flare"
                 ]
               },
               {
@@ -92,8 +90,7 @@
                 "type": "Duo",
                 "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/ca/Smoldering_Air.png/150px-Smoldering_Air.png?version=101da95586987bc441e7960bc7aadd51",
                 "other": [
-                  "Electric Flare",
-                  "Electric Shot",
+                  "Electric Shot/Electric Flare",
                   "Lightning Strike",
                   "Thunder Dash",
                   "Thunder Flourish",
@@ -144,8 +141,7 @@
                 "other": [
                   "Deadly Flourish",
                   "Deadly Strike",
-                  "Hunter's Flare",
-                  "True Shot"
+                  "True Shot/Hunter's Flare"
                 ]
               },
               {
@@ -157,8 +153,7 @@
                   "Divine Dash",
                   "Divine Flourish",
                   "Divine Strike",
-                  "Phalanx Flare",
-                  "Phalanx Shot"
+                  "Phalanx Shot/Phalanx Flare"
                 ]
               },
               {
@@ -190,8 +185,7 @@
                 "type": "Duo",
                 "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/ca/Smoldering_Air.png/150px-Smoldering_Air.png?version=101da95586987bc441e7960bc7aadd51",
                 "other": [
-                  "Electric Flare",
-                  "Electric Shot",
+                  "Electric Shot/Electric Flare",
                   "Lightning Strike",
                   "Thunder Dash",
                   "Thunder Flourish",
@@ -248,8 +242,7 @@
                 "other": [
                   "Deadly Flourish",
                   "Deadly Strike",
-                  "Hunter's Flare",
-                  "True Shot"
+                  "True Shot/Hunter's Flare"
                 ]
               },
               {
@@ -261,8 +254,7 @@
                   "Divine Dash",
                   "Divine Flourish",
                   "Divine Strike",
-                  "Phalanx Flare",
-                  "Phalanx Shot"
+                  "Phalanx Shot/Phalanx Flare"
                 ]
               },
               {
@@ -294,8 +286,7 @@
                 "type": "Duo",
                 "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/ca/Smoldering_Air.png/150px-Smoldering_Air.png?version=101da95586987bc441e7960bc7aadd51",
                 "other": [
-                  "Electric Flare",
-                  "Electric Shot",
+                  "Electric Shot/Electric Flare",
                   "Lightning Strike",
                   "Thunder Dash",
                   "Thunder Flourish",
@@ -346,8 +337,7 @@
                 "other": [
                   "Deadly Flourish",
                   "Deadly Strike",
-                  "Hunter's Flare",
-                  "True Shot"
+                  "True Shot/Hunter's Flare"
                 ]
               },
               {
@@ -359,8 +349,7 @@
                   "Divine Dash",
                   "Divine Flourish",
                   "Divine Strike",
-                  "Phalanx Flare",
-                  "Phalanx Shot"
+                  "Phalanx Shot/Phalanx Flare"
                 ]
               },
               {
@@ -392,8 +381,7 @@
                 "type": "Duo",
                 "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/ca/Smoldering_Air.png/150px-Smoldering_Air.png?version=101da95586987bc441e7960bc7aadd51",
                 "other": [
-                  "Electric Flare",
-                  "Electric Shot",
+                  "Electric Shot/Electric Flare",
                   "Lightning Strike",
                   "Thunder Dash",
                   "Thunder Flourish",
@@ -416,8 +404,7 @@
                   "Divine Dash",
                   "Divine Flourish",
                   "Divine Strike",
-                  "Phalanx Flare",
-                  "Phalanx Shot"
+                  "Phalanx Shot/Phalanx Flare"
                 ]
               },
               {
@@ -443,8 +430,7 @@
                 "type": "Duo",
                 "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/ca/Smoldering_Air.png/150px-Smoldering_Air.png?version=101da95586987bc441e7960bc7aadd51",
                 "other": [
-                  "Electric Flare",
-                  "Electric Shot",
+                  "Electric Shot/Electric Flare",
                   "Lightning Strike",
                   "Thunder Dash",
                   "Thunder Flourish",
@@ -593,523 +579,387 @@
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/8/83/Curse_of_Agony.png?version=97e55d892afb5684df2cddcc49aa5806",
             "upgrades": [
               {
-                "name": "Empty Inside",
+                "name": "Dire Misfortune",
                 "type": "Normal",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c9/Empty_Inside.png?version=3bc1389f42196fb587a933e30b206fbe",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3b/Dire_Misfortune.png?version=affc9646ef86f1fb09ef119c0e7988e8",
                 "other": []
               },
               {
-                "name": "Sweet Surrender",
+                "name": "Impending Doom",
                 "type": "Normal",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/a6/Sweet_Surrender.png?version=788f97a46c13ae6873c008374f4d2288",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/63/Impending_Doom.png?version=65674e3295111dbef940436dc1e52695",
                 "other": []
-              },
-              {
-                "name": "Broken Resolve",
-                "type": "Normal",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/1/1b/Broken_Resolve.png/150px-Broken_Resolve.png?version=d8d2f170dda1c8151fa80b7a992b084c",
-                "other": []
-              },
-              {
-                "name": "Unhealthy Fixation",
-                "type": "Legendary",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/16/Unhealthy_Fixation.png?version=cd6c56aa8b7cb83c2df95838423cc7aa",
-                "other": ["Empty Inside", "Sweet Surrender", "Broken Resolve"]
               },
               {
                 "name": "Curse of Longing",
                 "type": "Duo",
                 "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/1f/Curse_of_Longing.png?version=83166ed2b10049847fe9599635665752",
-                "other": ["Curse of Agony", "Curse of Pain"]
-              },
-              {
-                "name": "Heart Rend",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/9/9f/Heart_Rend.png?version=7a2dff8862ac914c2a0409c8fbfbea69",
                 "other": [
-                  "Deadly Flourish",
-                  "Deadly Strike",
-                  "Hunter's Flare",
-                  "True Shot"
-                ]
-              },
-              {
-                "name": "Parting Shot",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/10/Parting_Shot.png?version=8411b63739b07ad14cd047a3e19844fe",
-                "other": [
-                  "Athena's Aid",
-                  "Divine Dash",
-                  "Divine Flourish",
-                  "Divine Strike",
-                  "Phalanx Flare",
-                  "Phalanx Shot"
-                ]
-              },
-              {
-                "name": "Cold Embrace",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/2/21/Cold_Embrace.png/150px-Cold_Embrace.png?version=2e3af0e5aa0ad391835e502c1cacd905",
-                "other": ["Crystal Beam"]
-              },
-              {
-                "name": "Low Tolerance",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/45/Low_Tolerance.png?version=5b02552df82df3f9424cc53761ee98f2",
-                "other": ["Drunken Dash", "Drunken Flourish", "Drunken Strike"]
-              },
-              {
-                "name": "Sweet Nectar",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/56/Sweet_Nectar.png?version=272c3b5d99c837b65cc0065328427d0c",
-                "other": [
-                  "Flood Shot",
-                  "Poseidon's Aid",
-                  "Tempest Flourish",
-                  "Tempest Strike",
-                  "Tidal Dash"
-                ]
-              },
-              {
-                "name": "Smoldering Air",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/ca/Smoldering_Air.png/150px-Smoldering_Air.png?version=101da95586987bc441e7960bc7aadd51",
-                "other": [
-                  "Electric Flare",
-                  "Electric Shot",
-                  "Lightning Strike",
-                  "Thunder Dash",
-                  "Thunder Flourish",
-                  "Zeus' Aid"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Heartbreak Flourish",
-            "type": "Normal",
-            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e9/Heartbreak_Flourish.png?version=80dfdf7b1131f4b9712c65dd3535c2fc",
-            "upgrades": [
-              {
-                "name": "Empty Inside",
-                "type": "Normal",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c9/Empty_Inside.png?version=3bc1389f42196fb587a933e30b206fbe",
-                "other": []
-              },
-              {
-                "name": "Sweet Surrender",
-                "type": "Normal",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/a6/Sweet_Surrender.png?version=788f97a46c13ae6873c008374f4d2288",
-                "other": []
-              },
-              {
-                "name": "Broken Resolve",
-                "type": "Normal",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/1/1b/Broken_Resolve.png/150px-Broken_Resolve.png?version=d8d2f170dda1c8151fa80b7a992b084c",
-                "other": []
-              },
-              {
-                "name": "Unhealthy Fixation",
-                "type": "Legendary",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/16/Unhealthy_Fixation.png?version=cd6c56aa8b7cb83c2df95838423cc7aa",
-                "other": ["Empty Inside", "Sweet Surrender", "Broken Resolve"]
-              },
-              {
-                "name": "Curse of Longing",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/1f/Curse_of_Longing.png?version=83166ed2b10049847fe9599635665752",
-                "other": ["Curse of Agony", "Curse of Pain"]
-              },
-              {
-                "name": "Heart Rend",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/9/9f/Heart_Rend.png?version=7a2dff8862ac914c2a0409c8fbfbea69",
-                "other": [
-                  "Deadly Flourish",
-                  "Deadly Strike",
-                  "Hunter's Flare",
-                  "True Shot"
-                ]
-              },
-              {
-                "name": "Parting Shot",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/10/Parting_Shot.png?version=8411b63739b07ad14cd047a3e19844fe",
-                "other": [
-                  "Athena's Aid",
-                  "Divine Dash",
-                  "Divine Flourish",
-                  "Divine Strike",
-                  "Phalanx Flare",
-                  "Phalanx Shot"
-                ]
-              },
-              {
-                "name": "Cold Embrace",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/2/21/Cold_Embrace.png/150px-Cold_Embrace.png?version=2e3af0e5aa0ad391835e502c1cacd905",
-                "other": ["Crystal Beam"]
-              },
-              {
-                "name": "Low Tolerance",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/45/Low_Tolerance.png?version=5b02552df82df3f9424cc53761ee98f2",
-                "other": ["Drunken Dash", "Drunken Flourish", "Drunken Strike"]
-              },
-              {
-                "name": "Sweet Nectar",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/56/Sweet_Nectar.png?version=272c3b5d99c837b65cc0065328427d0c",
-                "other": [
-                  "Flood Shot",
-                  "Poseidon's Aid",
-                  "Tempest Flourish",
-                  "Tempest Strike",
-                  "Tidal Dash"
-                ]
-              },
-              {
-                "name": "Smoldering Air",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/ca/Smoldering_Air.png/150px-Smoldering_Air.png?version=101da95586987bc441e7960bc7aadd51",
-                "other": [
-                  "Electric Flare",
-                  "Electric Shot",
-                  "Lightning Strike",
-                  "Thunder Dash",
-                  "Thunder Flourish",
-                  "Zeus' Aid"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Crush Shot/Passion Flare",
-            "type": "Normal",
-            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/aa/Crush_Shot.png?version=8d114199992ec79e1d979a8592f6e908",
-            "upgrades": [
-              {
-                "name": "Empty Inside",
-                "type": "Normal",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c9/Empty_Inside.png?version=3bc1389f42196fb587a933e30b206fbe",
-                "other": []
-              },
-              {
-                "name": "Sweet Surrender",
-                "type": "Normal",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/a6/Sweet_Surrender.png?version=788f97a46c13ae6873c008374f4d2288",
-                "other": []
-              },
-              {
-                "name": "Broken Resolve",
-                "type": "Normal",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/1/1b/Broken_Resolve.png/150px-Broken_Resolve.png?version=d8d2f170dda1c8151fa80b7a992b084c",
-                "other": []
-              },
-              {
-                "name": "Blown Kiss",
-                "type": "Normal",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/d/dc/Blown_Kiss.png/150px-Blown_Kiss.png?version=cf03de35e86cd641c8a3956ba855c998",
-                "other": []
-              },
-              {
-                "name": "Unhealthy Fixation",
-                "type": "Legendary",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/16/Unhealthy_Fixation.png?version=cd6c56aa8b7cb83c2df95838423cc7aa",
-                "other": ["Empty Inside", "Sweet Surrender", "Broken Resolve"]
-              },
-              {
-                "name": "Curse of Longing",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/1f/Curse_of_Longing.png?version=83166ed2b10049847fe9599635665752",
-                "other": ["Curse of Agony", "Curse of Pain"]
-              },
-              {
-                "name": "Heart Rend",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/9/9f/Heart_Rend.png?version=7a2dff8862ac914c2a0409c8fbfbea69",
-                "other": [
-                  "Deadly Flourish",
-                  "Deadly Strike",
-                  "Hunter's Flare",
-                  "True Shot"
-                ]
-              },
-              {
-                "name": "Parting Shot",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/10/Parting_Shot.png?version=8411b63739b07ad14cd047a3e19844fe",
-                "other": [
-                  "Athena's Aid",
-                  "Divine Dash",
-                  "Divine Flourish",
-                  "Divine Strike",
-                  "Phalanx Flare",
-                  "Phalanx Shot"
-                ]
-              },
-              {
-                "name": "Cold Embrace",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/2/21/Cold_Embrace.png/150px-Cold_Embrace.png?version=2e3af0e5aa0ad391835e502c1cacd905",
-                "other": ["Crystal Beam"]
-              },
-              {
-                "name": "Low Tolerance",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/45/Low_Tolerance.png?version=5b02552df82df3f9424cc53761ee98f2",
-                "other": ["Drunken Dash", "Drunken Flourish", "Drunken Strike"]
-              },
-              {
-                "name": "Sweet Nectar",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/56/Sweet_Nectar.png?version=272c3b5d99c837b65cc0065328427d0c",
-                "other": [
-                  "Flood Shot",
-                  "Poseidon's Aid",
-                  "Tempest Flourish",
-                  "Tempest Strike",
-                  "Tidal Dash"
-                ]
-              },
-              {
-                "name": "Smoldering Air",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/ca/Smoldering_Air.png/150px-Smoldering_Air.png?version=101da95586987bc441e7960bc7aadd51",
-                "other": [
-                  "Electric Flare",
-                  "Electric Shot",
-                  "Lightning Strike",
-                  "Thunder Dash",
-                  "Thunder Flourish",
-                  "Zeus' Aid"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Passion Dash",
-            "type": "Normal",
-            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e0/Passion_Dash.png?version=db48eda4a6b90739c4bb166a2761f832",
-            "upgrades": [
-              {
-                "name": "Empty Inside",
-                "type": "Normal",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c9/Empty_Inside.png?version=3bc1389f42196fb587a933e30b206fbe",
-                "other": []
-              },
-              {
-                "name": "Sweet Surrender",
-                "type": "Normal",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/a6/Sweet_Surrender.png?version=788f97a46c13ae6873c008374f4d2288",
-                "other": []
-              },
-              {
-                "name": "Broken Resolve",
-                "type": "Normal",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/1/1b/Broken_Resolve.png/150px-Broken_Resolve.png?version=d8d2f170dda1c8151fa80b7a992b084c",
-                "other": []
-              },
-              {
-                "name": "Unhealthy Fixation",
-                "type": "Legendary",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/16/Unhealthy_Fixation.png?version=cd6c56aa8b7cb83c2df95838423cc7aa",
-                "other": ["Empty Inside", "Sweet Surrender", "Broken Resolve"]
-              },
-              {
-                "name": "Curse of Longing",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/1f/Curse_of_Longing.png?version=83166ed2b10049847fe9599635665752",
-                "other": ["Curse of Agony", "Curse of Pain"]
-              },
-              {
-                "name": "Heart Rend",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/9/9f/Heart_Rend.png?version=7a2dff8862ac914c2a0409c8fbfbea69",
-                "other": [
-                  "Deadly Flourish",
-                  "Deadly Strike",
-                  "Hunter's Flare",
-                  "True Shot"
-                ]
-              },
-              {
-                "name": "Parting Shot",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/10/Parting_Shot.png?version=8411b63739b07ad14cd047a3e19844fe",
-                "other": [
-                  "Athena's Aid",
-                  "Divine Dash",
-                  "Divine Flourish",
-                  "Divine Strike",
-                  "Phalanx Flare",
-                  "Phalanx Shot"
-                ]
-              },
-              {
-                "name": "Cold Embrace",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/2/21/Cold_Embrace.png/150px-Cold_Embrace.png?version=2e3af0e5aa0ad391835e502c1cacd905",
-                "other": ["Crystal Beam"]
-              },
-              {
-                "name": "Low Tolerance",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/45/Low_Tolerance.png?version=5b02552df82df3f9424cc53761ee98f2",
-                "other": ["Drunken Dash", "Drunken Flourish", "Drunken Strike"]
-              },
-              {
-                "name": "Sweet Nectar",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/56/Sweet_Nectar.png?version=272c3b5d99c837b65cc0065328427d0c",
-                "other": [
-                  "Flood Shot",
-                  "Poseidon's Aid",
-                  "Tempest Flourish",
-                  "Tempest Strike",
-                  "Tidal Dash"
-                ]
-              },
-              {
-                "name": "Smoldering Air",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/ca/Smoldering_Air.png/150px-Smoldering_Air.png?version=101da95586987bc441e7960bc7aadd51",
-                "other": [
-                  "Electric Flare",
-                  "Electric Shot",
-                  "Lightning Strike",
-                  "Thunder Dash",
-                  "Thunder Flourish",
-                  "Zeus' Aid"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Aphrodite's Aid",
-            "type": "Normal",
-            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/f/f0/Aphrodite%27s_Aid.png?version=3c0619fcbd2c3d209d0ed3c51265e2f1",
-            "upgrades": [
-              {
-                "name": "Parting Shot",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/10/Parting_Shot.png?version=8411b63739b07ad14cd047a3e19844fe",
-                "other": [
-                  "Athena's Aid",
-                  "Divine Dash",
-                  "Divine Flourish",
-                  "Divine Strike",
-                  "Phalanx Flare",
-                  "Phalanx Shot"
-                ]
-              },
-              {
-                "name": "Cold Embrace",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/2/21/Cold_Embrace.png/150px-Cold_Embrace.png?version=2e3af0e5aa0ad391835e502c1cacd905",
-                "other": ["Crystal Beam"]
-              },
-              {
-                "name": "Sweet Nectar",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/56/Sweet_Nectar.png?version=272c3b5d99c837b65cc0065328427d0c",
-                "other": [
-                  "Flood Shot",
-                  "Poseidon's Aid",
-                  "Tempest Flourish",
-                  "Tempest Strike",
-                  "Tidal Dash"
-                ]
-              },
-              {
-                "name": "Smoldering Air",
-                "type": "Duo",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/ca/Smoldering_Air.png/150px-Smoldering_Air.png?version=101da95586987bc441e7960bc7aadd51",
-                "other": [
-                  "Electric Flare",
-                  "Electric Shot",
-                  "Lightning Strike",
-                  "Thunder Dash",
-                  "Thunder Flourish",
-                  "Zeus' Aid"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Dying Lament",
-            "type": "Normal",
-            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/d/dd/Dying_Lament.png?version=928377d9079fc36e492401371c01b7de",
-            "upgrades": []
-          },
-          {
-            "name": "Wave of Despair",
-            "type": "Normal",
-            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/11/Wave_of_Despair.png?version=8cbdf656c823ecafc686b4a7cad769c1",
-            "upgrades": []
-          },
-          {
-            "name": "Different League",
-            "type": "Normal",
-            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/4b/Different_League.png?version=e9bb40fc1a83a286976f8e1f0b5237aa",
-            "upgrades": []
-          },
-          {
-            "name": "Life Affirmation",
-            "type": "Normal",
-            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/f/fa/Life_Affirmation.png?version=e3ec690f06d2c222adeb0f0d10dbe51d",
-            "upgrades": []
-          },
-          {
-            "name": "Empty Inside",
-            "type": "Normal",
-            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c9/Empty_Inside.png?version=3bc1389f42196fb587a933e30b206fbe",
-            "upgrades": [
-              {
-                "name": "Unhealthy Fixation",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/16/Unhealthy_Fixation.png?version=cd6c56aa8b7cb83c2df95838423cc7aa",
-                "other": [
-                  "Passion Dash",
                   "Crush Shot/Passion Flare",
+                  "Heartbreak Flourish",
                   "Heartbreak Strike",
-                  "Heartbreak Flourish"
+                  "Passion Dash"
+                ]
+              },
+              {
+                "name": "Merciful End",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/ca/Merciful_End.png?version=e582a9d64954ea0212af04625170515f",
+                "other": ["Divine Dash", "Divine Flourish", "Divine Strike"]
+              },
+              {
+                "name": "Curse of Nausea",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/5/55/Curse_of_Nausea.png/150px-Curse_of_Nausea.png?version=836fcee7bcd76e79f80863b28172aa20",
+                "other": [
+                  "Dionysus' Aid",
+                  "Drunken Dash",
+                  "Drunken Flourish",
+                  "Drunken Strike"
+                ]
+              },
+              {
+                "name": "Curse of Drowning",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/57/Curse_of_Drowning.png?version=e828ee81b4e9cccc91d414e7b8539141",
+                "other": ["Flood Shot"]
+              },
+              {
+                "name": "Vengeful Mood",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/0a/Vengeful_Mood.png?version=663dac52995e17918825c4c439d3d585",
+                "other": [
+                  "Electric Shot/Electric Flare",
+                  "Lightning Strike",
+                  "Thunder Dash",
+                  "Thunder Flourish",
+                  "Zeus' Aid"
+                ],
+                "other2": [
+                  "Curse of Vengeance",
+                  "Frozen Touch",
+                  "Heaven's Vengeance",
+                  "Holy Shield",
+                  "Wave of Despair"
                 ]
               }
             ]
           },
           {
-            "name": "Sweet Surrender",
+            "name": "Curse of Pain",
             "type": "Normal",
-            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/a6/Sweet_Surrender.png?version=788f97a46c13ae6873c008374f4d2288",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/a4/Curse_of_Pain.png?version=f98b95b993a41979f13d2b14deafe0c4",
             "upgrades": [
               {
-                "name": "Unhealthy Fixation",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/16/Unhealthy_Fixation.png?version=cd6c56aa8b7cb83c2df95838423cc7aa",
+                "name": "Dire Misfortune",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3b/Dire_Misfortune.png?version=affc9646ef86f1fb09ef119c0e7988e8",
+                "other": []
+              },
+              {
+                "name": "Impending Doom",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/63/Impending_Doom.png?version=65674e3295111dbef940436dc1e52695",
+                "other": []
+              },
+              {
+                "name": "Curse of Longing",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/1f/Curse_of_Longing.png?version=83166ed2b10049847fe9599635665752",
+                "other": []
+              },
+              {
+                "name": "Merciful End",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/ca/Merciful_End.png?version=e582a9d64954ea0212af04625170515f",
+                "other": ["Divine Dash", "Divine Flourish", "Divine Strike"]
+              },
+              {
+                "name": "Curse of Nausea",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/5/55/Curse_of_Nausea.png/150px-Curse_of_Nausea.png?version=836fcee7bcd76e79f80863b28172aa20",
                 "other": [
-                  "Passion Dash",
-                  "Crush Shot/Passion Flare",
-                  "Heartbreak Strike",
-                  "Heartbreak Flourish"
+                  "Dionysus' Aid",
+                  "Drunken Dash",
+                  "Drunken Flourish",
+                  "Drunken Strike"
+                ]
+              },
+              {
+                "name": "Curse of Drowning",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/57/Curse_of_Drowning.png?version=e828ee81b4e9cccc91d414e7b8539141",
+                "other": ["Flood Shot"]
+              },
+              {
+                "name": "Vengeful Mood",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/0a/Vengeful_Mood.png?version=663dac52995e17918825c4c439d3d585",
+                "other": [
+                  "Electric Shot/Electric Flare",
+                  "Lightning Strike",
+                  "Thunder Dash",
+                  "Thunder Flourish",
+                  "Zeus' Aid"
+                ],
+                "other2": [
+                  "Curse of Vengeance",
+                  "Frozen Touch",
+                  "Heaven's Vengeance",
+                  "Holy Shield",
+                  "Wave of Despair"
                 ]
               }
             ]
           },
           {
-            "name": "Broken Resolve",
+            "name": "Slicing Shot/Slicing Flare",
             "type": "Normal",
-            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/1/1b/Broken_Resolve.png/150px-Broken_Resolve.png?version=d8d2f170dda1c8151fa80b7a992b084c",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/75/Slicing_Shot.png?version=56b3d8669c9a86212987ec5fd36eacdf",
             "upgrades": [
               {
-                "name": "Unhealthy Fixation",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/16/Unhealthy_Fixation.png?version=cd6c56aa8b7cb83c2df95838423cc7aa",
+                "name": "Black Metal",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/0a/Black_Metal.png?version=d7221fdfc3f345456ecd66c58f04ec21",
+                "other": []
+              },
+              {
+                "name": "Engulfing Vortex",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/a3/Engulfing_Vortex.png?version=5ac740fac43cb74d76d5d00a81271781",
+                "other": []
+              },
+              {
+                "name": "Hunting Blades",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/f/fd/Hunting_Blades.png?version=ac649db037e05d94b35db4b80a0f77ca",
                 "other": [
-                  "Passion Dash",
-                  "Crush Shot/Passion Flare",
-                  "Heartbreak Strike",
-                  "Heartbreak Flourish"
+                  "Artemis' Aid",
+                  "Deadly Flourish",
+                  "Deadly Strike",
+                  "Hunter Dash"
+                ]
+              },
+              {
+                "name": "Freezing Vortex",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/a1/Freezing_Vortex.png?version=87d95bb68477dcf1b6b78442ec7803ca",
+                "other": [
+                  "Crystal Beam",
+                  "Demeter's Aid",
+                  "Frost Flourish",
+                  "Frost Strike",
+                  "Mistral Dash"
+                ]
+              },
+              {
+                "name": "Curse of Nausea",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/5/55/Curse_of_Nausea.png/150px-Curse_of_Nausea.png?version=836fcee7bcd76e79f80863b28172aa20",
+                "other": ["Empty Inside", "Sweet Surrender", "Broken Resolve"]
+              },
+              {
+                "name": "Vengeful Mood",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/0a/Vengeful_Mood.png?version=663dac52995e17918825c4c439d3d585",
+                "other": [
+                  "Electric Shot/Electric Flare",
+                  "Lightning Strike",
+                  "Thunder Dash",
+                  "Thunder Flourish",
+                  "Zeus' Aid"
+                ],
+                "other2": [
+                  "Curse of Vengeance",
+                  "Frozen Touch",
+                  "Heaven's Vengeance",
+                  "Holy Shield",
+                  "Wave of Despair"
                 ]
               }
             ]
+          },
+          {
+            "name": "Blade Dash",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/58/Blade_Dash.png?version=318a318243829c12d369b1622077773e",
+            "upgrades": [
+              {
+                "name": "Black Metal",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/0a/Black_Metal.png?version=d7221fdfc3f345456ecd66c58f04ec21",
+                "other": []
+              },
+              {
+                "name": "Engulfing Vortex",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/a3/Engulfing_Vortex.png?version=5ac740fac43cb74d76d5d00a81271781",
+                "other": []
+              },
+              {
+                "name": "Curse of Nausea",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/5/55/Curse_of_Nausea.png/150px-Curse_of_Nausea.png?version=836fcee7bcd76e79f80863b28172aa20",
+                "other": ["Empty Inside", "Sweet Surrender", "Broken Resolve"]
+              },
+              {
+                "name": "Curse of Drowning",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/57/Curse_of_Drowning.png?version=e828ee81b4e9cccc91d414e7b8539141",
+                "other": ["Flood Shot"]
+              },
+              {
+                "name": "Vengeful Mood",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/0a/Vengeful_Mood.png?version=663dac52995e17918825c4c439d3d585",
+                "other": [
+                  "Electric Shot/Electric Flare",
+                  "Lightning Strike",
+                  "Thunder Dash",
+                  "Thunder Flourish",
+                  "Zeus' Aid"
+                ],
+                "other2": [
+                  "Curse of Vengeance",
+                  "Frozen Touch",
+                  "Heaven's Vengeance",
+                  "Holy Shield",
+                  "Wave of Despair"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Ares' Aid",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/63/Ares%27_Aid.png?version=1ab56241e3a4287defb45c807732d862",
+            "upgrades": [
+              {
+                "name": "Black Metal",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/0a/Black_Metal.png?version=d7221fdfc3f345456ecd66c58f04ec21",
+                "other": []
+              },
+              {
+                "name": "Engulfing Vortex",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/a3/Engulfing_Vortex.png?version=5ac740fac43cb74d76d5d00a81271781",
+                "other": []
+              },
+              {
+                "name": "Curse of Nausea",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/5/55/Curse_of_Nausea.png/150px-Curse_of_Nausea.png?version=836fcee7bcd76e79f80863b28172aa20",
+                "other": ["Empty Inside", "Sweet Surrender", "Broken Resolve"]
+              },
+              {
+                "name": "Curse of Drowning",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/57/Curse_of_Drowning.png?version=e828ee81b4e9cccc91d414e7b8539141",
+                "other": ["Flood Shot"]
+              },
+              {
+                "name": "Vengeful Mood",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/0a/Vengeful_Mood.png?version=663dac52995e17918825c4c439d3d585",
+                "other": [
+                  "Electric Shot/Electric Flare",
+                  "Lightning Strike",
+                  "Thunder Dash",
+                  "Thunder Flourish",
+                  "Zeus' Aid"
+                ],
+                "other2": [
+                  "Curse of Vengeance",
+                  "Frozen Touch",
+                  "Heaven's Vengeance",
+                  "Holy Shield",
+                  "Wave of Despair"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Curse of Vengeance",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/04/Curse_of_Vengeance.png?version=d1cd4cf14313457422bf6b42a6397fd9",
+            "upgrades": [
+              {
+                "name": "Impending Doom",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/63/Impending_Doom.png?version=65674e3295111dbef940436dc1e52695",
+                "other": []
+              },
+              {
+                "name": "Vengeful Mood",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/0a/Vengeful_Mood.png?version=663dac52995e17918825c4c439d3d585",
+                "other": [
+                  "Electric Shot/Electric Flare",
+                  "Lightning Strike",
+                  "Thunder Dash",
+                  "Thunder Flourish",
+                  "Zeus' Aid"
+                ],
+                "other2": [
+                  "Curse of Vengeance",
+                  "Frozen Touch",
+                  "Heaven's Vengeance",
+                  "Holy Shield",
+                  "Wave of Despair"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Urge to Kill",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/25/Urge_to_Kill.png?version=910d5034ec32099f0db3d7201f172d39",
+            "upgrades": []
+          },
+          {
+            "name": "Battle Rage",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/a1/Battle_Rage.png?version=0178dbba8f48c444b7f7ac664e5a9452",
+            "upgrades": []
+          },
+          {
+            "name": "Blood Frenzy",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/66/Blood_Frenzy.png?version=9dcf88ec4f94268d239c0b8864fa43f5",
+            "upgrades": []
+          },
+          {
+            "name": "Black Metal",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/0a/Black_Metal.png?version=d7221fdfc3f345456ecd66c58f04ec21",
+            "upgrades": [
+              {
+                "name": "Vicious Cycle",
+                "type": "Legendary",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/9/92/Vicious_Cycle.png?version=88ebc27ee7c6ea7d50178e24ba94b48c",
+                "other": []
+              }
+            ]
+          },
+          {
+            "name": "Engulfing Vortex",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/a3/Engulfing_Vortex.png?version=5ac740fac43cb74d76d5d00a81271781",
+            "upgrades": [
+              {
+                "name": "Vicious Cycle",
+                "type": "Legendary",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/9/92/Vicious_Cycle.png?version=88ebc27ee7c6ea7d50178e24ba94b48c",
+                "other": []
+              }
+            ]
+          },
+          {
+            "name": "Dire Misfortune",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3b/Dire_Misfortune.png?version=affc9646ef86f1fb09ef119c0e7988e8",
+            "upgrades": []
           },
           {
             "name": "Blown Kiss",

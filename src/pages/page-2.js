@@ -55,7 +55,10 @@ export default function SecondPage({ data }) {
                           )
                         )
                       ) {
-                        otherList.push(upgradeType.name)
+                        otherList.push({
+                          Name: upgradeType.name,
+                          Iconurl: upgradeType.iconurl,
+                        })
                         runningList.splice(
                           runningList
                             .map(function (item) {
@@ -66,16 +69,37 @@ export default function SecondPage({ data }) {
                         )
                       }
                     }
-
-                    if (upgradeType.other.length === 0) {
-                      otherList.push(upgradeType.name)
+                    if (
+                      otherList.some(
+                        e => e.Name === godType.aphrodite.boons[boonNum].name
+                      )
+                    ) {
+                      // Get rid of avaliable boons if we click on them
+                      otherList.splice(
+                        otherList
+                          .map(function (item) {
+                            return item.Name
+                          })
+                          .indexOf(godType.aphrodite.boons[boonNum].name),
+                        1
+                      )
+                    }
+                    if (
+                      upgradeType.other.length === 0 &&
+                      !otherList.some(e => e.Name === upgradeType.name)
+                    ) {
+                      otherList.push({
+                        Name: upgradeType.name,
+                        Iconurl: upgradeType.iconurl,
+                      })
                     } else if (
                       !runningList.some(e => e.Name === upgradeType.name) &&
-                      !otherList.includes(upgradeType.name)
+                      !otherList.some(e => e.Name === upgradeType.name)
                     ) {
                       runningList.push({
                         Name: upgradeType.name,
                         Other: upgradeType.other,
+                        Iconurl: upgradeType.iconurl,
                       })
                     }
                   }
@@ -85,70 +109,42 @@ export default function SecondPage({ data }) {
           })}
           {display.map((boolVal, boonNum) => {
             if (boolVal) {
-              return gods.map((godType, index) =>
-                godType.aphrodite.boons.map((boonName, index2) => {
-                  if (
-                    runningList.some(e => e.Name === boonName.name) &&
-                    !displayingList.includes(boonName.name)
-                  ) {
-                    displayingList.push(boonName.name)
-                    return (
-                      <div className="bordering">
-                        <div className="testin">
-                          <img
-                            className="testimg"
-                            src={boonName.iconurl}
-                            alt=""
-                          />
-                          <h3>{boonName.name}</h3>
-                        </div>
-                        {runningList.map(element => {
-                          if (element.Name === boonName.name) {
-                            return element.Other.map(reqs => {
-                              return <h5>{reqs}</h5>
-                            })
-                          }
-                        })}
+              return runningList.map(element => {
+                if (!displayingList.includes(element.Name)) {
+                  displayingList.push(element.Name)
+                  return (
+                    <div className="bordering">
+                      <div className="testin">
+                        <img className="testimg" src={element.Iconurl} alt="" />
+                        <h3>{element.Name}</h3>
                       </div>
-                    )
-                  }
-                })
-              )
+                      {element.Other.map(reqs => {
+                        return <h5>{reqs}</h5>
+                      })}
+                    </div>
+                  )
+                }
+              })
             }
           })}
         </div>
         <div className="three">
-          {gods.map((godType, index) =>
-            godType.aphrodite.boons.map((boonName, index2) => {
-              if (otherList.includes(boonName.name)) {
-                return (
-                  <div className="bordering">
-                    <div className="testin">
-                      <img className="testimg" src={boonName.iconurl} alt="" />
-                      <h3>{boonName.name}</h3>
-                    </div>
-                  </div>
-                )
-              }
-            })
-          )}
+          {otherList.map(boonElement => {
+            console.log(otherList)
+            return (
+              <div className="bordering">
+                <div className="testin">
+                  <img className="testimg" src={boonElement.Iconurl} alt="" />
+                  <h3>{boonElement.Name}</h3>
+                </div>
+              </div>
+            )
+          })}
         </div>
       </div>
     </Layout>
   )
 }
-
-/*
-        <div className="three">
-          <div>
-            {gods.map((godType, index) => {
-              //console.log(Object.keys(godType))
-              var x = Object.keys(godType)
-              return <h1>{x}</h1>
-            })}
-          </div>
-        </div>
-        */
 
 export const query = graphql`
   query {

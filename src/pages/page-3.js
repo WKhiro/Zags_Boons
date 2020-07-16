@@ -1,14 +1,16 @@
 import React, { useState } from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
-import { render } from "react-dom"
 import Boon from "../components/boon"
 import "./testerx.css"
 
 export default function ThirdPage({ data }) {
+  const gods = data.dataJson.gods
   const [display, setDisplay] = useState([false])
+  const otherList = []
+  const runningList = []
+  const displayingList = []
 
   const toggleDisplay = index => () => {
     //console.log(index)
@@ -23,80 +25,181 @@ export default function ThirdPage({ data }) {
       <SEO title="Home" />
       <div class="box">
         <div className="one">
-          {data.dataJson.gods.map((godType, index) =>
-            godType.ares.boons.map((boonType, index) => {
-              if (boonType.upgrades.length != 0) {
+          {gods.map((godType, index) =>
+            godType.ares.boons
+              .filter(boonType => boonType.upgrades.length !== 0)
+              .map((boonType, index) => {
                 return (
                   <Boon
                     name="ares"
-                    onClick={toggleDisplay(index)}
+                    onClick={toggleDisplay(
+                      godType.ares.boons.indexOf(boonType)
+                    )}
                     boonName={boonType}
                   />
                 )
-              }
-            })
+              })
           )}
         </div>
-        <div className="two"></div>
-        <div className="three"></div>
-      </div>
-    </Layout>
-  )
-}
-
-/*
-{display.map((boolVal, boonNum) => {
+        <div className="two">
+          {display.map((boolVal, boonNum) => {
             if (boolVal) {
-              return gods.map((godType, index) =>
+              gods.map((godType, index) =>
                 godType.ares.boons[boonNum].upgrades.map(
                   (upgradeType, index2) => {
-                    if (!keyVal.hasOwnProperty(upgradeType.name)) {
-                      keyVal[upgradeType.name] = upgradeType.other
-                      if (upgradeType.other.length == 0) {
-                        otherList.push(upgradeType.name)
-                      } else {
-                        return (
-                          <div className="bordering">
-                            <div className="testin">
-                              <img
-                                className="testimg"
-                                src={upgradeType.iconurl}
-                                alt=""
-                              />
-                              <h3>{upgradeType.name}</h3>
-                            </div>
-                            {upgradeType.other.map(element => {
-                              return <h5>{element}</h5>
-                            })}
-                          </div>
+                    if (runningList.some(e => e.Name === upgradeType.name)) {
+                      if (
+                        runningList.some(e =>
+                          e.Other.includes(godType.ares.boons[boonNum].name)
+                        )
+                      ) {
+                        otherList.push({
+                          Name: upgradeType.name,
+                          Iconurl: upgradeType.iconurl,
+                        })
+                        runningList.splice(
+                          runningList
+                            .map(function (item) {
+                              return item.Name
+                            })
+                            .indexOf(upgradeType.name),
+                          1
                         )
                       }
-                    } else if (
-                      keyVal[upgradeType.name].includes(
-                        godType.ares.boons[boonNum].name
+                      // Special Vengeful Mood clause to remove one of the prereqs
+                      if (
+                        upgradeType.name === "Vengeful Mood" &&
+                        upgradeType.other2.includes(
+                          godType.ares.boons[boonNum].name
+                        )
+                      ) {
+                        runningList.find(
+                          obj => obj.Name === "Vengeful Mood"
+                        ).Other2 = []
+                      }
+                    }
+                    if (
+                      otherList.some(
+                        e => e.Name === godType.ares.boons[boonNum].name
                       )
                     ) {
-                      otherList.push(upgradeType.name)
+                      // Get rid of avaliable boons if we click on them
+                      otherList.splice(
+                        otherList
+                          .map(function (item) {
+                            return item.Name
+                          })
+                          .indexOf(godType.ares.boons[boonNum].name),
+                        1
+                      )
                     }
-                    //if statement
+
+                    if (
+                      upgradeType.other.length === 0 &&
+                      !otherList.some(e => e.Name === upgradeType.name)
+                    ) {
+                      otherList.push({
+                        Name: upgradeType.name,
+                        Iconurl: upgradeType.iconurl,
+                      })
+                    } else if (
+                      !runningList.some(e => e.Name === upgradeType.name) &&
+                      !otherList.some(e => e.Name === upgradeType.name)
+                    ) {
+                      if (
+                        upgradeType.name === "Vengeful Mood" &&
+                        !upgradeType.other2.includes(
+                          godType.ares.boons[boonNum].name
+                        )
+                      ) {
+                        runningList.push({
+                          Name: upgradeType.name,
+                          Other: upgradeType.other,
+                          Other2: upgradeType.other2,
+                          Iconurl: upgradeType.iconurl,
+                        })
+                      } else {
+                        runningList.push({
+                          Name: upgradeType.name,
+                          Other: upgradeType.other,
+                          Other2: [],
+                          Iconurl: upgradeType.iconurl,
+                        })
+                      }
+                    }
                   }
                 )
               )
             }
           })}
-*/
-
-/*
-        <div className="three">
-          <div>
-            {gods.map((godType, index) => {
-              //console.log(Object.keys(godType))
-              var x = Object.keys(godType)
-              return <h1>{x}</h1>
-            })}
-          </div>
+          {display.map((boolVal, boonNum) => {
+            if (boolVal) {
+              return runningList.map(element => {
+                if (!displayingList.includes(element.Name)) {
+                  displayingList.push(element.Name)
+                  if (element.Other2.length === 0) {
+                    return (
+                      <div className="bordering">
+                        <div className="testin">
+                          <img
+                            className="testimg"
+                            src={element.Iconurl}
+                            alt=""
+                          />
+                          <h3>{element.Name}</h3>
+                        </div>
+                        <div>
+                          {element.Other.map(reqs => {
+                            return <h5>{reqs}</h5>
+                          })}
+                        </div>
+                      </div>
+                    )
+                  } else {
+                    return (
+                      <div className="bordering">
+                        <div className="testin">
+                          <img
+                            className="testimg"
+                            src={element.Iconurl}
+                            alt=""
+                          />
+                          <h3>{element.Name}</h3>
+                        </div>
+                        <div>
+                          {element.Other.map(reqs => {
+                            return <h5>{reqs}</h5>
+                          })}
+                          IN ADDITION
+                          {element.Other2.map(reqs2 => {
+                            return <h5>{reqs2}</h5>
+                          })}
+                        </div>
+                      </div>
+                    )
+                  }
+                }
+              })
+            }
+          })}
         </div>
-        */
+        <div className="three">
+          {otherList.map(boonElement => {
+            console.log(otherList)
+            return (
+              <div className="bordering">
+                <div className="testin">
+                  <img className="testimg" src={boonElement.Iconurl} alt="" />
+                  <h3>{boonElement.Name}</h3>
+                </div>
+              </div>
+            )
+          })}
+        </div>
+      </div>
+    </Layout>
+  )
+}
 
 export const query = graphql`
   query {
@@ -110,6 +213,7 @@ export const query = graphql`
               iconurl
               name
               other
+              other2
               type
             }
           }
