@@ -13,15 +13,15 @@ export default function SecondPage({ data }) {
   const [display, setDisplay] = useState([false])
   const [boonShow, setBoonShow] = useState([false])
   const otherList = []
+  const runningList = []
+  const displayingList = []
 
   const toggleDisplay = index => () => {
     //console.log(index)
     console.log("CLICKED!")
-    if (index < 8) {
-      let displayCopy = [...display]
-      displayCopy[index] = !displayCopy[index]
-      setDisplay(displayCopy)
-    }
+    let displayCopy = [...display]
+    displayCopy[index] = !displayCopy[index]
+    setDisplay(displayCopy)
   }
 
   function test(ind) {
@@ -54,6 +54,112 @@ export default function SecondPage({ data }) {
         </div>
         <div className="two">
           {display.map((boolVal, boonNum) => {
+            if (boolVal) {
+              gods.map((godType, index) =>
+                godType.aphrodite.boons[boonNum].upgrades.map(
+                  (upgradeType, index2) => {
+                    if (runningList.some(e => e.Name === upgradeType.name)) {
+                      console.log(upgradeType.name)
+                      if (
+                        runningList.some(e =>
+                          e.Other.includes(
+                            godType.aphrodite.boons[boonNum].name
+                          )
+                        )
+                      ) {
+                        console.log("SLICE AND PUSH TO OBTAINED")
+                        otherList.push(upgradeType.name)
+                        runningList.splice(
+                          runningList
+                            .map(function (item) {
+                              return item.Name
+                            })
+                            .indexOf(upgradeType.name),
+                          1
+                        )
+                        console.log(runningList)
+                        console.log(otherList)
+                      }
+                    }
+
+                    if (upgradeType.other.length == 0) {
+                      otherList.push(upgradeType.name)
+                    } else if (
+                      !runningList.some(e => e.Name === upgradeType.name) &&
+                      !otherList.includes(upgradeType.name)
+                    ) {
+                      runningList.push({
+                        Name: upgradeType.name,
+                        Other: upgradeType.other,
+                      })
+                      console.log("NEW ADDITION")
+                      console.log(runningList)
+                    }
+                  }
+                )
+              )
+            }
+          })}
+          {display.map((boolVal, boonNum) => {
+            if (boolVal) {
+              return gods.map((godType, index) =>
+                godType.aphrodite.boons.map((boonName, index2) => {
+                  console.log("RENDERING LOOP")
+                  console.log(boonName.name)
+                  if (
+                    runningList.some(e => e.Name === boonName.name) &&
+                    !displayingList.includes(boonName.name)
+                  ) {
+                    console.log("DISPLAYING" + boonName.name)
+                    displayingList.push(boonName.name)
+                    return (
+                      <div className="bordering">
+                        <div className="testin">
+                          <img
+                            className="testimg"
+                            src={boonName.iconurl}
+                            alt=""
+                          />
+                          <h3>{boonName.name}</h3>
+                        </div>
+                        {runningList.map(element => {
+                          if (element.Name === boonName.name) {
+                            return element.Other.map(reqs => {
+                              return <h5>{reqs}</h5>
+                            })
+                          }
+                        })}
+                      </div>
+                    )
+                  }
+                })
+              )
+            }
+          })}
+        </div>
+        <div className="three">
+          {gods.map((godType, index) =>
+            godType.aphrodite.boons.map((boonName, index2) => {
+              if (otherList.includes(boonName.name)) {
+                return (
+                  <div className="bordering">
+                    <div className="testin">
+                      <img className="testimg" src={boonName.iconurl} alt="" />
+                      <h3>{boonName.name}</h3>
+                    </div>
+                  </div>
+                )
+              }
+            })
+          )}
+        </div>
+      </div>
+    </Layout>
+  )
+}
+
+/*
+{display.map((boolVal, boonNum) => {
             if (boolVal) {
               return gods.map((godType, index) =>
                 godType.aphrodite.boons[boonNum].upgrades.map(
@@ -92,27 +198,7 @@ export default function SecondPage({ data }) {
               )
             }
           })}
-        </div>
-        <div className="three">
-          {gods.map((godType, index) =>
-            godType.aphrodite.boons.map((boonName, index2) => {
-              if (otherList.includes(boonName.name)) {
-                return (
-                  <div className="bordering">
-                    <div className="testin">
-                      <img className="testimg" src={boonName.iconurl} alt="" />
-                      <h3>{boonName.name}</h3>
-                    </div>
-                  </div>
-                )
-              }
-            })
-          )}
-        </div>
-      </div>
-    </Layout>
-  )
-}
+*/
 
 /*
         <div className="three">
