@@ -44,7 +44,6 @@ const Image = () => {
               }
               iconurl
             }
-            name
           }
           ares {
             boons {

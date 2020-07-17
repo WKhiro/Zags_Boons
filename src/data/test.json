@@ -2,7 +2,6 @@
   "gods": [
     {
       "aphrodite": {
-        "name": "aphrodite",
         "boons": [
           {
             "name": "Heartbreak Strike",
@@ -571,7 +570,6 @@
         ]
       },
       "ares": {
-        "name": "ares",
         "boons": [
           {
             "name": "Curse of Agony",
@@ -1018,7 +1016,6 @@
         ]
       },
       "artemis": {
-        "name": "artemis",
         "boons": [
           {
             "name": "Deadly Strike",

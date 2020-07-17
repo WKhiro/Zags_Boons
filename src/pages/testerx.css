@@ -40,13 +40,13 @@ h5 {
 .three {
   flex: 0 0 50%;
   background: cyan;
-  width: 20%;
+  width: 50%;
 }
 .two {
   flex: 0 0 100%;
   order: 1;
   background: moccasin;
-  width: 80%;
+  width: 50%;
 }
 .three {
   background: tomato;

@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import "./boonStyle.css"
 
@@ -26,6 +26,15 @@ export default function Boon(props) {
               }
             }
           }
+          artemis {
+            boons {
+              name
+              iconurl
+              upgrades {
+                name
+              }
+            }
+          }
         }
       }
     }
@@ -34,8 +43,10 @@ export default function Boon(props) {
     godType[props.name].boons
       .filter(boonType => boonType.upgrades.length !== 0)
       .map((boonType, index) => {
+        // Presentation role removes eslint error
         return (
           <img
+            role="presentation"
             className="buttonReadjust"
             src={boonType.iconurl}
             alt=""

@@ -3,42 +3,45 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Boon from "../components/boon"
+import PotentialBoons from "../components/potentialBoons"
+import AvailableBoons from "../components/availableBoons"
 import "./testerx.css"
 
-export default function SecondPage({ data }) {
+export default function Artemis({ data }) {
   const gods = data.dataJson.gods
+  // 'Artemis' in this case
   const godName = Object.keys(data.dataJson.gods[0])
-  const aphroditeData = gods[0][godName] //aphrodite's data (boons)
-  const [display, setDisplay] = useState([false])
-  const available = []
-  const potential = []
-  const displayingList = []
+  // Artemis's boon list in this case
+  const godData = gods[0][godName]
+  var [display, setDisplay] = useState([false])
+  var available = []
+  var potential = []
+  var displayingList = []
 
   const toggleDisplay = index => () => {
-    //console.log(index)
-    console.log("CLICKED!")
     let displayCopy = [...display]
     displayCopy[index] = !displayCopy[index]
     setDisplay(displayCopy)
   }
 
   const updateLists = boonIndex => {
-    aphroditeData.boons[boonIndex].upgrades.forEach(upgrade => {
-      const clickedBoon = aphroditeData.boons[boonIndex].name
+    godData.boons[boonIndex].upgrades.forEach(upgrade => {
+      const clickedBoon = godData.boons[boonIndex].name
 
-      // Check if potential boons are available with the clicked boon, and removes them from the potential list + add to available list
+      // Check if any potential upgrades become avaliable with the addition of the clicked boon
       if (
         potential.some(
           e => e.Name === upgrade.name && e.Other.includes(clickedBoon)
         )
       ) {
+        // Add unlocked upgrade to the available list, and remove from potential list
         available.push({
           Name: upgrade.name,
           Iconurl: upgrade.iconurl,
         })
         potential.splice(
           potential
-            .map(function (boon) {
+            .map(boon => {
               return boon.Name
             })
             .indexOf(upgrade.name),
@@ -46,11 +49,12 @@ export default function SecondPage({ data }) {
         )
       }
 
-      // Check if the clicked boon is available; if it is, remove it because we click on it aka we have it already
+      // Check if the clicked boon is in the available list
       if (available.some(e => e.Name === clickedBoon)) {
+        // Remove it from the available list because we now have it (clicked on it)
         available.splice(
           available
-            .map(function (boon) {
+            .map(boon => {
               return boon.Name
             })
             .indexOf(clickedBoon),
@@ -58,7 +62,7 @@ export default function SecondPage({ data }) {
         )
       }
 
-      // If the upgrade can be obtained already (no other prereqs) and it's not already showing as available
+      // Add upgrades with no other prerequisite boons to the available list if it's not already there
       if (
         upgrade.other.length === 0 &&
         !available.some(e => e.Name === upgrade.name)
@@ -68,12 +72,12 @@ export default function SecondPage({ data }) {
           Iconurl: upgrade.iconurl,
         })
       }
-      // the upgrade isn't in either list
-      else if (
+
+      // The upgrade isn't in either list; add it to the potential list
+      if (
         !potential.some(e => e.Name === upgrade.name) &&
         !available.some(e => e.Name === upgrade.name)
       ) {
-        console.log(upgrade.name)
         potential.push({
           Name: upgrade.name,
           Other: upgrade.other,
@@ -91,44 +95,25 @@ export default function SecondPage({ data }) {
           <Boon name={godName} onClick={toggleDisplay} />
         </div>
         <div className="two">
-          {display.map((boolVal, boonIndex) => {
+          {/* Determine what to display based on clicked boons before rendering */}
+          {display.forEach((boolVal, boonIndex) => {
             if (boolVal) {
               updateLists(boonIndex)
             }
           })}
-          {display.map((boolVal, boonIndex) => {
-            if (boolVal) {
-              return potential.map(element => {
-                if (!displayingList.includes(element.Name)) {
-                  displayingList.push(element.Name)
-                  return (
-                    <div className="bordering">
-                      <div className="testin">
-                        <img className="testimg" src={element.Iconurl} alt="" />
-                        <h3>{element.Name}</h3>
-                      </div>
-                      {element.Other.map(reqs => {
-                        return <h5>{reqs}</h5>
-                      })}
-                    </div>
-                  )
-                }
-              })
-            }
-          })}
+          {display
+            .filter(boolVal => boolVal)
+            .map(boolVal => {
+              return (
+                <PotentialBoons
+                  potential={potential}
+                  displayingList={displayingList}
+                />
+              )
+            })}
         </div>
         <div className="three">
-          {available.map(boonElement => {
-            console.log(available)
-            return (
-              <div className="bordering">
-                <div className="testin">
-                  <img className="testimg" src={boonElement.Iconurl} alt="" />
-                  <h3>{boonElement.Name}</h3>
-                </div>
-              </div>
-            )
-          })}
+          <AvailableBoons available={available} />
         </div>
       </div>
     </Layout>
@@ -139,18 +124,17 @@ export const query = graphql`
   query {
     dataJson {
       gods {
-        aphrodite {
+        artemis {
           boons {
             name
             iconurl
             upgrades {
-              iconurl
               name
-              other
               type
+              iconurl
+              other
             }
           }
-          name
         }
       }
     }

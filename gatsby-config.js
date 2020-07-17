@@ -6,39 +6,39 @@ module.exports = {
     menuLinks: [
       {
         name: "Aphrodite",
-        link: "/page-2",
+        link: "/aphrodite",
       },
       {
         name: "Ares",
-        link: "/page-3",
+        link: "/ares",
       },
       {
         name: "Artemis",
-        link: "/page-4",
+        link: "/artemis",
       },
       {
         name: "Athena",
-        link: "/page-3",
+        link: "/aphrodite",
       },
       {
         name: "Demeter",
-        link: "/page-2",
+        link: "/aphrodite",
       },
       {
         name: "Dionysus",
-        link: "/page-3",
+        link: "/aphrodite",
       },
       {
         name: "Hermes",
-        link: "/page-2",
+        link: "/aphrodite",
       },
       {
         name: "Poseidon",
-        link: "/page-3",
+        link: "/aphrodite",
       },
       {
         name: "Zeus",
-        link: "/page-3",
+        link: "/aphrodite",
       },
     ],
   },
