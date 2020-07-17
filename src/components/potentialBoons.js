@@ -18,11 +18,11 @@ export default function PotentialBoons(props) {
               </div>
               <div>
                 {element.Other.map(reqs => {
-                  return <h5>{reqs}</h5>
+                  return <h5>+{reqs}</h5>
                 })}
                 IN ADDITION
                 {element.Other2.map(reqs2 => {
-                  return <h5>{reqs2}</h5>
+                  return <h5>+{reqs2}</h5>
                 })}
               </div>
             </div>
@@ -36,7 +36,7 @@ export default function PotentialBoons(props) {
               </div>
               <div>
                 {element.Other.map(reqs => {
-                  return <h5>{reqs}</h5>
+                  return <h5>+{reqs}</h5>
                 })}
               </div>
             </div>
@@ -51,7 +51,7 @@ export default function PotentialBoons(props) {
             </div>
             <div>
               {element.Other.map(reqs => {
-                return <h5>{reqs}</h5>
+                return <h5>+{reqs}</h5>
               })}
             </div>
           </div>

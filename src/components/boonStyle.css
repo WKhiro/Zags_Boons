@@ -16,6 +16,7 @@ h5 {
 
 .bordering {
   border: 2px solid purple;
+  border-radius: 12px;
 }
 
 .contains {
