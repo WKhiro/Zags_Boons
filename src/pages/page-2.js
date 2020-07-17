@@ -7,9 +7,11 @@ import "./testerx.css"
 
 export default function SecondPage({ data }) {
   const gods = data.dataJson.gods
+  const godName = Object.keys(data.dataJson.gods[0])
+  const aphroditeData = gods[0][godName] //aphrodite's data (boons)
   const [display, setDisplay] = useState([false])
-  const otherList = []
-  const runningList = []
+  const available = []
+  const potential = []
   const displayingList = []
 
   const toggleDisplay = index => () => {
@@ -20,96 +22,83 @@ export default function SecondPage({ data }) {
     setDisplay(displayCopy)
   }
 
+  const updateLists = boonIndex => {
+    aphroditeData.boons[boonIndex].upgrades.forEach(upgrade => {
+      const clickedBoon = aphroditeData.boons[boonIndex].name
+
+      // Check if potential boons are available with the clicked boon, and removes them from the potential list + add to available list
+      if (
+        potential.some(
+          e => e.Name === upgrade.name && e.Other.includes(clickedBoon)
+        )
+      ) {
+        available.push({
+          Name: upgrade.name,
+          Iconurl: upgrade.iconurl,
+        })
+        potential.splice(
+          potential
+            .map(function (boon) {
+              return boon.Name
+            })
+            .indexOf(upgrade.name),
+          1
+        )
+      }
+
+      // Check if the clicked boon is available; if it is, remove it because we click on it aka we have it already
+      if (available.some(e => e.Name === clickedBoon)) {
+        available.splice(
+          available
+            .map(function (boon) {
+              return boon.Name
+            })
+            .indexOf(clickedBoon),
+          1
+        )
+      }
+
+      // If the upgrade can be obtained already (no other prereqs) and it's not already showing as available
+      if (
+        upgrade.other.length === 0 &&
+        !available.some(e => e.Name === upgrade.name)
+      ) {
+        available.push({
+          Name: upgrade.name,
+          Iconurl: upgrade.iconurl,
+        })
+      }
+      // the upgrade isn't in either list
+      else if (
+        !potential.some(e => e.Name === upgrade.name) &&
+        !available.some(e => e.Name === upgrade.name)
+      ) {
+        console.log(upgrade.name)
+        potential.push({
+          Name: upgrade.name,
+          Other: upgrade.other,
+          Iconurl: upgrade.iconurl,
+        })
+      }
+    })
+  }
+
   return (
     <Layout>
       <SEO title="Home" />
       <div class="box">
         <div className="one">
-          {gods.map((godType, index) =>
-            godType.aphrodite.boons
-              .filter(boonType => boonType.upgrades.length !== 0)
-              .map((boonType, index) => {
-                return (
-                  <Boon
-                    name="aphrodite"
-                    onClick={toggleDisplay(
-                      godType.aphrodite.boons.indexOf(boonType)
-                    )}
-                    boonName={boonType}
-                  />
-                )
-              })
-          )}
+          <Boon name={godName} onClick={toggleDisplay} />
         </div>
         <div className="two">
-          {display.map((boolVal, boonNum) => {
+          {display.map((boolVal, boonIndex) => {
             if (boolVal) {
-              gods.map((godType, index) =>
-                godType.aphrodite.boons[boonNum].upgrades.map(
-                  (upgradeType, index2) => {
-                    if (runningList.some(e => e.Name === upgradeType.name)) {
-                      if (
-                        runningList.some(e =>
-                          e.Other.includes(
-                            godType.aphrodite.boons[boonNum].name
-                          )
-                        )
-                      ) {
-                        otherList.push({
-                          Name: upgradeType.name,
-                          Iconurl: upgradeType.iconurl,
-                        })
-                        runningList.splice(
-                          runningList
-                            .map(function (item) {
-                              return item.Name
-                            })
-                            .indexOf(upgradeType.name),
-                          1
-                        )
-                      }
-                    }
-                    if (
-                      otherList.some(
-                        e => e.Name === godType.aphrodite.boons[boonNum].name
-                      )
-                    ) {
-                      // Get rid of avaliable boons if we click on them
-                      otherList.splice(
-                        otherList
-                          .map(function (item) {
-                            return item.Name
-                          })
-                          .indexOf(godType.aphrodite.boons[boonNum].name),
-                        1
-                      )
-                    }
-                    if (
-                      upgradeType.other.length === 0 &&
-                      !otherList.some(e => e.Name === upgradeType.name)
-                    ) {
-                      otherList.push({
-                        Name: upgradeType.name,
-                        Iconurl: upgradeType.iconurl,
-                      })
-                    } else if (
-                      !runningList.some(e => e.Name === upgradeType.name) &&
-                      !otherList.some(e => e.Name === upgradeType.name)
-                    ) {
-                      runningList.push({
-                        Name: upgradeType.name,
-                        Other: upgradeType.other,
-                        Iconurl: upgradeType.iconurl,
-                      })
-                    }
-                  }
-                )
-              )
+              updateLists(boonIndex)
             }
           })}
-          {display.map((boolVal, boonNum) => {
+          {display.map((boolVal, boonIndex) => {
             if (boolVal) {
-              return runningList.map(element => {
+              return potential.map(element => {
                 if (!displayingList.includes(element.Name)) {
                   displayingList.push(element.Name)
                   return (
@@ -129,8 +118,8 @@ export default function SecondPage({ data }) {
           })}
         </div>
         <div className="three">
-          {otherList.map(boonElement => {
-            console.log(otherList)
+          {available.map(boonElement => {
+            console.log(available)
             return (
               <div className="bordering">
                 <div className="testin">

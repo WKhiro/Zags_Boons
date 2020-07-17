@@ -14,7 +14,7 @@ module.exports = {
       },
       {
         name: "Artemis",
-        link: "/page-2",
+        link: "/page-4",
       },
       {
         name: "Athena",
