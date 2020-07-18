@@ -72,6 +72,15 @@ export default function Boon(props) {
               }
             }
           }
+          zeus {
+            boons {
+              name
+              iconurl
+              upgrades {
+                name
+              }
+            }
+          }
         }
       }
     }

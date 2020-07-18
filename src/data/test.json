@@ -505,6 +505,18 @@
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/f/f0/Aphrodite%27s_Aid.png?version=3c0619fcbd2c3d209d0ed3c51265e2f1",
             "upgrades": [
               {
+                "name": "Clouded Judgment",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/47/Clouded_Judgment.png?version=b7433232108a3ab40290f930acd79337",
+                "other": []
+              },
+              {
+                "name": "Billowing Strength",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3d/Billowing_Strength.png?version=71c2098db0fa1f05f1a2e599629b85d8",
+                "other": []
+              },
+              {
                 "name": "Proud Bearing",
                 "type": "Normal",
                 "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/2e/Proud_Bearing.png?version=1b536f4f820024171efd942dbbb326a6",
@@ -1042,6 +1054,18 @@
                 "name": "Engulfing Vortex",
                 "type": "Normal",
                 "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/a3/Engulfing_Vortex.png?version=5ac740fac43cb74d76d5d00a81271781",
+                "other": []
+              },
+              {
+                "name": "Clouded Judgment",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/47/Clouded_Judgment.png?version=b7433232108a3ab40290f930acd79337",
+                "other": []
+              },
+              {
+                "name": "Billowing Strength",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3d/Billowing_Strength.png?version=71c2098db0fa1f05f1a2e599629b85d8",
                 "other": []
               },
               {
@@ -1661,6 +1685,18 @@
                 "name": "Support Fire",
                 "type": "Normal",
                 "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e2/Support_Fire.png?version=f7526e74cb395be1b548271f8eac3657",
+                "other": []
+              },
+              {
+                "name": "Clouded Judgment",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/47/Clouded_Judgment.png?version=b7433232108a3ab40290f930acd79337",
+                "other": []
+              },
+              {
+                "name": "Billowing Strength",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3d/Billowing_Strength.png?version=71c2098db0fa1f05f1a2e599629b85d8",
                 "other": []
               },
               {
@@ -2319,6 +2355,18 @@
                 "other": []
               },
               {
+                "name": "Clouded Judgment",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/47/Clouded_Judgment.png?version=b7433232108a3ab40290f930acd79337",
+                "other": []
+              },
+              {
+                "name": "Billowing Strength",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3d/Billowing_Strength.png?version=71c2098db0fa1f05f1a2e599629b85d8",
+                "other": []
+              },
+              {
                 "name": "Boiling Point",
                 "type": "Normal",
                 "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b5/Boiling_Point.png?version=2cc3c1acf6a9d2d3618bc510b7f66f13",
@@ -2728,6 +2776,18 @@
                 "name": "Killing Freeze",
                 "type": "Normal",
                 "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/41/Killing_Freeze.png?version=3c3ae5e500ad53cd05164ecc98b7b1b8",
+                "other": []
+              },
+              {
+                "name": "Clouded Judgment",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/47/Clouded_Judgment.png?version=b7433232108a3ab40290f930acd79337",
+                "other": []
+              },
+              {
+                "name": "Billowing Strength",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3d/Billowing_Strength.png?version=71c2098db0fa1f05f1a2e599629b85d8",
                 "other": []
               },
               {
@@ -3318,6 +3378,18 @@
                 "name": "Numbing Sensation",
                 "type": "Normal",
                 "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/41/Numbing_Sensation.png?version=12003d217840ab970f7500a10b1dce47",
+                "other": []
+              },
+              {
+                "name": "Clouded Judgment",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/47/Clouded_Judgment.png?version=b7433232108a3ab40290f930acd79337",
+                "other": []
+              },
+              {
+                "name": "Billowing Strength",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3d/Billowing_Strength.png?version=71c2098db0fa1f05f1a2e599629b85d8",
                 "other": []
               },
               {
@@ -4137,6 +4209,18 @@
                 "other": []
               },
               {
+                "name": "Clouded Judgment",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/47/Clouded_Judgment.png?version=b7433232108a3ab40290f930acd79337",
+                "other": []
+              },
+              {
+                "name": "Billowing Strength",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3d/Billowing_Strength.png?version=71c2098db0fa1f05f1a2e599629b85d8",
+                "other": []
+              },
+              {
                 "name": "Proud Bearing",
                 "type": "Normal",
                 "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/2e/Proud_Bearing.png?version=1b536f4f820024171efd942dbbb326a6",
@@ -4366,6 +4450,737 @@
             "name": "Exclusive Access",
             "type": "Duo",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/32/Exclusive_Access.png?version=446e8cb27ce2b9681462935453d58b49",
+            "upgrades": []
+          },
+          {
+            "name": "Sea Storm",
+            "type": "Duo",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c7/Sea_Storm.png?version=090159da0c5080261aed0d7225c2bcb2",
+            "upgrades": []
+          }
+        ]
+      },
+      "zeus": {
+        "boons": [
+          {
+            "name": "Lightning Strike",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/f/f6/Lightning_Strike.png?version=d8e800be65def6a9b011536787184f5a",
+            "upgrades": [
+              {
+                "name": "Storm Lightning",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/6b/Storm_Lightning.png?version=6bbcd82147a20dcc931b2f2335ef5e97",
+                "other": []
+              },
+              {
+                "name": "Static Discharge",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/76/Static_Discharge.png?version=b5ad85394c0936cc83f3530ab74423c1",
+                "other": []
+              },
+              {
+                "name": "Smoldering Air",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/ca/Smoldering_Air.png/150px-Smoldering_Air.png?version=101da95586987bc441e7960bc7aadd51",
+                "other": [
+                  "Aphrodite's Aid",
+                  "Crush Shot",
+                  "Passion Flare",
+                  "Heartbreak Flourish",
+                  "Heartbreak Strike",
+                  "Passion Dash"
+                ]
+              },
+              {
+                "name": "Vengeful Mood",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/0a/Vengeful_Mood.png?version=663dac52995e17918825c4c439d3d585",
+                "other": [
+                  "Ares' Aid",
+                  "Blade Dash",
+                  "Curse of Agony",
+                  "Curse of Pain",
+                  "Slicing Shot",
+                  "Slicing Flare"
+                ],
+                "other2": [
+                  "Curse of Vengeance",
+                  "Frozen Touch",
+                  "Heaven's Vengeance",
+                  "Holy Shield",
+                  "Wave of Despair"
+                ]
+              },
+              {
+                "name": "Lightning Rod",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/62/Lightning_Rod.png?version=ed83baa93b0f106e283ead39aeac0727",
+                "other": [
+                  "Artemis' Aid",
+                  "Deadly Flourish",
+                  "Deadly Strike",
+                  "Hunter Dash",
+                  "True Shot",
+                  "Hunter's Flare"
+                ]
+              },
+              {
+                "name": "Lightning Phalanx",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/70/Lightning_Phalanx.png?version=58a10da5c418277411266b5e5b2d863d",
+                "other": ["Phalanx Shot"]
+              },
+              {
+                "name": "Scintillating Feast",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e2/Scintillating_Feast.png?version=ec3c814073ceb907ab04272d31602082",
+                "other": ["High Tolerance", "Trippy Shot"]
+              },
+              {
+                "name": "Sea Storm",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c7/Sea_Storm.png?version=090159da0c5080261aed0d7225c2bcb2",
+                "other": [
+                  "Flood Shot",
+                  "Poseidon's Aid",
+                  "Tempest Flourish",
+                  "Tempest Strike",
+                  "Tidal Dash"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Thunder Flourish",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/ad/Thunder_Flourish.png?version=7df37fd71d2e758e9b9e79b2751d626f",
+            "upgrades": [
+              {
+                "name": "High Voltage",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/d/d9/High_Voltage.png?version=0c61e99b2ffe28c7936b2eb0eddc1134",
+                "other": []
+              },
+              {
+                "name": "Double Strike",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/65/Double_Strike.png?version=af3b4539d04d5493bfa1483fdacff450",
+                "other": []
+              },
+              {
+                "name": "Static Discharge",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/76/Static_Discharge.png?version=b5ad85394c0936cc83f3530ab74423c1",
+                "other": []
+              },
+              {
+                "name": "Smoldering Air",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/ca/Smoldering_Air.png/150px-Smoldering_Air.png?version=101da95586987bc441e7960bc7aadd51",
+                "other": [
+                  "Aphrodite's Aid",
+                  "Crush Shot",
+                  "Passion Flare",
+                  "Heartbreak Flourish",
+                  "Heartbreak Strike",
+                  "Passion Dash"
+                ]
+              },
+              {
+                "name": "Vengeful Mood",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/0a/Vengeful_Mood.png?version=663dac52995e17918825c4c439d3d585",
+                "other": [
+                  "Ares' Aid",
+                  "Blade Dash",
+                  "Curse of Agony",
+                  "Curse of Pain",
+                  "Slicing Shot",
+                  "Slicing Flare"
+                ],
+                "other2": [
+                  "Curse of Vengeance",
+                  "Frozen Touch",
+                  "Heaven's Vengeance",
+                  "Holy Shield",
+                  "Wave of Despair"
+                ]
+              },
+              {
+                "name": "Lightning Rod",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/62/Lightning_Rod.png?version=ed83baa93b0f106e283ead39aeac0727",
+                "other": [
+                  "Artemis' Aid",
+                  "Deadly Flourish",
+                  "Deadly Strike",
+                  "Hunter Dash",
+                  "True Shot",
+                  "Hunter's Flare"
+                ]
+              },
+              {
+                "name": "Lightning Phalanx",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/70/Lightning_Phalanx.png?version=58a10da5c418277411266b5e5b2d863d",
+                "other": ["Phalanx Shot"]
+              },
+              {
+                "name": "Scintillating Feast",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e2/Scintillating_Feast.png?version=ec3c814073ceb907ab04272d31602082",
+                "other": ["High Tolerance", "Trippy Shot"]
+              },
+              {
+                "name": "Sea Storm",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c7/Sea_Storm.png?version=090159da0c5080261aed0d7225c2bcb2",
+                "other": [
+                  "Flood Shot",
+                  "Poseidon's Aid",
+                  "Tempest Flourish",
+                  "Tempest Strike",
+                  "Tidal Dash"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Electric Shot",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/01/Electric_Shot.png?version=7b0f362030e4a4d3879120dadccb5bc7",
+            "upgrades": [
+              {
+                "name": "Storm Lightning",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/6b/Storm_Lightning.png?version=6bbcd82147a20dcc931b2f2335ef5e97",
+                "other": []
+              },
+              {
+                "name": "Static Discharge",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/76/Static_Discharge.png?version=b5ad85394c0936cc83f3530ab74423c1",
+                "other": []
+              },
+              {
+                "name": "Exit Wounds",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/d/d1/Exit_Wounds.png/150px-Exit_Wounds.png?version=74870dcb1cdcb40c1af9dd7b93e31c56",
+                "other": []
+              },
+              {
+                "name": "Smoldering Air",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/ca/Smoldering_Air.png/150px-Smoldering_Air.png?version=101da95586987bc441e7960bc7aadd51",
+                "other": [
+                  "Aphrodite's Aid",
+                  "Crush Shot",
+                  "Passion Flare",
+                  "Heartbreak Flourish",
+                  "Heartbreak Strike",
+                  "Passion Dash"
+                ]
+              },
+              {
+                "name": "Vengeful Mood",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/0a/Vengeful_Mood.png?version=663dac52995e17918825c4c439d3d585",
+                "other": [
+                  "Ares' Aid",
+                  "Blade Dash",
+                  "Curse of Agony",
+                  "Curse of Pain",
+                  "Slicing Shot",
+                  "Slicing Flare"
+                ],
+                "other2": [
+                  "Curse of Vengeance",
+                  "Frozen Touch",
+                  "Heaven's Vengeance",
+                  "Holy Shield",
+                  "Wave of Despair"
+                ]
+              },
+              {
+                "name": "Lightning Rod",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/62/Lightning_Rod.png?version=ed83baa93b0f106e283ead39aeac0727",
+                "other": [
+                  "Artemis' Aid",
+                  "Deadly Flourish",
+                  "Deadly Strike",
+                  "Hunter Dash",
+                  "True Shot",
+                  "Hunter's Flare"
+                ]
+              },
+              {
+                "name": "Lightning Phalanx",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/70/Lightning_Phalanx.png?version=58a10da5c418277411266b5e5b2d863d",
+                "other": ["Phalanx Shot"]
+              },
+              {
+                "name": "Scintillating Feast",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e2/Scintillating_Feast.png?version=ec3c814073ceb907ab04272d31602082",
+                "other": ["High Tolerance", "Trippy Shot"]
+              },
+              {
+                "name": "Sea Storm",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c7/Sea_Storm.png?version=090159da0c5080261aed0d7225c2bcb2",
+                "other": [
+                  "Flood Shot",
+                  "Poseidon's Aid",
+                  "Tempest Flourish",
+                  "Tempest Strike",
+                  "Tidal Dash"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Electric Flare",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/01/Electric_Shot.png?version=7b0f362030e4a4d3879120dadccb5bc7",
+            "upgrades": [
+              {
+                "name": "Static Discharge",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/76/Static_Discharge.png?version=b5ad85394c0936cc83f3530ab74423c1",
+                "other": []
+              },
+              {
+                "name": "Smoldering Air",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/ca/Smoldering_Air.png/150px-Smoldering_Air.png?version=101da95586987bc441e7960bc7aadd51",
+                "other": [
+                  "Aphrodite's Aid",
+                  "Crush Shot",
+                  "Passion Flare",
+                  "Heartbreak Flourish",
+                  "Heartbreak Strike",
+                  "Passion Dash"
+                ]
+              },
+              {
+                "name": "Vengeful Mood",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/0a/Vengeful_Mood.png?version=663dac52995e17918825c4c439d3d585",
+                "other": [
+                  "Ares' Aid",
+                  "Blade Dash",
+                  "Curse of Agony",
+                  "Curse of Pain",
+                  "Slicing Shot",
+                  "Slicing Flare"
+                ],
+                "other2": [
+                  "Curse of Vengeance",
+                  "Frozen Touch",
+                  "Heaven's Vengeance",
+                  "Holy Shield",
+                  "Wave of Despair"
+                ]
+              },
+              {
+                "name": "Lightning Rod",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/62/Lightning_Rod.png?version=ed83baa93b0f106e283ead39aeac0727",
+                "other": [
+                  "Artemis' Aid",
+                  "Deadly Flourish",
+                  "Deadly Strike",
+                  "Hunter Dash",
+                  "True Shot",
+                  "Hunter's Flare"
+                ]
+              },
+              {
+                "name": "Scintillating Feast",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e2/Scintillating_Feast.png?version=ec3c814073ceb907ab04272d31602082",
+                "other": ["High Tolerance", "Trippy Shot"]
+              },
+              {
+                "name": "Sea Storm",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c7/Sea_Storm.png?version=090159da0c5080261aed0d7225c2bcb2",
+                "other": [
+                  "Flood Shot",
+                  "Poseidon's Aid",
+                  "Tempest Flourish",
+                  "Tempest Strike",
+                  "Tidal Dash"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Thunder Dash",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b4/Thunder_Dash.png?version=76737e4ff5ae85d900b7737d8b3241d3",
+            "upgrades": [
+              {
+                "name": "High Voltage",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/d/d9/High_Voltage.png?version=0c61e99b2ffe28c7936b2eb0eddc1134",
+                "other": []
+              },
+              {
+                "name": "Double Strike",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/65/Double_Strike.png?version=af3b4539d04d5493bfa1483fdacff450",
+                "other": []
+              },
+              {
+                "name": "Static Discharge",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/76/Static_Discharge.png?version=b5ad85394c0936cc83f3530ab74423c1",
+                "other": []
+              },
+              {
+                "name": "Smoldering Air",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/ca/Smoldering_Air.png/150px-Smoldering_Air.png?version=101da95586987bc441e7960bc7aadd51",
+                "other": [
+                  "Aphrodite's Aid",
+                  "Crush Shot",
+                  "Passion Flare",
+                  "Heartbreak Flourish",
+                  "Heartbreak Strike",
+                  "Passion Dash"
+                ]
+              },
+              {
+                "name": "Vengeful Mood",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/0a/Vengeful_Mood.png?version=663dac52995e17918825c4c439d3d585",
+                "other": [
+                  "Ares' Aid",
+                  "Blade Dash",
+                  "Curse of Agony",
+                  "Curse of Pain",
+                  "Slicing Shot",
+                  "Slicing Flare"
+                ],
+                "other2": [
+                  "Curse of Vengeance",
+                  "Frozen Touch",
+                  "Heaven's Vengeance",
+                  "Holy Shield",
+                  "Wave of Despair"
+                ]
+              },
+              {
+                "name": "Lightning Rod",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/62/Lightning_Rod.png?version=ed83baa93b0f106e283ead39aeac0727",
+                "other": [
+                  "Artemis' Aid",
+                  "Deadly Flourish",
+                  "Deadly Strike",
+                  "Hunter Dash",
+                  "True Shot",
+                  "Hunter's Flare"
+                ]
+              },
+              {
+                "name": "Lightning Phalanx",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/70/Lightning_Phalanx.png?version=58a10da5c418277411266b5e5b2d863d",
+                "other": ["Phalanx Shot"]
+              },
+              {
+                "name": "Scintillating Feast",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e2/Scintillating_Feast.png?version=ec3c814073ceb907ab04272d31602082",
+                "other": ["High Tolerance", "Trippy Shot"]
+              },
+              {
+                "name": "Sea Storm",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c7/Sea_Storm.png?version=090159da0c5080261aed0d7225c2bcb2",
+                "other": [
+                  "Flood Shot",
+                  "Poseidon's Aid",
+                  "Tempest Flourish",
+                  "Tempest Strike",
+                  "Tidal Dash"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Zeus' Aid",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/ec/Zeus%27_Aid.png?version=cfd230f95351b69b7d3918e927ed2538",
+            "upgrades": [
+              {
+                "name": "High Voltage",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/d/d9/High_Voltage.png?version=0c61e99b2ffe28c7936b2eb0eddc1134",
+                "other": []
+              },
+              {
+                "name": "Double Strike",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/65/Double_Strike.png?version=af3b4539d04d5493bfa1483fdacff450",
+                "other": []
+              },
+              {
+                "name": "Static Discharge",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/76/Static_Discharge.png?version=b5ad85394c0936cc83f3530ab74423c1",
+                "other": []
+              },
+              {
+                "name": "Clouded Judgment",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/47/Clouded_Judgment.png?version=b7433232108a3ab40290f930acd79337",
+                "other": []
+              },
+              {
+                "name": "Billowing Strength",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3d/Billowing_Strength.png?version=71c2098db0fa1f05f1a2e599629b85d8",
+                "other": []
+              },
+              {
+                "name": "Proud Bearing",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/2e/Proud_Bearing.png?version=1b536f4f820024171efd942dbbb326a6",
+                "other": []
+              },
+              {
+                "name": "Boiling Point",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b5/Boiling_Point.png?version=2cc3c1acf6a9d2d3618bc510b7f66f13",
+                "other": []
+              },
+              {
+                "name": "Smoldering Air",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/ca/Smoldering_Air.png/150px-Smoldering_Air.png?version=101da95586987bc441e7960bc7aadd51",
+                "other": [
+                  "Aphrodite's Aid",
+                  "Crush Shot",
+                  "Passion Flare",
+                  "Heartbreak Flourish",
+                  "Heartbreak Strike",
+                  "Passion Dash"
+                ]
+              },
+              {
+                "name": "Vengeful Mood",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/0a/Vengeful_Mood.png?version=663dac52995e17918825c4c439d3d585",
+                "other": [
+                  "Ares' Aid",
+                  "Blade Dash",
+                  "Curse of Agony",
+                  "Curse of Pain",
+                  "Slicing Shot",
+                  "Slicing Flare"
+                ],
+                "other2": [
+                  "Curse of Vengeance",
+                  "Frozen Touch",
+                  "Heaven's Vengeance",
+                  "Holy Shield",
+                  "Wave of Despair"
+                ]
+              },
+              {
+                "name": "Lightning Rod",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/62/Lightning_Rod.png?version=ed83baa93b0f106e283ead39aeac0727",
+                "other": [
+                  "Artemis' Aid",
+                  "Deadly Flourish",
+                  "Deadly Strike",
+                  "Hunter Dash",
+                  "True Shot",
+                  "Hunter's Flare"
+                ]
+              },
+              {
+                "name": "Lightning Phalanx",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/70/Lightning_Phalanx.png?version=58a10da5c418277411266b5e5b2d863d",
+                "other": ["Phalanx Shot"]
+              },
+              {
+                "name": "Scintillating Feast",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e2/Scintillating_Feast.png?version=ec3c814073ceb907ab04272d31602082",
+                "other": ["High Tolerance", "Trippy Shot"]
+              },
+              {
+                "name": "Sea Storm",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c7/Sea_Storm.png?version=090159da0c5080261aed0d7225c2bcb2",
+                "other": [
+                  "Flood Shot",
+                  "Poseidon's Aid",
+                  "Tempest Flourish",
+                  "Tempest Strike",
+                  "Tidal Dash"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Heaven's Vengeance",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c5/Heaven%27s_Vengeance.png?version=90b557adfa83ca9a7b2f2c0b3434e438",
+            "upgrades": [
+              {
+                "name": "Static Discharge",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/76/Static_Discharge.png?version=b5ad85394c0936cc83f3530ab74423c1",
+                "other": []
+              },
+              {
+                "name": "Vengeful Mood",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/0a/Vengeful_Mood.png?version=663dac52995e17918825c4c439d3d585",
+                "other": [
+                  "Ares' Aid",
+                  "Blade Dash",
+                  "Curse of Agony",
+                  "Curse of Pain",
+                  "Slicing Shot",
+                  "Slicing Flare"
+                ],
+                "other2": [
+                  "Electric Shot",
+                  "Electric Flare",
+                  "Lightning Strike",
+                  "Thunder Dash",
+                  "Thunder Flourish",
+                  "Zeus' Aid"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Lightning Reflexes",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/2/25/Lightning_Reflexes.png/150px-Lightning_Reflexes.png?version=0b1eea8a9729523186cdd1e172c2c7c0",
+            "upgrades": []
+          },
+          {
+            "name": "Storm Lightning",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/6b/Storm_Lightning.png?version=6bbcd82147a20dcc931b2f2335ef5e97",
+            "upgrades": [
+              {
+                "name": "Splitting Bolt",
+                "type": "Legendary",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/58/Splitting_Bolt.png?version=b44354ec864f42e45b50b232ba17be89",
+                "other": []
+              }
+            ]
+          },
+          {
+            "name": "High Voltage",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/d/d9/High_Voltage.png?version=0c61e99b2ffe28c7936b2eb0eddc1134",
+            "upgrades": [
+              {
+                "name": "Splitting Bolt",
+                "type": "Legendary",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/58/Splitting_Bolt.png?version=b44354ec864f42e45b50b232ba17be89",
+                "other": []
+              }
+            ]
+          },
+          {
+            "name": "Double Strike",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/65/Double_Strike.png?version=af3b4539d04d5493bfa1483fdacff450",
+            "upgrades": [
+              {
+                "name": "Splitting Bolt",
+                "type": "Legendary",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/58/Splitting_Bolt.png?version=b44354ec864f42e45b50b232ba17be89",
+                "other": []
+              }
+            ]
+          },
+          {
+            "name": "Static Discharge",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/76/Static_Discharge.png?version=b5ad85394c0936cc83f3530ab74423c1",
+            "upgrades": [
+              {
+                "name": "Cold Fusion",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/2e/Cold_Fusion.png?version=232f54a98aaecb47ea0b17374b6d2286",
+                "other": [
+                  "Demeter's Aid",
+                  "Frost Flourish",
+                  "Frost Strike",
+                  "Mistral Dash"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Clouded Judgment",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/47/Clouded_Judgment.png?version=b7433232108a3ab40290f930acd79337",
+            "upgrades": []
+          },
+          {
+            "name": "Billowing Strength",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3d/Billowing_Strength.png?version=71c2098db0fa1f05f1a2e599629b85d8",
+            "upgrades": []
+          },
+          {
+            "name": "Splitting Bolt",
+            "type": "Legendary",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/58/Splitting_Bolt.png?version=b44354ec864f42e45b50b232ba17be89",
+            "upgrades": []
+          },
+          {
+            "name": "Smoldering Air",
+            "type": "Duo",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/ca/Smoldering_Air.png/150px-Smoldering_Air.png?version=101da95586987bc441e7960bc7aadd51",
+            "upgrades": []
+          },
+          {
+            "name": "Vengeful Mood",
+            "type": "Duo",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/0a/Vengeful_Mood.png?version=663dac52995e17918825c4c439d3d585",
+            "upgrades": []
+          },
+          {
+            "name": "Lightning Rod",
+            "type": "Duo",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/62/Lightning_Rod.png?version=ed83baa93b0f106e283ead39aeac0727",
+            "upgrades": []
+          },
+          {
+            "name": "Lightning Phalanx",
+            "type": "Duo",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/70/Lightning_Phalanx.png?version=58a10da5c418277411266b5e5b2d863d",
+            "upgrades": []
+          },
+          {
+            "name": "Cold Fusion",
+            "type": "Duo",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/2e/Cold_Fusion.png?version=232f54a98aaecb47ea0b17374b6d2286",
+            "upgrades": []
+          },
+          {
+            "name": "Scintillating Feast",
+            "type": "Duo",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e2/Scintillating_Feast.png?version=ec3c814073ceb907ab04272d31602082",
             "upgrades": []
           },
           {

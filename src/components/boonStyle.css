@@ -90,3 +90,7 @@ h5 {
 .buttonFlare:active::after {
   filter: drop-shadow(5px 5px 5px red);
 }
+
+.active {
+  filter: drop-shadow(5px 5px 5px yellow);
+}

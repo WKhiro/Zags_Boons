@@ -29,16 +29,12 @@ module.exports = {
         link: "/dionysus",
       },
       {
-        name: "Hermes",
-        link: "/aphrodite",
-      },
-      {
         name: "Poseidon",
         link: "/poseidon",
       },
       {
         name: "Zeus",
-        link: "/aphrodite",
+        link: "/zeus",
       },
     ],
   },
