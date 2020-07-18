@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import "./boonStyle.css"
 
 export default function Boon(props) {
+  var buttonClass = "buttonReadjust"
   //remove boon name from query if I don't add titles
   const data = useStaticQuery(graphql`
     query {
@@ -35,6 +36,33 @@ export default function Boon(props) {
               }
             }
           }
+          athena {
+            boons {
+              name
+              iconurl
+              upgrades {
+                name
+              }
+            }
+          }
+          demeter {
+            boons {
+              name
+              iconurl
+              upgrades {
+                name
+              }
+            }
+          }
+          dionysus {
+            boons {
+              name
+              iconurl
+              upgrades {
+                name
+              }
+            }
+          }
         }
       }
     }
@@ -43,13 +71,18 @@ export default function Boon(props) {
     godType[props.name].boons
       .filter(boonType => boonType.upgrades.length !== 0)
       .map((boonType, index) => {
+        if (boonType.name.includes("Flare")) {
+          buttonClass = "buttonFlare"
+        } else {
+          buttonClass = "buttonReadjust"
+        }
         // Presentation role removes eslint error
         return (
           <img
             role="presentation"
-            className="buttonReadjust"
+            className={buttonClass}
             src={boonType.iconurl}
-            alt=""
+            alt={boonType.name}
             onClick={props.onClick(godType[props.name].boons.indexOf(boonType))}
           ></img>
         )

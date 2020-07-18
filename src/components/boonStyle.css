@@ -72,3 +72,21 @@ h5 {
 .buttonReadjust:active::after {
   filter: drop-shadow(5px 5px 5px blue);
 }
+
+.buttonFlare {
+  width: 100px;
+  height: 100px;
+  filter: drop-shadow(5px 5px 5px red);
+}
+
+.buttonFlare:hover {
+  opacity: 0.8;
+}
+
+.buttonFlare:active {
+  filter: drop-shadow(5px 5px 5px red);
+}
+
+.buttonFlare:active::after {
+  filter: drop-shadow(5px 5px 5px red);
+}

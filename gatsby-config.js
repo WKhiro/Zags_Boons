@@ -18,15 +18,15 @@ module.exports = {
       },
       {
         name: "Athena",
-        link: "/aphrodite",
+        link: "/athena",
       },
       {
         name: "Demeter",
-        link: "/aphrodite",
+        link: "/demeter",
       },
       {
         name: "Dionysus",
-        link: "/aphrodite",
+        link: "/dionysus",
       },
       {
         name: "Hermes",
