@@ -511,6 +511,12 @@
                 "other": []
               },
               {
+                "name": "Boiling Point",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b5/Boiling_Point.png?version=2cc3c1acf6a9d2d3618bc510b7f66f13",
+                "other": []
+              },
+              {
                 "name": "Parting Shot",
                 "type": "Duo",
                 "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/10/Parting_Shot.png?version=8411b63739b07ad14cd047a3e19844fe",
@@ -1042,6 +1048,12 @@
                 "name": "Proud Bearing",
                 "type": "Normal",
                 "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/2e/Proud_Bearing.png?version=1b536f4f820024171efd942dbbb326a6",
+                "other": []
+              },
+              {
+                "name": "Boiling Point",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b5/Boiling_Point.png?version=2cc3c1acf6a9d2d3618bc510b7f66f13",
                 "other": []
               },
               {
@@ -1655,6 +1667,12 @@
                 "name": "Proud Bearing",
                 "type": "Normal",
                 "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/2e/Proud_Bearing.png?version=1b536f4f820024171efd942dbbb326a6",
+                "other": []
+              },
+              {
+                "name": "Boiling Point",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b5/Boiling_Point.png?version=2cc3c1acf6a9d2d3618bc510b7f66f13",
                 "other": []
               },
               {
@@ -2301,6 +2319,12 @@
                 "other": []
               },
               {
+                "name": "Boiling Point",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b5/Boiling_Point.png?version=2cc3c1acf6a9d2d3618bc510b7f66f13",
+                "other": []
+              },
+              {
                 "name": "Parting Shot",
                 "type": "Duo",
                 "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/10/Parting_Shot.png?version=8411b63739b07ad14cd047a3e19844fe",
@@ -2710,6 +2734,12 @@
                 "name": "Proud Bearing",
                 "type": "Normal",
                 "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/2e/Proud_Bearing.png?version=1b536f4f820024171efd942dbbb326a6",
+                "other": []
+              },
+              {
+                "name": "Boiling Point",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b5/Boiling_Point.png?version=2cc3c1acf6a9d2d3618bc510b7f66f13",
                 "other": []
               },
               {
@@ -3297,6 +3327,12 @@
                 "other": []
               },
               {
+                "name": "Boiling Point",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b5/Boiling_Point.png?version=2cc3c1acf6a9d2d3618bc510b7f66f13",
+                "other": []
+              },
+              {
                 "name": "Black Out",
                 "type": "Legendary",
                 "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/f/ff/Black_Out.png?version=f04ef048049f2ba9624659f632e868f3",
@@ -3503,6 +3539,839 @@
             "name": "Scintillating Feast",
             "type": "Duo",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e2/Scintillating_Feast.png?version=ec3c814073ceb907ab04272d31602082",
+            "upgrades": []
+          }
+        ]
+      },
+      "poseidon": {
+        "boons": [
+          {
+            "name": "Tempest Strike",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/b/b2/Tempest_Strike.png/150px-Tempest_Strike.png?version=fbdee45b4ef0adcb0ae18e12455e7c38",
+            "upgrades": [
+              {
+                "name": "Typhoon's Fury",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3b/Typhoon%27s_Fury.png?version=d5e648d511271d2c9432f1360fa0ebce",
+                "other": []
+              },
+              {
+                "name": "Razor Shoals",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/6a/Razor_Shoals.png?version=8fade23ed4a985675697c0d597825894",
+                "other": []
+              },
+              {
+                "name": "Breaking Wave",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/8/84/Breaking_Wave.png?version=0508847e3a33416b5fe3a522c516d9d4",
+                "other": []
+              },
+              {
+                "name": "Wave Pounding",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e3/Wave_Pounding.png?version=903e0c16d8439aaf9aacb5d8e0482c19",
+                "other": []
+              },
+              {
+                "name": "Second Wave",
+                "type": "Legendary",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/18/Second_Wave.png?version=b8d6fd0b090318b1e47088d5875dfdec",
+                "other": ["Breaking Wave", "Razor Shoals", "Typhoon's Fury"]
+              },
+              {
+                "name": "Sweet Nectar",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/56/Sweet_Nectar.png?version=272c3b5d99c837b65cc0065328427d0c",
+                "other": [
+                  "Aphrodite's Aid",
+                  "Crush Shot",
+                  "Passion Flare",
+                  "Heartbreak Flourish",
+                  "Heartbreak Strike",
+                  "Passion Dash"
+                ]
+              },
+              {
+                "name": "Mirage Shot",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/a/ab/Mirage_Shot.png/150px-Mirage_Shot.png?version=9aaa498eb4f9a2c93e7ea75f92fc2637",
+                "other": [
+                  "Artemis' Aid",
+                  "Deadly Flourish",
+                  "Deadly Strike",
+                  "True Shot",
+                  "Hunter's Flare"
+                ]
+              },
+              {
+                "name": "Unshakable Mettle",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/cf/Unshakable_Mettle.png/150px-Unshakable_Mettle.png?version=31a5293c6b3f02322ebd639c48568b79",
+                "other": [
+                  "Athena's Aid",
+                  "Divine Dash",
+                  "Divine Flourish",
+                  "Divine Strike",
+                  "Phalanx Shot",
+                  "Phalanx Flare"
+                ]
+              },
+              {
+                "name": "Exclusive Access",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/32/Exclusive_Access.png?version=446e8cb27ce2b9681462935453d58b49",
+                "other": [
+                  "Dionysus' Aid",
+                  "Drunken Dash",
+                  "Drunken Flourish",
+                  "Drunken Strike",
+                  "Trippy Shot"
+                ]
+              },
+              {
+                "name": "Sea Storm",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c7/Sea_Storm.png?version=090159da0c5080261aed0d7225c2bcb2",
+                "other": [
+                  "Electric Shot",
+                  "Electric Flare",
+                  "Lightning Strike",
+                  "Thunder Dash",
+                  "Thunder Flourish",
+                  "Zeus' Aid"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Tempest Flourish",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c7/Tempest_Flourish.png?version=b80f198165530506fa75d65d2e8f2097",
+            "upgrades": [
+              {
+                "name": "Typhoon's Fury",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3b/Typhoon%27s_Fury.png?version=d5e648d511271d2c9432f1360fa0ebce",
+                "other": []
+              },
+              {
+                "name": "Razor Shoals",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/6a/Razor_Shoals.png?version=8fade23ed4a985675697c0d597825894",
+                "other": []
+              },
+              {
+                "name": "Breaking Wave",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/8/84/Breaking_Wave.png?version=0508847e3a33416b5fe3a522c516d9d4",
+                "other": []
+              },
+              {
+                "name": "Wave Pounding",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e3/Wave_Pounding.png?version=903e0c16d8439aaf9aacb5d8e0482c19",
+                "other": []
+              },
+              {
+                "name": "Second Wave",
+                "type": "Legendary",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/18/Second_Wave.png?version=b8d6fd0b090318b1e47088d5875dfdec",
+                "other": ["Breaking Wave", "Razor Shoals", "Typhoon's Fury"]
+              },
+              {
+                "name": "Sweet Nectar",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/56/Sweet_Nectar.png?version=272c3b5d99c837b65cc0065328427d0c",
+                "other": [
+                  "Aphrodite's Aid",
+                  "Crush Shot",
+                  "Passion Flare",
+                  "Heartbreak Flourish",
+                  "Heartbreak Strike",
+                  "Passion Dash"
+                ]
+              },
+              {
+                "name": "Mirage Shot",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/a/ab/Mirage_Shot.png/150px-Mirage_Shot.png?version=9aaa498eb4f9a2c93e7ea75f92fc2637",
+                "other": [
+                  "Artemis' Aid",
+                  "Deadly Flourish",
+                  "Deadly Strike",
+                  "True Shot",
+                  "Hunter's Flare"
+                ]
+              },
+              {
+                "name": "Unshakable Mettle",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/cf/Unshakable_Mettle.png/150px-Unshakable_Mettle.png?version=31a5293c6b3f02322ebd639c48568b79",
+                "other": [
+                  "Athena's Aid",
+                  "Divine Dash",
+                  "Divine Flourish",
+                  "Divine Strike",
+                  "Phalanx Shot",
+                  "Phalanx Flare"
+                ]
+              },
+              {
+                "name": "Exclusive Access",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/32/Exclusive_Access.png?version=446e8cb27ce2b9681462935453d58b49",
+                "other": [
+                  "Dionysus' Aid",
+                  "Drunken Dash",
+                  "Drunken Flourish",
+                  "Drunken Strike",
+                  "Trippy Shot"
+                ]
+              },
+              {
+                "name": "Sea Storm",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c7/Sea_Storm.png?version=090159da0c5080261aed0d7225c2bcb2",
+                "other": [
+                  "Electric Shot",
+                  "Electric Flare",
+                  "Lightning Strike",
+                  "Thunder Dash",
+                  "Thunder Flourish",
+                  "Zeus' Aid"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Flood Shot",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/1/17/Flood_Shot.png/150px-Flood_Shot.png?version=af6e913bb1a9e1d258c85d1ba27e9532",
+            "upgrades": [
+              {
+                "name": "Typhoon's Fury",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3b/Typhoon%27s_Fury.png?version=d5e648d511271d2c9432f1360fa0ebce",
+                "other": []
+              },
+              {
+                "name": "Razor Shoals",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/6a/Razor_Shoals.png?version=8fade23ed4a985675697c0d597825894",
+                "other": []
+              },
+              {
+                "name": "Breaking Wave",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/8/84/Breaking_Wave.png?version=0508847e3a33416b5fe3a522c516d9d4",
+                "other": []
+              },
+              {
+                "name": "Wave Pounding",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e3/Wave_Pounding.png?version=903e0c16d8439aaf9aacb5d8e0482c19",
+                "other": []
+              },
+              {
+                "name": "Exit Wounds",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/d/d1/Exit_Wounds.png/150px-Exit_Wounds.png?version=74870dcb1cdcb40c1af9dd7b93e31c56",
+                "other": []
+              },
+              {
+                "name": "Second Wave",
+                "type": "Legendary",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/18/Second_Wave.png?version=b8d6fd0b090318b1e47088d5875dfdec",
+                "other": ["Breaking Wave", "Razor Shoals", "Typhoon's Fury"]
+              },
+              {
+                "name": "Sweet Nectar",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/56/Sweet_Nectar.png?version=272c3b5d99c837b65cc0065328427d0c",
+                "other": [
+                  "Aphrodite's Aid",
+                  "Crush Shot",
+                  "Passion Flare",
+                  "Heartbreak Flourish",
+                  "Heartbreak Strike",
+                  "Passion Dash"
+                ]
+              },
+              {
+                "name": "Curse of Drowning",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/57/Curse_of_Drowning.png?version=e828ee81b4e9cccc91d414e7b8539141",
+                "other": [
+                  "Ares' Aid",
+                  "Blade Dash",
+                  "Curse of Agony",
+                  "Curse of Pain"
+                ]
+              },
+              {
+                "name": "Mirage Shot",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/a/ab/Mirage_Shot.png/150px-Mirage_Shot.png?version=9aaa498eb4f9a2c93e7ea75f92fc2637",
+                "other": [
+                  "Artemis' Aid",
+                  "Deadly Flourish",
+                  "Deadly Strike",
+                  "True Shot",
+                  "Hunter's Flare"
+                ]
+              },
+              {
+                "name": "Unshakable Mettle",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/cf/Unshakable_Mettle.png/150px-Unshakable_Mettle.png?version=31a5293c6b3f02322ebd639c48568b79",
+                "other": [
+                  "Athena's Aid",
+                  "Divine Dash",
+                  "Divine Flourish",
+                  "Divine Strike",
+                  "Phalanx Shot",
+                  "Phalanx Flare"
+                ]
+              },
+              {
+                "name": "Blizzard Shot",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/75/Blizzard_Shot.png?version=5528ef9763c75e9685ddd37d02cc7e95",
+                "other": [
+                  "Demeter's Aid",
+                  "Frost Flourish",
+                  "Frost Strike",
+                  "Mistral Dash"
+                ]
+              },
+              {
+                "name": "Exclusive Access",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/32/Exclusive_Access.png?version=446e8cb27ce2b9681462935453d58b49",
+                "other": [
+                  "Dionysus' Aid",
+                  "Drunken Dash",
+                  "Drunken Flourish",
+                  "Drunken Strike",
+                  "Trippy Shot"
+                ]
+              },
+              {
+                "name": "Sea Storm",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c7/Sea_Storm.png?version=090159da0c5080261aed0d7225c2bcb2",
+                "other": [
+                  "Electric Shot",
+                  "Electric Flare",
+                  "Lightning Strike",
+                  "Thunder Dash",
+                  "Thunder Flourish",
+                  "Zeus' Aid"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Flood Flare",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/1/17/Flood_Shot.png/150px-Flood_Shot.png?version=af6e913bb1a9e1d258c85d1ba27e9532",
+            "upgrades": [
+              {
+                "name": "Typhoon's Fury",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3b/Typhoon%27s_Fury.png?version=d5e648d511271d2c9432f1360fa0ebce",
+                "other": []
+              },
+              {
+                "name": "Razor Shoals",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/6a/Razor_Shoals.png?version=8fade23ed4a985675697c0d597825894",
+                "other": []
+              },
+              {
+                "name": "Breaking Wave",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/8/84/Breaking_Wave.png?version=0508847e3a33416b5fe3a522c516d9d4",
+                "other": []
+              },
+              {
+                "name": "Wave Pounding",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e3/Wave_Pounding.png?version=903e0c16d8439aaf9aacb5d8e0482c19",
+                "other": []
+              },
+              {
+                "name": "Second Wave",
+                "type": "Legendary",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/18/Second_Wave.png?version=b8d6fd0b090318b1e47088d5875dfdec",
+                "other": ["Breaking Wave", "Razor Shoals", "Typhoon's Fury"]
+              },
+              {
+                "name": "Sweet Nectar",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/56/Sweet_Nectar.png?version=272c3b5d99c837b65cc0065328427d0c",
+                "other": [
+                  "Aphrodite's Aid",
+                  "Crush Shot",
+                  "Passion Flare",
+                  "Heartbreak Flourish",
+                  "Heartbreak Strike",
+                  "Passion Dash"
+                ]
+              },
+              {
+                "name": "Curse of Drowning",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/57/Curse_of_Drowning.png?version=e828ee81b4e9cccc91d414e7b8539141",
+                "other": [
+                  "Ares' Aid",
+                  "Blade Dash",
+                  "Curse of Agony",
+                  "Curse of Pain"
+                ]
+              },
+              {
+                "name": "Mirage Shot",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/a/ab/Mirage_Shot.png/150px-Mirage_Shot.png?version=9aaa498eb4f9a2c93e7ea75f92fc2637",
+                "other": [
+                  "Artemis' Aid",
+                  "Deadly Flourish",
+                  "Deadly Strike",
+                  "True Shot",
+                  "Hunter's Flare"
+                ]
+              },
+              {
+                "name": "Unshakable Mettle",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/cf/Unshakable_Mettle.png/150px-Unshakable_Mettle.png?version=31a5293c6b3f02322ebd639c48568b79",
+                "other": [
+                  "Athena's Aid",
+                  "Divine Dash",
+                  "Divine Flourish",
+                  "Divine Strike",
+                  "Phalanx Shot",
+                  "Phalanx Flare"
+                ]
+              },
+              {
+                "name": "Blizzard Shot",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/75/Blizzard_Shot.png?version=5528ef9763c75e9685ddd37d02cc7e95",
+                "other": [
+                  "Demeter's Aid",
+                  "Frost Flourish",
+                  "Frost Strike",
+                  "Mistral Dash"
+                ]
+              },
+              {
+                "name": "Exclusive Access",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/32/Exclusive_Access.png?version=446e8cb27ce2b9681462935453d58b49",
+                "other": [
+                  "Dionysus' Aid",
+                  "Drunken Dash",
+                  "Drunken Flourish",
+                  "Drunken Strike",
+                  "Trippy Shot"
+                ]
+              },
+              {
+                "name": "Sea Storm",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c7/Sea_Storm.png?version=090159da0c5080261aed0d7225c2bcb2",
+                "other": [
+                  "Electric Shot",
+                  "Electric Flare",
+                  "Lightning Strike",
+                  "Thunder Dash",
+                  "Thunder Flourish",
+                  "Zeus' Aid"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Tidal Dash",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c8/Tidal_Dash.png?version=7f68fd41b94ef5895d09e94705f9cc66",
+            "upgrades": [
+              {
+                "name": "Typhoon's Fury",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3b/Typhoon%27s_Fury.png?version=d5e648d511271d2c9432f1360fa0ebce",
+                "other": []
+              },
+              {
+                "name": "Razor Shoals",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/6a/Razor_Shoals.png?version=8fade23ed4a985675697c0d597825894",
+                "other": []
+              },
+              {
+                "name": "Breaking Wave",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/8/84/Breaking_Wave.png?version=0508847e3a33416b5fe3a522c516d9d4",
+                "other": []
+              },
+              {
+                "name": "Wave Pounding",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e3/Wave_Pounding.png?version=903e0c16d8439aaf9aacb5d8e0482c19",
+                "other": []
+              },
+              {
+                "name": "Second Wave",
+                "type": "Legendary",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/18/Second_Wave.png?version=b8d6fd0b090318b1e47088d5875dfdec",
+                "other": ["Breaking Wave", "Razor Shoals", "Typhoon's Fury"]
+              },
+              {
+                "name": "Sweet Nectar",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/56/Sweet_Nectar.png?version=272c3b5d99c837b65cc0065328427d0c",
+                "other": [
+                  "Aphrodite's Aid",
+                  "Crush Shot",
+                  "Passion Flare",
+                  "Heartbreak Flourish",
+                  "Heartbreak Strike",
+                  "Passion Dash"
+                ]
+              },
+              {
+                "name": "Mirage Shot",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/a/ab/Mirage_Shot.png/150px-Mirage_Shot.png?version=9aaa498eb4f9a2c93e7ea75f92fc2637",
+                "other": [
+                  "Artemis' Aid",
+                  "Deadly Flourish",
+                  "Deadly Strike",
+                  "True Shot",
+                  "Hunter's Flare"
+                ]
+              },
+              {
+                "name": "Unshakable Mettle",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/cf/Unshakable_Mettle.png/150px-Unshakable_Mettle.png?version=31a5293c6b3f02322ebd639c48568b79",
+                "other": [
+                  "Athena's Aid",
+                  "Divine Dash",
+                  "Divine Flourish",
+                  "Divine Strike",
+                  "Phalanx Shot",
+                  "Phalanx Flare"
+                ]
+              },
+              {
+                "name": "Exclusive Access",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/32/Exclusive_Access.png?version=446e8cb27ce2b9681462935453d58b49",
+                "other": [
+                  "Dionysus' Aid",
+                  "Drunken Dash",
+                  "Drunken Flourish",
+                  "Drunken Strike",
+                  "Trippy Shot"
+                ]
+              },
+              {
+                "name": "Sea Storm",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c7/Sea_Storm.png?version=090159da0c5080261aed0d7225c2bcb2",
+                "other": [
+                  "Electric Shot",
+                  "Electric Flare",
+                  "Lightning Strike",
+                  "Thunder Dash",
+                  "Thunder Flourish",
+                  "Zeus' Aid"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Poseidon's Aid",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/ea/Poseidon%27s_Aid.png?version=174a122bdf2dadf5b955be03748c99d7",
+            "upgrades": [
+              {
+                "name": "Typhoon's Fury",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3b/Typhoon%27s_Fury.png?version=d5e648d511271d2c9432f1360fa0ebce",
+                "other": []
+              },
+              {
+                "name": "Razor Shoals",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/6a/Razor_Shoals.png?version=8fade23ed4a985675697c0d597825894",
+                "other": []
+              },
+              {
+                "name": "Boiling Point",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b5/Boiling_Point.png?version=2cc3c1acf6a9d2d3618bc510b7f66f13",
+                "other": []
+              },
+              {
+                "name": "Breaking Wave",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/8/84/Breaking_Wave.png?version=0508847e3a33416b5fe3a522c516d9d4",
+                "other": []
+              },
+              {
+                "name": "Wave Pounding",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e3/Wave_Pounding.png?version=903e0c16d8439aaf9aacb5d8e0482c19",
+                "other": []
+              },
+              {
+                "name": "Rip Current",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/1/14/Rip_Current.png/150px-Rip_Current.png?version=80f89bdac06088a4b12a745592dc5db7",
+                "other": []
+              },
+              {
+                "name": "Proud Bearing",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/2e/Proud_Bearing.png?version=1b536f4f820024171efd942dbbb326a6",
+                "other": []
+              },
+              {
+                "name": "Second Wave",
+                "type": "Legendary",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/18/Second_Wave.png?version=b8d6fd0b090318b1e47088d5875dfdec",
+                "other": ["Breaking Wave", "Razor Shoals", "Typhoon's Fury"]
+              },
+              {
+                "name": "Sweet Nectar",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/56/Sweet_Nectar.png?version=272c3b5d99c837b65cc0065328427d0c",
+                "other": [
+                  "Aphrodite's Aid",
+                  "Crush Shot",
+                  "Passion Flare",
+                  "Heartbreak Flourish",
+                  "Heartbreak Strike",
+                  "Passion Dash"
+                ]
+              },
+              {
+                "name": "Mirage Shot",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/a/ab/Mirage_Shot.png/150px-Mirage_Shot.png?version=9aaa498eb4f9a2c93e7ea75f92fc2637",
+                "other": [
+                  "Artemis' Aid",
+                  "Deadly Flourish",
+                  "Deadly Strike",
+                  "True Shot",
+                  "Hunter's Flare"
+                ]
+              },
+              {
+                "name": "Unshakable Mettle",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/cf/Unshakable_Mettle.png/150px-Unshakable_Mettle.png?version=31a5293c6b3f02322ebd639c48568b79",
+                "other": [
+                  "Athena's Aid",
+                  "Divine Dash",
+                  "Divine Flourish",
+                  "Divine Strike",
+                  "Phalanx Shot",
+                  "Phalanx Flare"
+                ]
+              },
+              {
+                "name": "Exclusive Access",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/32/Exclusive_Access.png?version=446e8cb27ce2b9681462935453d58b49",
+                "other": [
+                  "Dionysus' Aid",
+                  "Drunken Dash",
+                  "Drunken Flourish",
+                  "Drunken Strike",
+                  "Trippy Shot"
+                ]
+              },
+              {
+                "name": "Sea Storm",
+                "type": "Duo",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c7/Sea_Storm.png?version=090159da0c5080261aed0d7225c2bcb2",
+                "other": [
+                  "Electric Shot",
+                  "Electric Flare",
+                  "Lightning Strike",
+                  "Thunder Dash",
+                  "Thunder Flourish",
+                  "Zeus' Aid"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Typhoon's Fury",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3b/Typhoon%27s_Fury.png?version=d5e648d511271d2c9432f1360fa0ebce",
+            "upgrades": [
+              {
+                "name": "Second Wave",
+                "type": "Legendary",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/18/Second_Wave.png?version=b8d6fd0b090318b1e47088d5875dfdec",
+                "other": [
+                  "Flood Shot",
+                  "Poseidon's Aid",
+                  "Tempest Flourish",
+                  "Tempest Strike",
+                  "Tidal Dash"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Hydraulic Might",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b4/Hydraulic_Might.png?version=11d24b3007f9c851d538386af0f1cf38",
+            "upgrades": []
+          },
+          {
+            "name": "Ocean's Bounty",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/a7/Ocean%27s_Bounty.png?version=9e8d7b2c2fc5ba3ffe992f9045d0cc36",
+            "upgrades": [
+              {
+                "name": "Huge Catch",
+                "type": "Legendary",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/cc/Huge_Catch.png/150px-Huge_Catch.png?version=7d74ab4747b9ece2822f2067b454fd5e",
+                "other": ["Sunken Treasure"]
+              }
+            ]
+          },
+          {
+            "name": "Sunken Treasure",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/f/fa/Sunken_Treasure.png?version=cd092df6be0e5c040e77dc04e4b3a59f",
+            "upgrades": [
+              {
+                "name": "Huge Catch",
+                "type": "Legendary",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/cc/Huge_Catch.png/150px-Huge_Catch.png?version=7d74ab4747b9ece2822f2067b454fd5e",
+                "other": ["Ocean's Bounty"]
+              }
+            ]
+          },
+          {
+            "name": "Razor Shoals",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/6a/Razor_Shoals.png?version=8fade23ed4a985675697c0d597825894",
+            "upgrades": [
+              {
+                "name": "Second Wave",
+                "type": "Legendary",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/18/Second_Wave.png?version=b8d6fd0b090318b1e47088d5875dfdec",
+                "other": [
+                  "Flood Shot",
+                  "Poseidon's Aid",
+                  "Tempest Flourish",
+                  "Tempest Strike",
+                  "Tidal Dash"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Boiling Point",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b5/Boiling_Point.png?version=2cc3c1acf6a9d2d3618bc510b7f66f13",
+            "upgrades": []
+          },
+          {
+            "name": "Breaking Wave",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/8/84/Breaking_Wave.png?version=0508847e3a33416b5fe3a522c516d9d4",
+            "upgrades": [
+              {
+                "name": "Second Wave",
+                "type": "Legendary",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/18/Second_Wave.png?version=b8d6fd0b090318b1e47088d5875dfdec",
+                "other": [
+                  "Flood Shot",
+                  "Poseidon's Aid",
+                  "Tempest Flourish",
+                  "Tempest Strike",
+                  "Tidal Dash"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Wave Pounding",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e3/Wave_Pounding.png?version=903e0c16d8439aaf9aacb5d8e0482c19",
+            "upgrades": []
+          },
+          {
+            "name": "Rip Current",
+            "type": "Normal",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/1/14/Rip_Current.png/150px-Rip_Current.png?version=80f89bdac06088a4b12a745592dc5db7",
+            "upgrades": []
+          },
+          {
+            "name": "Huge Catch",
+            "type": "Legendary",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/cc/Huge_Catch.png/150px-Huge_Catch.png?version=7d74ab4747b9ece2822f2067b454fd5e",
+            "upgrades": []
+          },
+          {
+            "name": "Second Wave",
+            "type": "Legendary",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/18/Second_Wave.png?version=b8d6fd0b090318b1e47088d5875dfdec",
+            "upgrades": []
+          },
+          {
+            "name": "Sweet Nectar",
+            "type": "Duo",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/56/Sweet_Nectar.png?version=272c3b5d99c837b65cc0065328427d0c",
+            "upgrades": []
+          },
+          {
+            "name": "Curse of Drowning",
+            "type": "Duo",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/57/Curse_of_Drowning.png?version=e828ee81b4e9cccc91d414e7b8539141",
+            "upgrades": []
+          },
+          {
+            "name": "Mirage Shot",
+            "type": "Duo",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/a/ab/Mirage_Shot.png/150px-Mirage_Shot.png?version=9aaa498eb4f9a2c93e7ea75f92fc2637",
+            "upgrades": []
+          },
+          {
+            "name": "Unshakable Mettle",
+            "type": "Duo",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/cf/Unshakable_Mettle.png/150px-Unshakable_Mettle.png?version=31a5293c6b3f02322ebd639c48568b79",
+            "upgrades": []
+          },
+          {
+            "name": "Blizzard Shot",
+            "type": "Duo",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/75/Blizzard_Shot.png?version=5528ef9763c75e9685ddd37d02cc7e95",
+            "upgrades": []
+          },
+          {
+            "name": "Exclusive Access",
+            "type": "Duo",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/32/Exclusive_Access.png?version=446e8cb27ce2b9681462935453d58b49",
+            "upgrades": []
+          },
+          {
+            "name": "Sea Storm",
+            "type": "Duo",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c7/Sea_Storm.png?version=090159da0c5080261aed0d7225c2bcb2",
             "upgrades": []
           }
         ]

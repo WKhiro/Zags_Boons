@@ -11,49 +11,37 @@ export default function PotentialBoons(props) {
       if (element.Other2) {
         if (element.Other2.length !== 0) {
           return (
-            <div className="bordering">
-              <div className="testin">
-                <img className="testimg" src={element.Iconurl} alt="" />
-                <h3>{element.Name}</h3>
-              </div>
-              <div>
-                {element.Other.map(reqs => {
-                  return <h5>+{reqs}</h5>
-                })}
-                IN ADDITION
-                {element.Other2.map(reqs2 => {
-                  return <h5>+{reqs2}</h5>
-                })}
-              </div>
+            <div className="testin">
+              <img className="testimg" src={element.Iconurl} alt="" />
+              <h3>{element.Name}</h3>
+              {element.Other.map(reqs => {
+                return <h5>+{reqs}</h5>
+              })}
+              IN ADDITION
+              {element.Other2.map(reqs2 => {
+                return <h5>+{reqs2}</h5>
+              })}
             </div>
           )
         } else {
           return (
-            <div className="bordering">
-              <div className="testin">
-                <img className="testimg" src={element.Iconurl} alt="" />
-                <h3>{element.Name}</h3>
-              </div>
-              <div>
-                {element.Other.map(reqs => {
-                  return <h5>+{reqs}</h5>
-                })}
-              </div>
+            <div className="testin">
+              <img className="testimg" src={element.Iconurl} alt="" />
+              <h3>{element.Name}</h3>
+              {element.Other.map(reqs => {
+                return <h5>+{reqs}</h5>
+              })}
             </div>
           )
         }
       } else {
         return (
-          <div className="bordering">
-            <div className="testin">
-              <img className="testimg" src={element.Iconurl} alt="" />
-              <h3>{element.Name}</h3>
-            </div>
-            <div>
-              {element.Other.map(reqs => {
-                return <h5>+{reqs}</h5>
-              })}
-            </div>
+          <div className="testin">
+            <img className="testimg" src={element.Iconurl} alt="" />
+            <h3>{element.Name}</h3>
+            {element.Other.map(reqs => {
+              return <h5>+{reqs}</h5>
+            })}
           </div>
         )
       }

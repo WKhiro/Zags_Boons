@@ -63,6 +63,15 @@ export default function Boon(props) {
               }
             }
           }
+          poseidon {
+            boons {
+              name
+              iconurl
+              upgrades {
+                name
+              }
+            }
+          }
         }
       }
     }
