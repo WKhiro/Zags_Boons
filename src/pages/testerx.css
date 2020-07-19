@@ -51,14 +51,16 @@ h5 {
   background: cyan;
   width: 50%;
 }
+
 .two {
   flex: 0 0 100%;
   order: 1;
   background: moccasin;
   width: 50%;
 }
+
 .three {
-  background: tomato;
+  background: gray;
 }
 
 .buttonReadjust {

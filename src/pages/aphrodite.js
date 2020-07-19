@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Boon from "../components/boon"
+import BoonTester from "../components/boonTester"
 import PotentialBoons from "../components/potentialBoons"
 import AvailableBoons from "../components/availableBoons"
 import "./testerx.css"
@@ -92,7 +93,26 @@ export default function Aphrodite({ data }) {
       <SEO title="Home" />
       <div class="box">
         <div className="one">
-          <Boon name={godName} onClick={toggleDisplay} />
+          {data.dataJson.gods.map((godType, index) =>
+            godType[godName].boons
+              .filter(boonType => boonType.upgrades.length !== 0)
+              .map((boonType, index) => {
+                var classButton = display[
+                  godType[godName].boons.indexOf(boonType)
+                ]
+                  ? "buttonFlare"
+                  : "buttonReadjust"
+                return (
+                  <BoonTester
+                    name={boonType.name}
+                    iconurl={boonType.iconurl}
+                    index={godType[godName].boons.indexOf(boonType)}
+                    className={classButton}
+                    onClick={toggleDisplay}
+                  />
+                )
+              })
+          )}
         </div>
         <div className="two">
           {/* Determine what to display based on clicked boons before rendering */}

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Hades`,
+    title: `Zag's Boons`,
     description: `Hades Boon Website`,
     author: `Wesley Kok`,
     menuLinks: [

@@ -2,39 +2,27 @@ import React from "react"
 import { Link } from "gatsby"
 import Logo from "../images/logo.png"
 import "./header.css"
+import { Nav, Navbar } from "react-bootstrap"
+import "bootstrap/dist/css/bootstrap.css" // Necessary for react-bootstrap
 
 const Header = ({ siteTitle, menuLinks }) => (
-  <header
-    style={{
-      background: "rebeccapurple",
-      marginBottom: "1.45rem",
-    }}
-  >
-    <h1 style={{ margin: 0, flex: 1 }}>
-      <Link to="/">
-        <img className="logoFormat" src={Logo} alt="" />
-      </Link>
-    </h1>
-    <div>
-      <nav>
-        <ul style={{ display: "flex", flex: 1 }}>
-          {menuLinks.map(link => (
-            <li
-              key={link.name}
-              style={{
-                listStyleType: `none`,
-                padding: `1rem`,
-              }}
-            >
-              <Link className="linkFormat" to={link.link}>
-                {link.name}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </nav>
-    </div>
-  </header>
+  <Navbar expand="lg">
+    <Navbar.Brand className="navbar-brand" as={Link} to="/">
+      {siteTitle}
+    </Navbar.Brand>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Collapse id="basic-navbar-nav">
+      <Nav className="ml-auto">
+        {menuLinks.map(link => (
+          <Nav.Item>
+            <Link className="linkFormat" to={link.link}>
+              {link.name}
+            </Link>
+          </Nav.Item>
+        ))}
+      </Nav>
+    </Navbar.Collapse>
+  </Navbar>
 )
 
 export default Header
