@@ -1,3 +1,7 @@
+.maintext {
+  text-align: center;
+}
+
 .testin {
   border: 2px solid purple;
   border-radius: 12px;
@@ -42,25 +46,31 @@ h5 {
   flex-wrap: wrap;
   flex-direction: column;
   height: 1000px;
-  border: 2px solid green;
+  border: none;
 }
 
 .one,
 .three {
   flex: 0 0 50%;
-  background: cyan;
+  background: darkslategrey;
   width: 50%;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 12px;
 }
 
 .two {
   flex: 0 0 100%;
   order: 1;
-  background: moccasin;
+  border: 2px solid black;
+  border-radius: 12px;
+  background: darkslategrey;
   width: 50%;
+  padding: 10px;
 }
 
 .three {
-  background: gray;
+  background: darkslategrey;
 }
 
 .buttonReadjust {

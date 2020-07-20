@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Boon from "../components/boon"
+import BoonTester from "../components/boonTester"
 import PotentialBoons from "../components/potentialBoons"
 import AvailableBoons from "../components/availableBoons"
 import "./testerx.css"
@@ -92,9 +93,30 @@ export default function Athena({ data }) {
       <SEO title="Home" />
       <div class="box">
         <div className="one">
-          <Boon name={godName} onClick={toggleDisplay} />
+          <h2>Prerequisite Boons</h2>
+          {data.dataJson.gods.map((godType, index) =>
+            godType[godName].boons
+              .filter(boonType => boonType.upgrades.length !== 0)
+              .map((boonType, index) => {
+                var classButton = display[
+                  godType[godName].boons.indexOf(boonType)
+                ]
+                  ? "buttonFlare"
+                  : "buttonReadjust"
+                return (
+                  <BoonTester
+                    name={boonType.name}
+                    iconurl={boonType.iconurl}
+                    index={godType[godName].boons.indexOf(boonType)}
+                    className={classButton}
+                    onClick={toggleDisplay}
+                  />
+                )
+              })
+          )}
         </div>
         <div className="two">
+          <h2>Potential Upgrades</h2>
           {/* Determine what to display based on clicked boons before rendering */}
           {display.forEach((boolVal, boonIndex) => {
             if (boolVal) {
@@ -113,6 +135,7 @@ export default function Athena({ data }) {
             })}
         </div>
         <div className="three">
+          <h2>Available Upgrades</h2>
           <AvailableBoons available={available} />
         </div>
       </div>

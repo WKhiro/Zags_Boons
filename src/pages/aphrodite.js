@@ -93,6 +93,7 @@ export default function Aphrodite({ data }) {
       <SEO title="Home" />
       <div class="box">
         <div className="one">
+          <h2>Prerequisite Boons</h2>
           {data.dataJson.gods.map((godType, index) =>
             godType[godName].boons
               .filter(boonType => boonType.upgrades.length !== 0)
@@ -115,6 +116,7 @@ export default function Aphrodite({ data }) {
           )}
         </div>
         <div className="two">
+          <h2>Potential Upgrades</h2>
           {/* Determine what to display based on clicked boons before rendering */}
           {display.forEach((boolVal, boonIndex) => {
             if (boolVal) {
@@ -133,6 +135,7 @@ export default function Aphrodite({ data }) {
             })}
         </div>
         <div className="three">
+          <h2>Available Upgrades</h2>
           <AvailableBoons available={available} />
         </div>
       </div>

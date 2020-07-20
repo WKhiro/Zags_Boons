@@ -8,7 +8,7 @@ export default function IndexPage({ data }) {
   return (
     <Layout>
       <SEO title="Home" />
-      <h1>Zag's Boons</h1>
+      <h1 className="maintext">Welcome to Zag's Boons!</h1>
     </Layout>
   )
 }

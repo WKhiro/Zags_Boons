@@ -1,4 +1,4 @@
-# Hades [![Netlify Status](https://api.netlify.com/api/v1/badges/0300e418-fa44-42cb-83ba-cea2ef86e58f/deploy-status)](https://app.netlify.com/sites/zagsboons/deploys)
+# Zag's Boons [![Netlify Status](https://api.netlify.com/api/v1/badges/0300e418-fa44-42cb-83ba-cea2ef86e58f/deploy-status)](https://app.netlify.com/sites/zagsboons/deploys)
 
 [Website Link](https://zagsboons.netlify.app/)
 

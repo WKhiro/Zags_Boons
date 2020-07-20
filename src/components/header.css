@@ -19,9 +19,10 @@
 
 .navbar {
   min-height: 200px;
-  background-color: purple;
+  background-color: darkred;
+  margin-bottom: 50px;
 }
-.navbar-brand,
+
 .navbar-nav,
 .nav-link {
   /* horizontal-pos, vertical-pos, blur radius, color */
@@ -33,11 +34,13 @@
 }
 
 .navbar-brand {
-  color: white;
+  color: white !important;
+  margin-left: 20px;
+  font-size: 50px !important;
   display: flex;
   align-items: center;
   text-decoration: none;
-  text-shadow: 2px 2px 4px blue;
+  text-shadow: 4px 4px 4px black;
 }
 
 .spacing {
