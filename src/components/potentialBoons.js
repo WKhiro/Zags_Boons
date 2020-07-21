@@ -11,7 +11,7 @@ export default function PotentialBoons(props) {
       if (element.Other2) {
         if (element.Other2.length !== 0) {
           return (
-            <div className="testin">
+            <div className="too">
               <img className="testimg" src={element.Iconurl} alt="" />
               <h3>{element.Name}</h3>
               {element.Other.map(reqs => {
@@ -25,7 +25,7 @@ export default function PotentialBoons(props) {
           )
         } else {
           return (
-            <div className="testin">
+            <div className="too">
               <img className="testimg" src={element.Iconurl} alt="" />
               <h3>{element.Name}</h3>
               {element.Other.map(reqs => {
@@ -36,7 +36,7 @@ export default function PotentialBoons(props) {
         }
       } else {
         return (
-          <div className="testin">
+          <div className="too">
             <img className="testimg" src={element.Iconurl} alt="" />
             <h3>{element.Name}</h3>
             {element.Other.map(reqs => {

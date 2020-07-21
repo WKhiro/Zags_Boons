@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "Xtra";
+  src: url("https://db.onlinewebfonts.com/t/1305f898d68e8a755f99aac01f2a48c6.eot");
+  src: url("https://db.onlinewebfonts.com/t/1305f898d68e8a755f99aac01f2a48c6.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/1305f898d68e8a755f99aac01f2a48c6.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/1305f898d68e8a755f99aac01f2a48c6.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/1305f898d68e8a755f99aac01f2a48c6.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/1305f898d68e8a755f99aac01f2a48c6.svg#Xtra")
+      format("svg");
+}
+
 .logoFormat {
   width: auto;
   height: auto;
@@ -5,21 +20,86 @@
   max-height: 100px;
 }
 
-.linkFormat {
+.activeFormat {
+  filter: drop-shadow(0 0 15px #fff) drop-shadow(0 0px 4px #fff);
+}
+
+.linkFormat,
+.aphrodite,
+.ares,
+.artemis,
+.athena,
+.demeter,
+.dionysus,
+.poseidon,
+.zeus {
   text-decoration: none;
   color: white;
   margin-left: 20px;
 }
 
-.linkFormat:hover {
+.linkFormat:hover,
+.aphrodite:hover,
+.ares:hover,
+.artemis:hover,
+.athena:hover,
+.demeter:hover,
+.dionysus:hover,
+.poseidon:hover,
+.zeus:hover {
   text-decoration: none;
   color: white;
   opacity: 0.8;
 }
 
+.aphrodite:hover,
+.aphroditeActive {
+  filter: drop-shadow(0 0 15px #fff) drop-shadow(0 0px 4px pink);
+}
+
+.ares:hover,
+.aresActive {
+  filter: drop-shadow(0 0 15px #fff) drop-shadow(0 0px 4px red);
+}
+
+.artemis:hover,
+.artemisActive {
+  filter: drop-shadow(0 0 15px #fff) drop-shadow(0 0px 4px green);
+}
+
+.athena:hover,
+.athenaActive {
+  filter: drop-shadow(0 0 15px #fff) drop-shadow(0 0px 4px lemonchiffon);
+}
+
+.demeter:hover,
+.demeterActive {
+  filter: drop-shadow(0 0 15px #fff) drop-shadow(0 0px 4px aqua);
+}
+
+.dionysus:hover,
+.dionysusActive {
+  filter: drop-shadow(0 0 15px #fff) drop-shadow(0 0px 4px purple);
+}
+
+.poseidon:hover,
+.poseidonActive {
+  filter: drop-shadow(0 0 15px #fff) drop-shadow(0 0px 4px blue);
+}
+
+.zeus:hover,
+.zeusActive {
+  filter: drop-shadow(0 0 15px #fff) drop-shadow(0 0px 4px yellow);
+}
+
 .navbar {
-  min-height: 200px;
-  background-color: darkred;
+  min-height: 150px;
+  background: radial-gradient(
+    at left 60%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(114, 45, 233, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
   margin-bottom: 50px;
 }
 
@@ -27,8 +107,8 @@
 .nav-link {
   /* horizontal-pos, vertical-pos, blur radius, color */
   /*text-shadow: 2px 2px 4px #0066CC;*/
-  font-size: 20px;
-  font-family: "Varela";
+  font-size: 30px;
+  font-family: "Belleza";
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -41,6 +121,7 @@
   align-items: center;
   text-decoration: none;
   text-shadow: 4px 4px 4px black;
+  font-family: "Xtra";
 }
 
 .spacing {

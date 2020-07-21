@@ -71,5 +71,12 @@ module.exports = {
         path: `${__dirname}/src/data/`,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Belleza`, `Linden Hill`],
+        display: "swap",
+      },
+    },
   ],
 }

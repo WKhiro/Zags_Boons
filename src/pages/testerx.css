@@ -2,7 +2,31 @@
   text-align: center;
 }
 
+.box2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box2 > * {
+  flex: 1 1 160px;
+}
+
+.too {
+  color: white;
+  border: 2px solid purple;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.too > img,
+.too > h3 {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
 .testin {
+  color: white;
   border: 2px solid purple;
   border-radius: 12px;
   display: inline-block;
@@ -20,6 +44,10 @@
 .testimg {
   width: 40px;
   height: 40px;
+}
+
+h2 {
+  color: white;
 }
 
 h5 {
@@ -76,4 +104,8 @@ h5 {
 .buttonReadjust {
   width: 100px;
   height: 100px;
+}
+
+.pog {
+  display: inline-block;
 }

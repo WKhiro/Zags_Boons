@@ -91,48 +91,52 @@ export default function Athena({ data }) {
   return (
     <Layout>
       <SEO title="Home" />
-      <div class="box">
+      <div className="box">
         <div className="one">
-          <h2>Prerequisite Boons</h2>
-          {data.dataJson.gods.map((godType, index) =>
-            godType[godName].boons
-              .filter(boonType => boonType.upgrades.length !== 0)
-              .map((boonType, index) => {
-                var classButton = display[
-                  godType[godName].boons.indexOf(boonType)
-                ]
-                  ? "buttonFlare"
-                  : "buttonReadjust"
-                return (
-                  <BoonTester
-                    name={boonType.name}
-                    iconurl={boonType.iconurl}
-                    index={godType[godName].boons.indexOf(boonType)}
-                    className={classButton}
-                    onClick={toggleDisplay}
-                  />
-                )
-              })
-          )}
+          <div className="pog">
+            <h2>Prerequisite Boons</h2>
+            {data.dataJson.gods.map((godType, index) =>
+              godType[godName].boons
+                .filter(boonType => boonType.upgrades.length !== 0)
+                .map((boonType, index) => {
+                  var classButton = display[
+                    godType[godName].boons.indexOf(boonType)
+                  ]
+                    ? "buttonFlare"
+                    : "buttonReadjust"
+                  return (
+                    <BoonTester
+                      name={boonType.name}
+                      iconurl={boonType.iconurl}
+                      index={godType[godName].boons.indexOf(boonType)}
+                      className={classButton}
+                      onClick={toggleDisplay}
+                    />
+                  )
+                })
+            )}
+          </div>
         </div>
         <div className="two">
           <h2>Potential Upgrades</h2>
-          {/* Determine what to display based on clicked boons before rendering */}
-          {display.forEach((boolVal, boonIndex) => {
-            if (boolVal) {
-              updateLists(boonIndex)
-            }
-          })}
-          {display
-            .filter(boolVal => boolVal)
-            .map(boolVal => {
-              return (
-                <PotentialBoons
-                  potential={potential}
-                  displayingList={displayingList}
-                />
-              )
+          <div className="box2">
+            {/* Determine what to display based on clicked boons before rendering */}
+            {display.forEach((boolVal, boonIndex) => {
+              if (boolVal) {
+                updateLists(boonIndex)
+              }
             })}
+            {display
+              .filter(boolVal => boolVal)
+              .map(boolVal => {
+                return (
+                  <PotentialBoons
+                    potential={potential}
+                    displayingList={displayingList}
+                  />
+                )
+              })}
+          </div>
         </div>
         <div className="three">
           <h2>Available Upgrades</h2>
