@@ -72,10 +72,17 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
-        fonts: [`Belleza`, `Linden Hill`],
-        display: "swap",
+        fonts: [
+          {
+            family: `Belleza`,
+          },
+          {
+            family: `Linden Hill`,
+            variants: [`400i`],
+          },
+        ],
       },
     },
   ],

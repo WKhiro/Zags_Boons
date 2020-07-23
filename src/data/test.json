@@ -1915,7 +1915,12 @@
         "boons": [
           {
             "name": "Divine Strike",
+            "description": "Your Attack is stronger, and can Deflect.",
             "type": "Normal",
+            "common": "Attack Damage: +40%",
+            "rare": "Multiplier: 1.3–1.5",
+            "epic": "Multiplier: 1.8–2.0",
+            "heroic": "Multiplier: 2.3–2.5",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e6/Divine_Strike.png?version=0e600de96d190694b452957a58c3ae24",
             "upgrades": [
               {
@@ -2014,7 +2019,12 @@
           },
           {
             "name": "Divine Flourish",
+            "description": "Your Special is stronger, and can Deflect.",
             "type": "Normal",
+            "common": "Special Damage: +60%",
+            "rare": "Multiplier: 1.3–1.5",
+            "epic": "Multiplier: 1.8–2.0",
+            "heroic": "Multiplier: 2.3–2.5",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/ea/Divine_Flourish.png?version=7bca618134e21fc2fb1aca1b1d8b66dd",
             "upgrades": [
               {
@@ -2113,7 +2123,12 @@
           },
           {
             "name": "Phalanx Shot",
+            "description": "Your Cast damages foes in a small area, and can Deflect.",
             "type": "Normal",
+            "common": "Cast Damage: 85",
+            "rare": "Cast Damage: 102",
+            "epic": "Cast Damage: 119",
+            "heroic": "Cast Damage: 136",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/a4/Phalanx_Shot.png?version=3698beb33dd93b18ab0703fa37b155b7",
             "upgrades": [
               {
@@ -2195,7 +2210,12 @@
           },
           {
             "name": "Phalanx Flare",
+            "description": "Your Cast damages foes in a small area, and can Deflect.",
             "type": "Normal",
+            "common": "Cast Damage: 85",
+            "rare": "Cast Damage: 102",
+            "epic": "Cast Damage: 119",
+            "heroic": "Cast Damage: 136",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/a4/Phalanx_Shot.png?version=3698beb33dd93b18ab0703fa37b155b7",
             "upgrades": [
               {
@@ -2246,7 +2266,12 @@
           },
           {
             "name": "Divine Dash",
+            "description": "Your Dash deals damage and can Deflect.",
             "type": "Normal",
+            "common": "Dash Damage: 10",
+            "rare": "Dash Damage: 12",
+            "epic": "Dash Damage: 14",
+            "heroic": "Dash Damage: 16",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/66/Divine_Dash.png?version=b00507876ca82b8ee4cd286e43c11693",
             "upgrades": [
               {
@@ -2345,7 +2370,12 @@
           },
           {
             "name": "Athena's Aid",
+            "description": "Your Call briefly makes you Invulnerable and Deflect all attacks.",
             "type": "Normal",
+            "common": "Effect Duration: 1.5 Sec. Max Gauge Bonus: x6 Duration",
+            "rare": "Effect Duration: 1.65 Sec.",
+            "epic": "Effect Duration: 1.8 Sec.",
+            "heroic": "Effect Duration: 1.95 Sec.",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/9/91/Athena%27s_Aid.png?version=f94baf160bf1c007be3c9a0b5226dad9",
             "upgrades": [
               {
@@ -2425,6 +2455,7 @@
           },
           {
             "name": "Holy Shield",
+            "description": "After you take damage, damage nearby foes and briefly Deflect.",
             "type": "Normal",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/17/Holy_Shield.png?version=53a5199bf49ee9ad8ecf031d87af1a99",
             "upgrades": [
@@ -2438,30 +2469,35 @@
           },
           {
             "name": "Bronze Skin",
+            "description": "Resist damage from foes' attacks.",
             "type": "Normal",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c6/Bronze_Skin.png?version=253f8cb95fa78a40999306799f71fc89",
             "upgrades": []
           },
           {
             "name": "Sure Footing",
+            "description": "Resist damage from Traps.",
             "type": "Normal",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/20/Sure_Footing.png?version=502d52b425ddb38516e95a9b3a3dede1",
             "upgrades": []
           },
           {
             "name": "Proud Bearing",
+            "description": "You begin each Encounter with your God Gauge partly full.",
             "type": "Normal",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/2e/Proud_Bearing.png?version=1b536f4f820024171efd942dbbb326a6",
             "upgrades": []
           },
           {
             "name": "Blinding Flash",
+            "description": "Your abilities that can Deflect also make foes Exposed for 5 Sec.",
             "type": "Normal",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/8/89/Blinding_Flash.png?version=ea531283d1499dff05ac248ace4b2200",
             "upgrades": []
           },
           {
             "name": "Brilliant Riposte",
+            "description": "When you Deflect attacks, they deal more damage.",
             "type": "Normal",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e3/Brilliant_Riposte.png?version=eb9c3d0cf97e3b1c52064dc99e97351f",
             "upgrades": [
@@ -2475,60 +2511,70 @@
           },
           {
             "name": "Deathless Stand",
+            "description": "Death Defiance makes you Impervious longer. Replenish 1 charge now.",
             "type": "Normal",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/f/f1/Deathless_Stand.png?version=99b261b1f1624516d7096c56fd64fd0a",
             "upgrades": []
           },
           {
             "name": "Last Stand",
+            "description": "Death Defiance restores more Health than usual. Replenish 1 charge now.",
             "type": "Normal",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/41/Last_Stand.png?version=7f80a29a05e5ba438ab49b2a6ddd86e4",
             "upgrades": []
           },
           {
             "name": "Divine Protection",
+            "description": "You have a barrier that negates incoming damage. (Barrier Cooldown: 20 Sec)",
             "type": "Legendary",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/4f/Divine_Protection.png?version=e1392d670d6045e446c0484eb91fb067",
             "upgrades": []
           },
           {
             "name": "Parting Shot",
+            "description": "Your Cast gains any bonuses you have for striking foes from behind.",
             "type": "Duo",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/10/Parting_Shot.png?version=8411b63739b07ad14cd047a3e19844fe",
             "upgrades": []
           },
           {
             "name": "Merciful End",
+            "description": "Your attacks that can Deflect immediately activate Doom effects.",
             "type": "Duo",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/ca/Merciful_End.png?version=e582a9d64954ea0212af04625170515f",
             "upgrades": []
           },
           {
             "name": "Deadly Reversal",
+            "description": "After you Deflect, briefly gain +20% chance to deal Critical damage.",
             "type": "Duo",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/47/Deadly_Reversal.png?version=aa999b5c804309dc9c48545e1a505ffd",
             "upgrades": []
           },
           {
             "name": "Stubborn Roots",
+            "description": "While you have no Death/Stubborn Defiance your Health slowly recovers.",
             "type": "Duo",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/a/aa/Stubborn_Roots.png/150px-Stubborn_Roots.png?version=244eaf08fb241c796f8a856aa8edb8fb",
             "upgrades": []
           },
           {
             "name": "Calculated Risk",
+            "description": "Your foes' ranged-attack projectiles are slower.",
             "type": "Duo",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/0/0c/Calculated_Risk.png/150px-Calculated_Risk.png?version=367aed376b392147f190b0a6415a8a09",
             "upgrades": []
           },
           {
             "name": "Unshakable Mettle",
+            "description": "You cannot be stunned, and resist some damage from Bosses.",
             "type": "Duo",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/cf/Unshakable_Mettle.png/150px-Unshakable_Mettle.png?version=31a5293c6b3f02322ebd639c48568b79",
             "upgrades": []
           },
           {
             "name": "Lightning Phalanx",
+            "description": "Your Phalanx Shot Cast bounces between nearby foes.",
             "type": "Duo",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/70/Lightning_Phalanx.png?version=58a10da5c418277411266b5e5b2d863d",
             "upgrades": []

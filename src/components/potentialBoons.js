@@ -13,7 +13,7 @@ export default function PotentialBoons(props) {
           return (
             <div className="too">
               <img className="testimg" src={element.Iconurl} alt="" />
-              <h3>{element.Name}</h3>
+              <h3 className="spaceBoon">{element.Name}</h3>
               {element.Other.map(reqs => {
                 return <h5>+{reqs}</h5>
               })}
@@ -27,7 +27,7 @@ export default function PotentialBoons(props) {
           return (
             <div className="too">
               <img className="testimg" src={element.Iconurl} alt="" />
-              <h3>{element.Name}</h3>
+              <h3 className="spaceBoon">{element.Name}</h3>
               {element.Other.map(reqs => {
                 return <h5>+{reqs}</h5>
               })}
@@ -38,10 +38,12 @@ export default function PotentialBoons(props) {
         return (
           <div className="too">
             <img className="testimg" src={element.Iconurl} alt="" />
-            <h3>{element.Name}</h3>
-            {element.Other.map(reqs => {
-              return <h5>+{reqs}</h5>
-            })}
+            <h4>{element.Name}</h4>
+            <div className="derp">
+              {element.Other.map(reqs => {
+                return <h5>+{reqs}</h5>
+              })}
+            </div>
           </div>
         )
       }

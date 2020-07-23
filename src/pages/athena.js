@@ -6,6 +6,7 @@ import Boon from "../components/boon"
 import BoonTester from "../components/boonTester"
 import PotentialBoons from "../components/potentialBoons"
 import AvailableBoons from "../components/availableBoons"
+import ReactTooltip from "react-tooltip"
 import "./testerx.css"
 
 export default function Athena({ data }) {
@@ -93,50 +94,52 @@ export default function Athena({ data }) {
       <SEO title="Home" />
       <div className="box">
         <div className="one">
-          <div className="pog">
-            <h2>Prerequisite Boons</h2>
-            {data.dataJson.gods.map((godType, index) =>
-              godType[godName].boons
-                .filter(boonType => boonType.upgrades.length !== 0)
-                .map((boonType, index) => {
-                  var classButton = display[
-                    godType[godName].boons.indexOf(boonType)
-                  ]
-                    ? "buttonFlare"
-                    : "buttonReadjust"
-                  return (
-                    <BoonTester
-                      name={boonType.name}
-                      iconurl={boonType.iconurl}
-                      index={godType[godName].boons.indexOf(boonType)}
-                      className={classButton}
-                      onClick={toggleDisplay}
-                    />
-                  )
-                })
-            )}
-          </div>
+          <h2>Prerequisite Boons</h2>
+          {data.dataJson.gods.map((godType, index) =>
+            godType[godName].boons
+              .filter(boonType => boonType.upgrades.length !== 0)
+              .map((boonType, index) => {
+                var classButton = display[
+                  godType[godName].boons.indexOf(boonType)
+                ]
+                  ? "buttonFlare"
+                  : "buttonReadjust"
+                return (
+                  <BoonTester
+                    name={boonType.name}
+                    description={boonType.description}
+                    common={boonType.common}
+                    rare={boonType.rare}
+                    epic={boonType.epic}
+                    heroic={boonType.heroic}
+                    iconurl={boonType.iconurl}
+                    index={godType[godName].boons.indexOf(boonType)}
+                    className={classButton}
+                    onClick={toggleDisplay}
+                  />
+                )
+              })
+          )}
         </div>
         <div className="two">
           <h2>Potential Upgrades</h2>
-          <div className="box2">
-            {/* Determine what to display based on clicked boons before rendering */}
-            {display.forEach((boolVal, boonIndex) => {
-              if (boolVal) {
-                updateLists(boonIndex)
-              }
+
+          {/* Determine what to display based on clicked boons before rendering */}
+          {display.forEach((boolVal, boonIndex) => {
+            if (boolVal) {
+              updateLists(boonIndex)
+            }
+          })}
+          {display
+            .filter(boolVal => boolVal)
+            .map(boolVal => {
+              return (
+                <PotentialBoons
+                  potential={potential}
+                  displayingList={displayingList}
+                />
+              )
             })}
-            {display
-              .filter(boolVal => boolVal)
-              .map(boolVal => {
-                return (
-                  <PotentialBoons
-                    potential={potential}
-                    displayingList={displayingList}
-                  />
-                )
-              })}
-          </div>
         </div>
         <div className="three">
           <h2>Available Upgrades</h2>
@@ -154,6 +157,11 @@ export const query = graphql`
         athena {
           boons {
             name
+            description
+            common
+            rare
+            epic
+            heroic
             iconurl
             upgrades {
               name

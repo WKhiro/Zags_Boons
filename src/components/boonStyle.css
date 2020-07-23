@@ -68,10 +68,25 @@ h5 {
 .buttonFlare {
   width: 100px;
   height: 100px;
-  filter: drop-shadow(5px 5px 5px #222) drop-shadow(0 0 10px #fff)
-    drop-shadow(0 0 30px rgb(252, 226, 32));
+  filter: drop-shadow(0 0 10px #fff) drop-shadow(0 0 30px rgb(252, 226, 32));
 }
 
 .buttonFlare:hover {
   opacity: 0.8;
+}
+
+.common {
+  color: white;
+}
+
+.rare {
+  color: blue;
+}
+
+.epic {
+  color: purple;
+}
+
+.heroic {
+  color: red;
 }

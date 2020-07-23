@@ -7,7 +7,7 @@ export default function AvailableBoons(props) {
     return (
       <div className="testin">
         <img className="testimg" src={boonElement.Iconurl} alt="" />
-        <h3>{boonElement.Name}</h3>
+        <h4>{boonElement.Name}</h4>
       </div>
     )
   })
