@@ -1,12 +1,13 @@
 import React, { useState } from "react"
 import { graphql } from "gatsby"
+// Unique key generator for mapped elements
+import { v4 as uuidv4 } from "uuid"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Boon from "../components/boon"
-import BoonTester from "../components/boonTester"
+import PrerequisiteBoons from "../components/prerequisiteBoons"
 import PotentialBoons from "../components/potentialBoons"
 import AvailableBoons from "../components/availableBoons"
-import "./testerx.css"
+import "./gods.css"
 
 export default function Zeus({ data }) {
   const gods = data.dataJson.gods
@@ -116,7 +117,7 @@ export default function Zeus({ data }) {
   return (
     <Layout>
       <SEO title="Home" />
-      <div class="box">
+      <div className="box">
         <div className="one">
           <h2>Prerequisite Boons</h2>
           {data.dataJson.gods.map((godType, index) =>
@@ -129,7 +130,7 @@ export default function Zeus({ data }) {
                   ? "buttonFlare"
                   : "buttonReadjust"
                 return (
-                  <BoonTester
+                  <PrerequisiteBoons
                     name={boonType.name}
                     iconurl={boonType.iconurl}
                     index={godType[godName].boons.indexOf(boonType)}

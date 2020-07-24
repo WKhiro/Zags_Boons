@@ -37,18 +37,22 @@
   margin: 0;
 }
 
+.too > img {
+  margin-right: 10px;
+}
+
+.pug {
+  border: 2px solid red;
+}
+
 .tool {
-  border-width: 5px !important;
+  border-width: 2px !important;
   border-color: white !important;
 }
 
 .tool > p {
   color: white;
   margin: 0;
-}
-
-.too > img {
-  margin-right: 10px;
 }
 
 .testin {
@@ -74,11 +78,6 @@
 
 .derp {
   margin-top: 10px;
-}
-
-.testimg {
-  width: 40px;
-  height: 40px;
 }
 
 h2 {
@@ -108,7 +107,7 @@ h5 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  height: 1000px;
+  height: flex;
   border: none;
 }
 
@@ -134,14 +133,4 @@ h5 {
 
 .three {
   background: darkslategrey;
-}
-
-.buttonReadjust {
-  width: 100px;
-  height: 100px;
-}
-
-.pog {
-  display: inline-block;
-  border: 2px solid red;
 }

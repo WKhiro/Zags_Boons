@@ -5,7 +5,12 @@
         "boons": [
           {
             "name": "Heartbreak Strike",
+            "description": "Your Attack deals more damage and inflicts Weak.",
             "type": "Normal",
+            "effect": "Attack Damage: +50%",
+            "rare": "Multiplier: 1.3–1.5",
+            "epic": "Multiplier: 1.8–2.0",
+            "heroic": "Multiplier: 2.3–2.5",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e3/Heartbreak_Strike.png?version=d2273a48d26c0538c3f4752a8141b3f7",
             "upgrades": [
               {
@@ -103,7 +108,12 @@
           },
           {
             "name": "Heartbreak Flourish",
+            "description": "Your Special deals more damage and inflicts Weak.",
             "type": "Normal",
+            "effect": "Special Damage: +80%",
+            "rare": "Multiplier: 1.3–1.5",
+            "epic": "Multiplier: 1.8–2.0",
+            "heroic": "Multiplier: 2.3–2.5",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e9/Heartbreak_Flourish.png?version=80dfdf7b1131f4b9712c65dd3535c2fc",
             "upgrades": [
               {
@@ -201,7 +211,12 @@
           },
           {
             "name": "Crush Shot",
+            "description": "Your Cast is a wide, short-range blast that inflicts Weak.",
             "type": "Normal",
+            "effect": "Cast Damage: 90",
+            "rare": "Cast Damage: 99",
+            "epic": "Cast Damage: 108",
+            "heroic": "Cast Damage: 117",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/aa/Crush_Shot.png?version=8d114199992ec79e1d979a8592f6e908",
             "upgrades": [
               {
@@ -311,7 +326,12 @@
           },
           {
             "name": "Passion Flare",
+            "description": "Your Cast is a wide, short-range blast that inflicts Weak.",
             "type": "Normal",
+            "effect": "Cast Damage: 90",
+            "rare": "Cast Damage: 99",
+            "epic": "Cast Damage: 108",
+            "heroic": "Cast Damage: 117",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/aa/Crush_Shot.png?version=8d114199992ec79e1d979a8592f6e908",
             "upgrades": [
               {
@@ -403,7 +423,12 @@
           },
           {
             "name": "Passion Dash",
+            "description": "Your Dash inflicts damage where you end up, inflicting Weak.",
             "type": "Normal",
+            "effect": "Dash Damage: 20",
+            "rare": "Dash Damage: 24",
+            "epic": "Dash Damage: 28",
+            "heroic": "Dash Damage: 32",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e0/Passion_Dash.png?version=db48eda4a6b90739c4bb166a2761f832",
             "upgrades": [
               {
@@ -501,7 +526,12 @@
           },
           {
             "name": "Aphrodite's Aid",
+            "description": "Your Call fires a seeking projectile that inflicts Charm.",
             "type": "Normal",
+            "effect": "Charm Duration: 5 Sec.",
+            "rare": "Charm Duration: 5.5 Sec.",
+            "epic": "Charm Duration: 6 Sec.",
+            "heroic": "Charm Duration: 6.5 Sec.",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/f/f0/Aphrodite%27s_Aid.png?version=3c0619fcbd2c3d209d0ed3c51265e2f1",
             "upgrades": [
               {
@@ -576,31 +606,56 @@
           },
           {
             "name": "Dying Lament",
+            "description": "When foes are slain, they damage nearby foes and inflict Weak.",
             "type": "Normal",
+            "effect": "Death Blast Damage: 40",
+            "rare": "Multiplier: 1.3–1.5",
+            "epic": "Multiplier: 1.8–2.0",
+            "heroic": "Multiplier: 2.3–2.5",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/d/dd/Dying_Lament.png?version=928377d9079fc36e492401371c01b7de",
             "upgrades": []
           },
           {
             "name": "Wave of Despair",
+            "description": "After you take damage, damage nearby foes and inflict Weak.",
             "type": "Normal",
+            "effect": "Revenge Damage: 50",
+            "rare": "Multiplier: 1.3–1.5",
+            "epic": "Multiplier: 1.8–2.0",
+            "heroic": "Multiplier: 2.3–2.5",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/11/Wave_of_Despair.png?version=8cbdf656c823ecafc686b4a7cad769c1",
             "upgrades": []
           },
           {
             "name": "Different League",
+            "description": "Resist some damage from nearby foes' attacks.",
             "type": "Normal",
+            "effect": "Reduced Damage from Foes: 10%",
+            "rare": "Reduced Damage from Foes: 12.5%",
+            "epic": "Reduced Damage from Foes: 15%",
+            "heroic": "Reduced Damage from Foes: 17.5%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/4b/Different_League.png?version=e9bb40fc1a83a286976f8e1f0b5237aa",
             "upgrades": []
           },
           {
             "name": "Life Affirmation",
+            "description": "Any Health or Health chamber rewards are worth more.",
             "type": "Normal",
+            "effect": "Reward Value: +30%",
+            "rare": "Multiplier: +36%",
+            "epic": "Multiplier: +42%",
+            "heroic": "Multiplier: +48%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/f/fa/Life_Affirmation.png?version=e3ec690f06d2c222adeb0f0d10dbe51d",
             "upgrades": []
           },
           {
             "name": "Empty Inside",
+            "description": "Your Weak effects have a longer duration.",
             "type": "Normal",
+            "effect": "Weak Duration: +5 sec.",
+            "rare": "Weak Duration: +7.5 sec.",
+            "epic": "Weak Duration: +10 sec.",
+            "heroic": "Weak Duration: +12.5 sec.",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c9/Empty_Inside.png?version=3bc1389f42196fb587a933e30b206fbe",
             "upgrades": [
               {
@@ -618,7 +673,12 @@
           },
           {
             "name": "Sweet Surrender",
+            "description": "Weak-afflicted foes are also more susceptible to damage.",
             "type": "Normal",
+            "effect": "Damage vs. Weak: +10%",
+            "rare": "Multiplier: 1.3–1.5",
+            "epic": "Multiplier: 2.0–2.5",
+            "heroic": "Multiplier: 2.5–2.7",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/a6/Sweet_Surrender.png?version=788f97a46c13ae6873c008374f4d2288",
             "upgrades": [
               {
@@ -636,7 +696,12 @@
           },
           {
             "name": "Broken Resolve",
+            "description": "Your Weak effects are more potent.",
             "type": "Normal",
+            "effect": "Weak Damage Reduction: +10%",
+            "rare": "Weak Damage Reduction: +12.5%",
+            "epic": "Weak Damage Reduction: +15%",
+            "heroic": "Weak Damage Reduction: +17.5%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/1/1b/Broken_Resolve.png/150px-Broken_Resolve.png?version=d8d2f170dda1c8151fa80b7a992b084c",
             "upgrades": [
               {
@@ -654,55 +719,155 @@
           },
           {
             "name": "Blown Kiss",
+            "description": "Your Cast shoots farther and is stronger against undamaged foes.",
             "type": "Normal",
+            "effect": "First-Hit Bonus Damage: +50%",
+            "rare": "Multiplier: 1.5",
+            "epic": "Multiplier: 2.0",
+            "heroic": "Multiplier: 2.5",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/d/dc/Blown_Kiss.png/150px-Blown_Kiss.png?version=cf03de35e86cd641c8a3956ba855c998",
             "upgrades": []
           },
           {
             "name": "Unhealthy Fixation",
+            "description": "Your Weak effects also have a 15% chance to Charm foes.",
             "type": "Legendary",
+            "effect": "Charm Duration: 4 Sec.",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/16/Unhealthy_Fixation.png?version=cd6c56aa8b7cb83c2df95838423cc7aa",
             "upgrades": []
           },
           {
+            "name": "Exit Wounds",
+            "description": "Your foes take damage when your Cast stuck in them is dislodged.",
+            "type": "Artemis",
+            "effect": "Dislodge Damage: 100",
+            "rare": "Dislodge Damage: 120",
+            "epic": "Dislodge Damage: 140",
+            "heroic": "Dislodge Damage: 160",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/d/d1/Exit_Wounds.png/150px-Exit_Wounds.png?version=74870dcb1cdcb40c1af9dd7b93e31c56",
+            "upgrades": []
+          },
+          {
+            "name": "Proud Bearing",
+            "description": "You begin each Encounter with your God Gauge partly full.",
+            "type": "Athena",
+            "effect": "Starting Gauge: 20%",
+            "rare": "Starting Gauge: 25%",
+            "epic": "Starting Gauge: 30%",
+            "heroic": "Starting Gauge: 40%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/2e/Proud_Bearing.png?version=1b536f4f820024171efd942dbbb326a6",
+            "upgrades": []
+          },
+          {
+            "name": "Boiling Point",
+            "description": "Your God Gauge charges faster when you take damage.",
+            "type": "Poseidon",
+            "effect": "Faster Gauge Gain When Hit: +40%",
+            "rare": "Faster Gauge Gain When Hit: +50%",
+            "epic": "Faster Gauge Gain When Hit: +60%",
+            "heroic": "Faster Gauge Gain When Hit: +70%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b5/Boiling_Point.png?version=2cc3c1acf6a9d2d3618bc510b7f66f13",
+            "upgrades": []
+          },
+          {
+            "name": "Clouded Judgment",
+            "description": "Your God Gauge charges faster when you deal or take damage.",
+            "type": "Zeus",
+            "effect": "Faster Wrath Gain: +10%",
+            "rare": "Multiplier: +12%",
+            "epic": "Multiplier: +14%",
+            "heroic": "Multiplier: +16%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/47/Clouded_Judgment.png?version=b7433232108a3ab40290f930acd79337",
+            "upgrades": []
+          },
+          {
+            "name": "Billowing Strength",
+            "description": "After using Call, you deal more damage for 15 Sec.",
+            "type": "Zeus",
+            "effect": "Bonus Damage: +20%",
+            "rare": "Bonus Damage: +22%",
+            "epic": "Bonus Damage: +24%",
+            "heroic": "Bonus Damage: +26%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3d/Billowing_Strength.png?version=71c2098db0fa1f05f1a2e599629b85d8",
+            "upgrades": []
+          },
+          {
             "name": "Curse of Longing",
+            "description": "Your Doom effects continuously strike Weak foes.",
             "type": "Duo",
+            "effect": "Successive Hit Damage: 50%",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/1f/Curse_of_Longing.png?version=83166ed2b10049847fe9599635665752",
             "upgrades": []
           },
           {
             "name": "Heart Rend",
+            "description": "Your Critical effects deal even more damage to Weak foes.",
             "type": "Duo",
+            "effect": "Bonus Critical Damage vs. Weak: +50%",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/9/9f/Heart_Rend.png?version=7a2dff8862ac914c2a0409c8fbfbea69",
             "upgrades": []
           },
           {
             "name": "Parting Shot",
+            "description": "Your Cast gains any bonuses you have for striking foes from behind.",
             "type": "Duo",
+            "effect": "Bonus Backstab Damage: +25%",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/10/Parting_Shot.png?version=3fb891cf5821fc8d4210a5b7d683bae8",
             "upgrades": []
           },
           {
             "name": "Cold Embrace",
+            "description": "Your Cast crystal fires its beam directly at you for 4 seconds.",
             "type": "Duo",
+            "effect": "Bonus Cast Damage: +30%",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/2/21/Cold_Embrace.png/150px-Cold_Embrace.png?version=2e3af0e5aa0ad391835e502c1cacd905",
             "upgrades": []
           },
           {
             "name": "Low Tolerance",
+            "description": "Your Hangover effects stack even more times against Weak foes.",
             "type": "Duo",
+            "effect": "Bonus Hangover Stacks: 3",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/45/Low_Tolerance.png?version=5b02552df82df3f9424cc53761ee98f2",
             "upgrades": []
           },
           {
             "name": "Sweet Nectar",
+            "description": "Any Poms of Power you find are more effective.",
             "type": "Duo",
+            "effect": "Bonus Lv. from Poms: +1",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/56/Sweet_Nectar.png?version=272c3b5d99c837b65cc0065328427d0c",
             "upgrades": []
           },
           {
             "name": "Smoldering Air",
+            "description": "Your Call charges up automatically, but is capped at 25%.",
             "type": "Duo",
+            "effect": "Auto Gauge Gain: 1% every .2 seconds",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/ca/Smoldering_Air.png/150px-Smoldering_Air.png?version=101da95586987bc441e7960bc7aadd51",
             "upgrades": []
           }
@@ -1257,7 +1422,12 @@
         "boons": [
           {
             "name": "Deadly Strike",
+            "description": "Your Attack is stronger, with +15% chance to deal Critical damage.",
             "type": "Normal",
+            "effect": "Attack Damage: +20%",
+            "rare": "Multiplier: 1.3–1.5",
+            "epic": "Multiplier: 1.8–2.0",
+            "heroic": "Multiplier: 2.3–2.5",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/2a/Deadly_Strike.png?version=4ec40d42accd4701b69509d5f0c7bdec",
             "upgrades": [
               {
@@ -1360,7 +1530,12 @@
           },
           {
             "name": "Deadly Flourish",
+            "description": "Your Special is stronger, with +20% chance to deal Critical Damage.",
             "type": "Normal",
+            "effect": "Special Damage: +40%",
+            "rare": "Multiplier: 1.3–1.5",
+            "epic": "Multiplier: 1.8–2.0",
+            "heroic": "Multiplier: 2.3–2.5",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/f/f6/Deadly_Flourish.png?version=3e560e8aeddeed1dc31354872a23e005",
             "upgrades": [
               {
@@ -1463,7 +1638,12 @@
           },
           {
             "name": "True Shot",
+            "description": "Your Cast seeks foes, with a 10% chance to deal Critical damage.",
             "type": "Normal",
+            "effect": "Cast Damage: 70",
+            "rare": "Cast Damage: 80",
+            "epic": "Cast Damage: 90",
+            "heroic": "Cast Damage: 100",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/3/35/True_Shot.png/150px-True_Shot.png?version=9420d404a71f2da706b1a082ab5b6426",
             "upgrades": [
               {
@@ -1560,7 +1740,12 @@
           },
           {
             "name": "Hunter's Flare",
+            "description": "Your Cast seeks foes, with a 10% chance to deal Critical damage.",
             "type": "Normal",
+            "effect": "Cast Damage: 70",
+            "rare": "Cast Damage: 80",
+            "epic": "Cast Damage: 90",
+            "heroic": "Cast Damage: 100",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/3/35/True_Shot.png/150px-True_Shot.png?version=9420d404a71f2da706b1a082ab5b6426",
             "upgrades": [
               {
@@ -1616,7 +1801,12 @@
           },
           {
             "name": "Hunter Dash",
+            "description": "Your Dash-Strike deals more damage.",
             "type": "Normal",
+            "effect": "Dash Attack Damage: +50%",
+            "rare": "Dash Attack Damage: +75%",
+            "epic": "Dash Attack Damage: +100%",
+            "heroic": "Dash Attack Damage: +125%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/9/92/Hunter_Dash.png?version=f4d2b6666d7210a558bc65e0bfd1151d",
             "upgrades": [
               {
@@ -1660,7 +1850,12 @@
           },
           {
             "name": "Artemis' Aid",
+            "description": "Your Call fires a seeking arrow with +35% Critical chance.",
             "type": "Normal",
+            "effect": "Arrow Damage: 100",
+            "rare": "Base Damage: 110",
+            "epic": "Base Damage: 120",
+            "heroic": "Base Damage: 130",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/2b/Artemis%27_Aid.png?version=09871fd8648a67ccb809d3e013cc3aac",
             "upgrades": [
               {
@@ -1769,7 +1964,12 @@
           },
           {
             "name": "Pressure Points",
+            "description": "Any damage you deal has a chance to be Critical.",
             "type": "Normal",
+            "effect": "Bonus Critical Chance: +3%",
+            "rare": "Bonus Critical Chance: +4%",
+            "epic": "Bonus Critical Chance: +5%",
+            "heroic": "Bonus Critical Chance: +6%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b0/Pressure_Points.png?version=e0c52a3512e6fa043eef5168e7a90577",
             "upgrades": [
               {
@@ -1806,7 +2006,12 @@
           },
           {
             "name": "Exit Wounds",
+            "description": "Your foes take damage when your Cast stuck in them is dislodged.",
             "type": "Normal",
+            "effect": "Dislodge Damage: 100",
+            "rare": "Dislodge Damage: 120",
+            "epic": "Dislodge Damage: 140",
+            "heroic": "Dislodge Damage: 160",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/d/d1/Exit_Wounds.png/150px-Exit_Wounds.png?version=74870dcb1cdcb40c1af9dd7b93e31c56",
             "upgrades": [
               {
@@ -1819,25 +2024,45 @@
           },
           {
             "name": "Hide Breaker",
+            "description": "Your Critical effects deal even more damage to Armor.",
             "type": "Normal",
+            "effect": "Critical Damage Bonus vs. Armor: 200%",
+            "rare": "Multiplier: 1.3–1.5",
+            "epic": "Multiplier: 1.8-2.0",
+            "heroic": "Multiplier: 2.3-2.5",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/0a/Hide_Breaker.png?version=b1e20dac5e84476224a79e2fb271fbf9",
             "upgrades": []
           },
           {
             "name": "Clean Kill",
+            "description": "Your Critical effects deal even more damage.",
             "type": "Normal",
+            "effect": "Critical Damage: +15%",
+            "rare": "Critical Damage: +22.5%",
+            "epic": "Critical Damage: +30%",
+            "heroic": "Critical Damage: +37.5%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/9/94/Clean_Kill.png?version=9e09b6cd4e9d065823b71b98b61cef28",
             "upgrades": []
           },
           {
             "name": "Hunter Instinct",
+            "description": "Your God Gauge charges faster when you deal Critical damage.",
             "type": "Normal",
+            "effect": "Faster Gauge Gain on Critical: +0.25%",
+            "rare": "Faster Gauge Gain on Critical: +0.3%",
+            "epic": "Faster Gauge Gain on Critical: +0.35%",
+            "heroic": "Faster Gauge Gain on Critical: +0.4%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/76/Hunter_Instinct.png?version=92c5cd74c39bbcfdd4df63a8692d6c04",
             "upgrades": []
           },
           {
             "name": "Hunter's Mark",
+            "description": "After you deal Critical damage to a foe, a foe near it is Marked.",
             "type": "Normal",
+            "effect": "Bonus Crit Chance: +30%",
+            "rare": "Multiplier: 1.3–1.5",
+            "epic": "Multiplier: 2.0–2.5",
+            "heroic": "Multiplier: 2.5–2.7",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/bd/Hunter%27s_Mark.png?version=13053b005e4dadcf81ba5762d60224cb",
             "upgrades": [
               {
@@ -1850,7 +2075,12 @@
           },
           {
             "name": "Support Fire",
+            "description": "After you hit with an Attack, Cast or Special, fire a seeking arrow.",
             "type": "Normal",
+            "effect": "Projectile Damage: 10",
+            "rare": "Projectile Damage: 12",
+            "epic": "Projectile Damage: 14",
+            "heroic": "Projectile Damage: 16",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e2/Support_Fire.png?version=f7526e74cb395be1b548271f8eac3657",
             "upgrades": [
               {
@@ -1863,49 +2093,133 @@
           },
           {
             "name": "Fully Loaded",
+            "description": "Gain extra Cast Ammo for your Cast.",
             "type": "Legendary",
+            "effect": "Max Ammo: +3 Cast Ammo",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/8/8b/Fully_Loaded.png?version=0958ddce7973e59da06a68ad8465801e",
             "upgrades": []
           },
           {
+            "name": "Proud Bearing",
+            "description": "You begin each Encounter with your God Gauge partly full.",
+            "type": "Athena",
+            "effect": "Starting Gauge: 20%",
+            "rare": "Starting Gauge: 25%",
+            "epic": "Starting Gauge: 30%",
+            "heroic": "Starting Gauge: 40%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/2e/Proud_Bearing.png?version=1b536f4f820024171efd942dbbb326a6",
+            "upgrades": []
+          },
+          {
+            "name": "Boiling Point",
+            "description": "Your God Gauge charges faster when you take damage.",
+            "type": "Poseidon",
+            "effect": "Faster Gauge Gain When Hit: +40%",
+            "rare": "Faster Gauge Gain When Hit: +50%",
+            "epic": "Faster Gauge Gain When Hit: +60%",
+            "heroic": "Faster Gauge Gain When Hit: +70%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b5/Boiling_Point.png?version=2cc3c1acf6a9d2d3618bc510b7f66f13",
+            "upgrades": []
+          },
+          {
+            "name": "Clouded Judgment",
+            "description": "Your God Gauge charges faster when you deal or take damage.",
+            "type": "Zeus",
+            "effect": "Faster Wrath Gain: +10%",
+            "rare": "Multiplier: +12%",
+            "epic": "Multiplier: +14%",
+            "heroic": "Multiplier: +16%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/47/Clouded_Judgment.png?version=b7433232108a3ab40290f930acd79337",
+            "upgrades": []
+          },
+          {
+            "name": "Billowing Strength",
+            "description": "After using Call, you deal more damage for 15 Sec.",
+            "type": "Zeus",
+            "effect": "Bonus Damage: +20%",
+            "rare": "Bonus Damage: +22%",
+            "epic": "Bonus Damage: +24%",
+            "heroic": "Bonus Damage: +26%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3d/Billowing_Strength.png?version=71c2098db0fa1f05f1a2e599629b85d8",
+            "upgrades": []
+          },
+          {
             "name": "Heart Rend",
+            "description": "Your Critical effects deal even more damage to Weak foes.",
             "type": "Duo",
+            "effect": "Bonus Critical Damage vs. Weak: +50%",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/9/9f/Heart_Rend.png?version=7a2dff8862ac914c2a0409c8fbfbea69",
             "upgrades": []
           },
           {
             "name": "Hunting Blades",
+            "description": "Your Cast creates a faster Blade Rift that seeks the nearest foe.",
             "type": "Duo",
+            "effect": "Seek Duration: 3.3 Sec.",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/f/fd/Hunting_Blades.png?version=ac649db037e05d94b35db4b80a0f77ca",
             "upgrades": []
           },
           {
             "name": "Deadly Reversal",
+            "description": "After you Deflect, briefly gain +20% chance to deal Critical damage.",
             "type": "Duo",
+            "effect": "Critical Duration: 2 Sec.",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/47/Deadly_Reversal.png?version=aa999b5c804309dc9c48545e1a505ffd",
             "upgrades": []
           },
           {
             "name": "Crystal Clarity",
+            "description": "Your Cast is stronger and tracks foes more effectively.",
             "type": "Duo",
+            "effect": "Beam Damage: +10%",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/25/Crystal_Clarity.png?version=adbfb5fe5372b5ee15941ad9c0efd7f4",
             "upgrades": []
           },
           {
             "name": "Splitting Headache",
+            "description": "Hangover-afflicted foes are more likely to take Critical damage.",
             "type": "Duo",
+            "effect": "Bonus Critical Chance per Hangover Stack: +1.5%",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/d/da/Splitting_Headache.png/150px-Splitting_Headache.png?version=8c860e2046bc17b076001f00b15aa749",
             "upgrades": []
           },
           {
             "name": "Mirage Shot",
+            "description": "Your Cast fires a second projectile, though it has reduced damage.",
             "type": "Duo",
+            "effect": "Secondary Shot Damage: 30%",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/a/ab/Mirage_Shot.png/150px-Mirage_Shot.png?version=9aaa498eb4f9a2c93e7ea75f92fc2637",
             "upgrades": []
           },
           {
             "name": "Lightning Rod",
+            "description": "Your collectible Cast Ammo strike nearby foes with lightning every 1.5 Sec.",
             "type": "Duo",
+            "effect": "Lightning Damage: 100",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/62/Lightning_Rod.png?version=ed83baa93b0f106e283ead39aeac0727",
             "upgrades": []
           }
@@ -1917,7 +2231,7 @@
             "name": "Divine Strike",
             "description": "Your Attack is stronger, and can Deflect.",
             "type": "Normal",
-            "common": "Attack Damage: +40%",
+            "effect": "Attack Damage: +40%",
             "rare": "Multiplier: 1.3–1.5",
             "epic": "Multiplier: 1.8–2.0",
             "heroic": "Multiplier: 2.3–2.5",
@@ -2021,7 +2335,7 @@
             "name": "Divine Flourish",
             "description": "Your Special is stronger, and can Deflect.",
             "type": "Normal",
-            "common": "Special Damage: +60%",
+            "effect": "Special Damage: +60%",
             "rare": "Multiplier: 1.3–1.5",
             "epic": "Multiplier: 1.8–2.0",
             "heroic": "Multiplier: 2.3–2.5",
@@ -2125,7 +2439,7 @@
             "name": "Phalanx Shot",
             "description": "Your Cast damages foes in a small area, and can Deflect.",
             "type": "Normal",
-            "common": "Cast Damage: 85",
+            "effect": "Cast Damage: 85",
             "rare": "Cast Damage: 102",
             "epic": "Cast Damage: 119",
             "heroic": "Cast Damage: 136",
@@ -2212,7 +2526,7 @@
             "name": "Phalanx Flare",
             "description": "Your Cast damages foes in a small area, and can Deflect.",
             "type": "Normal",
-            "common": "Cast Damage: 85",
+            "effect": "Cast Damage: 85",
             "rare": "Cast Damage: 102",
             "epic": "Cast Damage: 119",
             "heroic": "Cast Damage: 136",
@@ -2268,7 +2582,7 @@
             "name": "Divine Dash",
             "description": "Your Dash deals damage and can Deflect.",
             "type": "Normal",
-            "common": "Dash Damage: 10",
+            "effect": "Dash Damage: 10",
             "rare": "Dash Damage: 12",
             "epic": "Dash Damage: 14",
             "heroic": "Dash Damage: 16",
@@ -2372,7 +2686,7 @@
             "name": "Athena's Aid",
             "description": "Your Call briefly makes you Invulnerable and Deflect all attacks.",
             "type": "Normal",
-            "common": "Effect Duration: 1.5 Sec. Max Gauge Bonus: x6 Duration",
+            "effect": "Effect Duration: 1.5 Sec. Max Gauge Bonus: x6 Duration",
             "rare": "Effect Duration: 1.65 Sec.",
             "epic": "Effect Duration: 1.8 Sec.",
             "heroic": "Effect Duration: 1.95 Sec.",
@@ -2385,6 +2699,12 @@
                 "other": []
               },
               {
+                "name": "Boiling Point",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b5/Boiling_Point.png?version=2cc3c1acf6a9d2d3618bc510b7f66f13",
+                "other": []
+              },
+              {
                 "name": "Clouded Judgment",
                 "type": "Normal",
                 "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/47/Clouded_Judgment.png?version=b7433232108a3ab40290f930acd79337",
@@ -2394,12 +2714,6 @@
                 "name": "Billowing Strength",
                 "type": "Normal",
                 "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3d/Billowing_Strength.png?version=71c2098db0fa1f05f1a2e599629b85d8",
-                "other": []
-              },
-              {
-                "name": "Boiling Point",
-                "type": "Normal",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b5/Boiling_Point.png?version=2cc3c1acf6a9d2d3618bc510b7f66f13",
                 "other": []
               },
               {
@@ -2457,6 +2771,10 @@
             "name": "Holy Shield",
             "description": "After you take damage, damage nearby foes and briefly Deflect.",
             "type": "Normal",
+            "effect": "Revenge Damage: 30",
+            "rare": "Multiplier: 1.3–1.5",
+            "epic": "Multiplier: 1.8–2.0",
+            "heroic": "Multiplier: 2.3–2.5",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/17/Holy_Shield.png?version=53a5199bf49ee9ad8ecf031d87af1a99",
             "upgrades": [
               {
@@ -2471,6 +2789,10 @@
             "name": "Bronze Skin",
             "description": "Resist damage from foes' attacks.",
             "type": "Normal",
+            "effect": "Reduced Damage from Foes: 5%",
+            "rare": "Reduced Damage from Foes: 7.5%",
+            "epic": "Reduced Damage from Foes: 10%",
+            "heroic": "Reduced Damage from Foes: 12.5%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c6/Bronze_Skin.png?version=253f8cb95fa78a40999306799f71fc89",
             "upgrades": []
           },
@@ -2478,6 +2800,10 @@
             "name": "Sure Footing",
             "description": "Resist damage from Traps.",
             "type": "Normal",
+            "effect": "Reduced Trap Damage: 60%",
+            "rare": "Reduced Trap Damage: 75%",
+            "epic": "Reduced Trap Damage: 90%",
+            "heroic": "Reduced Trap Damage: 95%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/20/Sure_Footing.png?version=502d52b425ddb38516e95a9b3a3dede1",
             "upgrades": []
           },
@@ -2485,6 +2811,10 @@
             "name": "Proud Bearing",
             "description": "You begin each Encounter with your God Gauge partly full.",
             "type": "Normal",
+            "effect": "Starting Gauge: 20%",
+            "rare": "Starting Gauge: 25%",
+            "epic": "Starting Gauge: 30%",
+            "heroic": "Starting Gauge: 40%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/2e/Proud_Bearing.png?version=1b536f4f820024171efd942dbbb326a6",
             "upgrades": []
           },
@@ -2492,6 +2822,10 @@
             "name": "Blinding Flash",
             "description": "Your abilities that can Deflect also make foes Exposed for 5 Sec.",
             "type": "Normal",
+            "effect": "Bonus Backstab Damage: +50%",
+            "rare": "Bonus Backstab Damage: +62.5%",
+            "epic": "Bonus Backstab Damage: +75%",
+            "heroic": "Bonus Backstab Damage: +87.5%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/8/89/Blinding_Flash.png?version=ea531283d1499dff05ac248ace4b2200",
             "upgrades": []
           },
@@ -2499,6 +2833,10 @@
             "name": "Brilliant Riposte",
             "description": "When you Deflect attacks, they deal more damage.",
             "type": "Normal",
+            "effect": "Deflect Damage: +80%",
+            "rare": "Multiplier: 1.3–1.5",
+            "epic": "Multiplier: 2.0–2.5",
+            "heroic": "N/A",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e3/Brilliant_Riposte.png?version=eb9c3d0cf97e3b1c52064dc99e97351f",
             "upgrades": [
               {
@@ -2513,6 +2851,10 @@
             "name": "Deathless Stand",
             "description": "Death Defiance makes you Impervious longer. Replenish 1 charge now.",
             "type": "Normal",
+            "effect": "Effect Duration: +2 Sec.",
+            "rare": "Effect Duration: +2.5 Sec.",
+            "epic": "Effect Duration: +3 Sec.",
+            "heroic": "Effect Duration: +3.5 Sec.",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/f/f1/Deathless_Stand.png?version=99b261b1f1624516d7096c56fd64fd0a",
             "upgrades": []
           },
@@ -2520,20 +2862,76 @@
             "name": "Last Stand",
             "description": "Death Defiance restores more Health than usual. Replenish 1 charge now.",
             "type": "Normal",
+            "effect": "Improved Restoration: +10%",
+            "rare": "Improved Restoration: +12%",
+            "epic": "Improved Restoration: +14%",
+            "heroic": "Improved Restoration: +16%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/41/Last_Stand.png?version=7f80a29a05e5ba438ab49b2a6ddd86e4",
             "upgrades": []
           },
           {
             "name": "Divine Protection",
-            "description": "You have a barrier that negates incoming damage. (Barrier Cooldown: 20 Sec)",
+            "description": "You have a barrier that negates incoming damage.",
             "type": "Legendary",
+            "effect": "Barrier Cooldown: 20 Sec",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/4f/Divine_Protection.png?version=e1392d670d6045e446c0484eb91fb067",
+            "upgrades": []
+          },
+          {
+            "name": "Exit Wounds",
+            "description": "Your foes take damage when your Cast stuck in them is dislodged.",
+            "type": "Artemis",
+            "effect": "Dislodge Damage: 100",
+            "rare": "Dislodge Damage: 120",
+            "epic": "Dislodge Damage: 140",
+            "heroic": "Dislodge Damage: 160",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/d/d1/Exit_Wounds.png/150px-Exit_Wounds.png?version=74870dcb1cdcb40c1af9dd7b93e31c56",
+            "upgrades": []
+          },
+          {
+            "name": "Boiling Point",
+            "description": "Your God Gauge charges faster when you take damage.",
+            "type": "Poseidon",
+            "effect": "Faster Gauge Gain When Hit: +40%",
+            "rare": "Faster Gauge Gain When Hit: +50%",
+            "epic": "Faster Gauge Gain When Hit: +60%",
+            "heroic": "Faster Gauge Gain When Hit: +70%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b5/Boiling_Point.png?version=2cc3c1acf6a9d2d3618bc510b7f66f13",
+            "upgrades": []
+          },
+          {
+            "name": "Clouded Judgment",
+            "description": "Your God Gauge charges faster when you deal or take damage.",
+            "type": "Zeus",
+            "effect": "Faster Wrath Gain: +10%",
+            "rare": "Multiplier: +12%",
+            "epic": "Multiplier: +14%",
+            "heroic": "Multiplier: +16%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/47/Clouded_Judgment.png?version=b7433232108a3ab40290f930acd79337",
+            "upgrades": []
+          },
+          {
+            "name": "Billowing Strength",
+            "description": "After using Call, you deal more damage for 15 Sec.",
+            "type": "Zeus",
+            "effect": "Bonus Damage: +20%",
+            "rare": "Bonus Damage: +22%",
+            "epic": "Bonus Damage: +24%",
+            "heroic": "Bonus Damage: +26%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3d/Billowing_Strength.png?version=71c2098db0fa1f05f1a2e599629b85d8",
             "upgrades": []
           },
           {
             "name": "Parting Shot",
             "description": "Your Cast gains any bonuses you have for striking foes from behind.",
             "type": "Duo",
+            "effect": "Bonus Backstab Damage: +25%",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/10/Parting_Shot.png?version=8411b63739b07ad14cd047a3e19844fe",
             "upgrades": []
           },
@@ -2541,6 +2939,10 @@
             "name": "Merciful End",
             "description": "Your attacks that can Deflect immediately activate Doom effects.",
             "type": "Duo",
+            "effect": "Doom Combo Damage: 50",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/ca/Merciful_End.png?version=e582a9d64954ea0212af04625170515f",
             "upgrades": []
           },
@@ -2548,6 +2950,10 @@
             "name": "Deadly Reversal",
             "description": "After you Deflect, briefly gain +20% chance to deal Critical damage.",
             "type": "Duo",
+            "effect": "Critical Duration: 2 Sec.",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/47/Deadly_Reversal.png?version=aa999b5c804309dc9c48545e1a505ffd",
             "upgrades": []
           },
@@ -2555,6 +2961,10 @@
             "name": "Stubborn Roots",
             "description": "While you have no Death/Stubborn Defiance your Health slowly recovers.",
             "type": "Duo",
+            "effect": "Life Regeneration: 1 Health (every 0.8 Sec.)",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/a/aa/Stubborn_Roots.png/150px-Stubborn_Roots.png?version=244eaf08fb241c796f8a856aa8edb8fb",
             "upgrades": []
           },
@@ -2562,6 +2972,10 @@
             "name": "Calculated Risk",
             "description": "Your foes' ranged-attack projectiles are slower.",
             "type": "Duo",
+            "effect": "Foe Projectile Speed Reduction: +40%",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/0/0c/Calculated_Risk.png/150px-Calculated_Risk.png?version=367aed376b392147f190b0a6415a8a09",
             "upgrades": []
           },
@@ -2569,6 +2983,10 @@
             "name": "Unshakable Mettle",
             "description": "You cannot be stunned, and resist some damage from Bosses.",
             "type": "Duo",
+            "effect": "Boss Damage Reduction: +5%",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/cf/Unshakable_Mettle.png/150px-Unshakable_Mettle.png?version=31a5293c6b3f02322ebd639c48568b79",
             "upgrades": []
           },
@@ -2576,6 +2994,10 @@
             "name": "Lightning Phalanx",
             "description": "Your Phalanx Shot Cast bounces between nearby foes.",
             "type": "Duo",
+            "effect": "Max Bounces: 5",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/70/Lightning_Phalanx.png?version=58a10da5c418277411266b5e5b2d863d",
             "upgrades": []
           }
@@ -2585,7 +3007,12 @@
         "boons": [
           {
             "name": "Frost Strike",
+            "description": "Your Attack is stronger and inflicts Chill.",
             "type": "Normal",
+            "effect": "Attack damage: +40%",
+            "rare": "Multiplier: 1.3-1.5",
+            "epic": "Multiplier: 1.8-2.0",
+            "heroic": "Multiplier: 2.3-2.5",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/65/Frost_Strike.png?version=a919e8a013b618708f129df4c2201e05",
             "upgrades": [
               {
@@ -2641,7 +3068,12 @@
           },
           {
             "name": "Frost Flourish",
+            "description": "Your Special is stronger and inflicts Chill.",
             "type": "Normal",
+            "effect": "Special damage: +60%",
+            "rare": "Multiplier: 1.3-1.5",
+            "epic": "Multiplier: 1.8-2.0",
+            "heroic": "Multiplier: 2.3-2.5",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/6d/Frost_Flourish.png?version=6b883e411e845036b291a9f1a2da68ca",
             "upgrades": [
               {
@@ -2697,7 +3129,12 @@
           },
           {
             "name": "Crystal Beam",
+            "description": "Your Cast drops a crystal that fires a beam straight ahead for 5 sec.",
             "type": "Normal",
+            "effect": "Cast Damage: 8 (every 0.2 sec)",
+            "rare": "Cast Damage: 9.2 (every 0.2 sec)",
+            "epic": "Cast Damage: 10.4 (every 0.2 sec)",
+            "heroic": "Cast Damage: 11.6 (every 0.2 sec)",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/46/Crystal_Beam.png?version=294dd596235d9924a7dde7ecf7c185a8",
             "upgrades": [
               {
@@ -2753,7 +3190,12 @@
           },
           {
             "name": "Mistral Dash",
+            "description": "Your Dash shoots a gust ahead that inflicts Chill.",
             "type": "Normal",
+            "effect": "Gust Damage: 15",
+            "rare": "Gust Damage: 22.5",
+            "epic": "Gust Damage: 30",
+            "heroic": "Gust Damage: 37.5",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/d/d2/Mistral_Dash.png?version=d77b7ca8c68d6da133a7d9c924a73b97",
             "upgrades": [
               {
@@ -2809,7 +3251,12 @@
           },
           {
             "name": "Demeter's Aid",
+            "description": "Your Call creates a winter vortex for 5 Sec., deals damage every 0.25 Sec inflicting Chill.",
             "type": "Normal",
+            "effect": "Damage: 10",
+            "rare": "Damage: 11",
+            "epic": "Damage: 12",
+            "heroic": "Damage: 13",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/35/Demeter%27s_Aid.png?version=e105e013c7cb379e90754a778b5034f3",
             "upgrades": [
               {
@@ -2825,18 +3272,6 @@
                 "other": []
               },
               {
-                "name": "Clouded Judgment",
-                "type": "Normal",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/47/Clouded_Judgment.png?version=b7433232108a3ab40290f930acd79337",
-                "other": []
-              },
-              {
-                "name": "Billowing Strength",
-                "type": "Normal",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3d/Billowing_Strength.png?version=71c2098db0fa1f05f1a2e599629b85d8",
-                "other": []
-              },
-              {
                 "name": "Proud Bearing",
                 "type": "Normal",
                 "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/2e/Proud_Bearing.png?version=1b536f4f820024171efd942dbbb326a6",
@@ -2846,6 +3281,18 @@
                 "name": "Boiling Point",
                 "type": "Normal",
                 "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b5/Boiling_Point.png?version=2cc3c1acf6a9d2d3618bc510b7f66f13",
+                "other": []
+              },
+              {
+                "name": "Clouded Judgment",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/47/Clouded_Judgment.png?version=b7433232108a3ab40290f930acd79337",
+                "other": []
+              },
+              {
+                "name": "Billowing Strength",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3d/Billowing_Strength.png?version=71c2098db0fa1f05f1a2e599629b85d8",
                 "other": []
               },
               {
@@ -2889,19 +3336,34 @@
           },
           {
             "name": "Frozen Touch",
+            "description": "After you take damage, damage and completely Chill your foe.",
             "type": "Normal",
+            "effect": "Revenge Damage: 10",
+            "rare": "Revenge Damage: 15",
+            "epic": "Revenge Damage: 20",
+            "heroic": "Revenge Damage: 25",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/1/1f/Frozen_Touch.png/150px-Frozen_Touch.png?version=922d0a9579dd85423754848b9ada2720",
             "upgrades": []
           },
           {
             "name": "Rare Crop",
+            "description": "Your Boons become Common, then gain Rarity every 3 Encounter(s).",
             "type": "Normal",
+            "effect": "Random boons affected: 1",
+            "rare": "Random boons affected: 2",
+            "epic": "Random boons affected: 3",
+            "heroic": "N/A",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/10/Rare_Crop.png?version=2fd3e2244b4ca3ba68cc505637603cb0",
             "upgrades": []
           },
           {
             "name": "Ravenous Will",
+            "description": "While you have no Cast, take 10% less damage and deal more.",
             "type": "Normal",
+            "effect": "Damage bonus: +10%",
+            "rare": "Damage bonus: +20%",
+            "epic": "Damage bonus: +30%",
+            "heroic": "Damage bonus: +40%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/0d/Ravenous_Will.png?version=17fcf9c29742ae1cb5809518dee0becf",
             "upgrades": [
               {
@@ -2914,13 +3376,23 @@
           },
           {
             "name": "Nourished Soul",
+            "description": "Any Health effects are more potent. Restore +30% now.",
             "type": "Normal",
+            "effect": "Improved Restoration: 30%",
+            "rare": "Improved Restoration: 32.25%",
+            "epic": "Improved Restoration: 34.5%",
+            "heroic": "Improved Restoration: 36.75%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c0/Nourished_Soul.png?version=ea2acad1c6180c3a8c7db8e2ac5b8e1c",
             "upgrades": []
           },
           {
             "name": "Snow Burst",
+            "description": "Whenever you Cast, damage nearby foes and inflict Chill.",
             "type": "Normal",
+            "effect": "Damage: 40",
+            "rare": "Damage: 50",
+            "epic": "Damage: 60",
+            "heroic": "Damage: 70",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/24/Snow_Burst.png?version=3d882178c8bda028762f874f5a7e97c4",
             "upgrades": [
               {
@@ -2939,7 +3411,12 @@
           },
           {
             "name": "Arctic Blast",
+            "description": "Applying 10 stacks of Chill causes a blast, clearing the effect.",
             "type": "Normal",
+            "effect": "Damage: 100",
+            "rare": "Damage: 120",
+            "epic": "Damage: 140",
+            "heroic": "Damage: 160",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/30/Arctic_Blast.png?version=5a569ba5f71fefe7fb9e9dc036646b46",
             "upgrades": [
               {
@@ -2952,7 +3429,12 @@
           },
           {
             "name": "Killing Freeze",
+            "description": "Applying Chill to all enemies causes them to Slow and Decay.",
             "type": "Normal",
+            "effect": "Slow 10%, Decay Damage: 20 (every 0.5 sec)",
+            "rare": "Slow 15%, Decay Damage: 30 (every 0.5 sec)",
+            "epic": "Slow 20%, Decay Damage: 40 (every 0.5 sec)",
+            "heroic": "Slow 25%, Decay Damage: 50 (every 0.5 sec)",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/41/Killing_Freeze.png?version=3c3ae5e500ad53cd05164ecc98b7b1b8",
             "upgrades": [
               {
@@ -2965,61 +3447,144 @@
           },
           {
             "name": "Glacial Glare",
+            "description": "Your Cast fires longer and inflicts Chill.",
             "type": "Normal",
+            "effect": "Bonus Duration: 2 Sec.",
+            "rare": "Bonus Duration: 2.4 Sec.",
+            "epic": "Bonus Duration: 2.8 Sec.",
+            "heroic": "Bonus Duration: 3.2 Sec.",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/8/83/Glacial_Glare.png?version=d3013d099b75e27d6354f6471f3c9bf8",
             "upgrades": []
           },
           {
             "name": "Winter Harvest",
+            "description": "Chill-affected foes shatter at 10% hp, inflicting Chill nearby.",
             "type": "Legendary",
+            "effect": "Shatter Area Damage: 50",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/50/Winter_Harvest.png?version=2f1bfb6687909507a2cc29ce10d2817d",
             "upgrades": []
           },
           {
+            "name": "Proud Bearing",
+            "description": "You begin each Encounter with your God Gauge partly full.",
+            "type": "Athena",
+            "effect": "Starting Gauge: 20%",
+            "rare": "Starting Gauge: 25%",
+            "epic": "Starting Gauge: 30%",
+            "heroic": "Starting Gauge: 40%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/2e/Proud_Bearing.png?version=1b536f4f820024171efd942dbbb326a6",
+            "upgrades": []
+          },
+          {
+            "name": "Boiling Point",
+            "description": "Your God Gauge charges faster when you take damage.",
+            "type": "Poseidon",
+            "effect": "Faster Gauge Gain When Hit: +40%",
+            "rare": "Faster Gauge Gain When Hit: +50%",
+            "epic": "Faster Gauge Gain When Hit: +60%",
+            "heroic": "Faster Gauge Gain When Hit: +70%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b5/Boiling_Point.png?version=2cc3c1acf6a9d2d3618bc510b7f66f13",
+            "upgrades": []
+          },
+          {
+            "name": "Clouded Judgment",
+            "description": "Your God Gauge charges faster when you deal or take damage.",
+            "type": "Zeus",
+            "effect": "Faster Wrath Gain: +10%",
+            "rare": "Multiplier: +12%",
+            "epic": "Multiplier: +14%",
+            "heroic": "Multiplier: +16%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/47/Clouded_Judgment.png?version=b7433232108a3ab40290f930acd79337",
+            "upgrades": []
+          },
+          {
+            "name": "Billowing Strength",
+            "description": "After using Call, you deal more damage for 15 Sec.",
+            "type": "Zeus",
+            "effect": "Bonus Damage: +20%",
+            "rare": "Bonus Damage: +22%",
+            "epic": "Bonus Damage: +24%",
+            "heroic": "Bonus Damage: +26%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3d/Billowing_Strength.png?version=71c2098db0fa1f05f1a2e599629b85d8",
+            "upgrades": []
+          },
+          {
             "name": "Cold Embrace",
+            "description": "Your Cast crystal fires its beam directly at you for 4 seconds.",
             "type": "Duo",
+            "effect": "Bonus Cast Damage: +30%",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/2/21/Cold_Embrace.png/150px-Cold_Embrace.png?version=2e3af0e5aa0ad391835e502c1cacd905",
             "upgrades": []
           },
           {
             "name": "Freezing Vortex",
+            "description": "Your Cast inflicts Chill, but is smaller and moves slower.",
             "type": "Duo",
+            "effect": "Blade Rift size -50%",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/a1/Freezing_Vortex.png?version=87d95bb68477dcf1b6b78442ec7803ca",
             "upgrades": []
           },
           {
             "name": "Crystal Clarity",
+            "description": "Your Cast is stronger and tracks foes more effectively.",
             "type": "Duo",
+            "effect": "Beam Damage: +10%",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/25/Crystal_Clarity.png?version=adbfb5fe5372b5ee15941ad9c0efd7f4",
             "upgrades": []
           },
           {
             "name": "Stubborn Roots",
+            "description": "While you have no Death/Stubborn Defiance your Health slowly recovers.",
             "type": "Duo",
+            "effect": "Life Regeneration: 1 Health (every 0.8 Sec.)",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/a/aa/Stubborn_Roots.png/150px-Stubborn_Roots.png?version=244eaf08fb241c796f8a856aa8edb8fb",
             "upgrades": []
           },
           {
-            "name": "Calculated Risk",
-            "type": "Duo",
-            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/0/0c/Calculated_Risk.png/150px-Calculated_Risk.png?version=367aed376b392147f190b0a6415a8a09",
-            "upgrades": []
-          },
-          {
             "name": "Ice Wine",
+            "description": "Your Cast blasts an area with freezing Festive Fog that inflicts Chill.",
             "type": "Duo",
+            "effect": "Blast Damage: +50%",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/8/8e/Ice_Wine.png?version=03c1e42d920d5b6432019e768b295b5c",
             "upgrades": []
           },
           {
             "name": "Blizzard Shot",
+            "description": "Your Cast moves slowly, piercing foes and firing shards around it.",
             "type": "Duo",
+            "effect": "Shard Damage: 40",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/75/Blizzard_Shot.png?version=5528ef9763c75e9685ddd37d02cc7e95",
             "upgrades": []
           },
           {
             "name": "Cold Fusion",
+            "description": "Jolted status does not expire on your enemies' attacks.",
             "type": "Duo",
+            "effect": "Jolted duration: 10 Sec.",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/2e/Cold_Fusion.png?version=232f54a98aaecb47ea0b17374b6d2286",
             "upgrades": []
           }
@@ -3029,7 +3594,12 @@
         "boons": [
           {
             "name": "Drunken Strike",
+            "description": "Your Attack inflicts Hangover.",
             "type": "Normal",
+            "effect": "Hangover Damage: 4",
+            "rare": "Hangover Damage: 5",
+            "epic": "Hangover Damage: 6",
+            "heroic": "Hangover Damage: 7",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/8/80/Drunken_Strike.png?version=3c971d06e35cce1f001dbd46c0e60b29",
             "upgrades": [
               {
@@ -3117,7 +3687,12 @@
           },
           {
             "name": "Drunken Flourish",
+            "description": "Your Special inflicts Hangover.",
             "type": "Normal",
+            "effect": "Hangover Damage: 5",
+            "rare": "Hangover Damage: 6",
+            "epic": "Hangover Damage: 7",
+            "heroic": "Hangover Damage: 8",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/46/Drunken_Flourish.png?version=6c467d1afa22ee2a79a864dda92b5ee0",
             "upgrades": [
               {
@@ -3205,7 +3780,12 @@
           },
           {
             "name": "Trippy Shot",
+            "description": "Your Cast lobs a projectile that bursts into Festive Fog.",
             "type": "Normal",
+            "effect": "Blast Damage: 100",
+            "rare": "Blast Damage: 120",
+            "epic": "Blast Damage: 140",
+            "heroic": "Blast Damage: 160",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/a4/Trippy_Shot.png?version=e2770b43b92fdbcd3f8bb3b7db26939a",
             "upgrades": [
               {
@@ -3267,7 +3847,12 @@
           },
           {
             "name": "Trippy Flare",
+            "description": "Your Cast lobs a projectile that bursts into Festive Fog.",
             "type": "Normal",
+            "effect": "Blast Damage: 100",
+            "rare": "Blast Damage: 120",
+            "epic": "Blast Damage: 140",
+            "heroic": "Blast Damage: 160",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/a4/Trippy_Shot.png?version=e2770b43b92fdbcd3f8bb3b7db26939a",
             "upgrades": [
               {
@@ -3329,7 +3914,12 @@
           },
           {
             "name": "Drunken Dash",
+            "description": "Your Dash inflicts foes near you with Hangover.",
             "type": "Normal",
+            "effect": "Hangover Damage: 2",
+            "rare": "Hangover Damage: 3",
+            "epic": "Hangover Damage: 4",
+            "heroic": "Hangover Damage: 5",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e2/Drunken_Dash.png?version=9947397ae2362a2f7028184e90d37e52",
             "upgrades": [
               {
@@ -3411,7 +4001,12 @@
           },
           {
             "name": "Dionysus' Aid",
+            "description": "Your Call inflicts Hangover to foes all around you for 1.5 Sec.",
             "type": "Normal",
+            "effect": "Hangover Damage: 15",
+            "rare": "Hangover Damage: 16.5",
+            "epic": "Hangover Damage: 18",
+            "heroic": "Hangover Damage 19.5",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/75/Dionysus%27_Aid.png?version=9b956a26ed3c9bc99df67e229cc439e6",
             "upgrades": [
               {
@@ -3427,18 +4022,6 @@
                 "other": []
               },
               {
-                "name": "Clouded Judgment",
-                "type": "Normal",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/47/Clouded_Judgment.png?version=b7433232108a3ab40290f930acd79337",
-                "other": []
-              },
-              {
-                "name": "Billowing Strength",
-                "type": "Normal",
-                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3d/Billowing_Strength.png?version=71c2098db0fa1f05f1a2e599629b85d8",
-                "other": []
-              },
-              {
                 "name": "Proud Bearing",
                 "type": "Normal",
                 "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/2e/Proud_Bearing.png?version=1b536f4f820024171efd942dbbb326a6",
@@ -3448,6 +4031,18 @@
                 "name": "Boiling Point",
                 "type": "Normal",
                 "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b5/Boiling_Point.png?version=2cc3c1acf6a9d2d3618bc510b7f66f13",
+                "other": []
+              },
+              {
+                "name": "Clouded Judgment",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/47/Clouded_Judgment.png?version=b7433232108a3ab40290f930acd79337",
+                "other": []
+              },
+              {
+                "name": "Billowing Strength",
+                "type": "Normal",
+                "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3d/Billowing_Strength.png?version=71c2098db0fa1f05f1a2e599629b85d8",
                 "other": []
               },
               {
@@ -3517,31 +4112,56 @@
           },
           {
             "name": "After Party",
+            "description": "If your Health is low after Encounters, restore to the threshold.",
             "type": "Normal",
+            "effect": "Life Threshold: 30%",
+            "rare": "Life Threshold: 37.5%",
+            "epic": "Life Threshold: 45%",
+            "heroic": "Life Threshold: 60%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/f/f3/After_Party.png?version=29281042dadc21fce97a23a19efc9fbd",
             "upgrades": []
           },
           {
             "name": "Positive Outlook",
+            "description": "Take less damage while at 40% Health or below.",
             "type": "Normal",
+            "effect": "Damage Resistance: 10%",
+            "rare": "Damage Resistance: 15%",
+            "epic": "Damage Resistance: 20%",
+            "heroic": "Damage Resistance: 25%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/bd/Positive_Outlook.png?version=efbc904c5eeb0aa2fd44e782ef5faee7",
             "upgrades": []
           },
           {
             "name": "Premium Vintage",
+            "description": "Gain Health when you pick up Nectar. Receive 1 Nectar now.",
             "type": "Normal",
+            "effect": "Life Gain: 20 Health",
+            "rare": "Life Gain: 25 Health",
+            "epic": "Life Gain: 30 Health",
+            "heroic": "Life Gain: 35 Health",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3c/Premium_Vintage.png?version=6ea3269f724666b7d424d01ab151d484",
             "upgrades": []
           },
           {
             "name": "Strong Drink",
+            "description": "Using a Fountain restores all Health and gives you bonus damage.",
             "type": "Normal",
+            "effect": "Bonus Damage per Fountain: 2%",
+            "rare": "Bonus Damage per Fountain: 4%",
+            "epic": "Bonus Damage per Fountain: 6%",
+            "heroic": "Bonus Damage per Fountain: 8%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/b/b3/Strong_Drink.png/150px-Strong_Drink.png?version=d3716de9658358cb6268e8a0fc841e12",
             "upgrades": []
           },
           {
             "name": "Bad Influence",
+            "description": "Deal more damage while 3 foes are Hangover-afflicted.",
             "type": "Normal",
+            "effect": "Bonus Damage: 50%",
+            "rare": "Multiplier: 1.3–1.5",
+            "epic": "Multiplier: 1.8–2.0",
+            "heroic": "Multiplier: 2.3–2.5",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/8/8a/Bad_Influence.png?version=26c0000bf456c6e9a964df37352339ce",
             "upgrades": [
               {
@@ -3554,7 +4174,12 @@
           },
           {
             "name": "Numbing Sensation",
+            "description": "Your Hangover effects also make foes move slower.",
             "type": "Normal",
+            "effect": "Speed Reduction: 15%",
+            "rare": "Multiplier: 1.3–1.5",
+            "epic": "Multiplier: 2.0–2.2",
+            "heroic": "Multiplier: 2.5",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/41/Numbing_Sensation.png?version=12003d217840ab970f7500a10b1dce47",
             "upgrades": [
               {
@@ -3567,7 +4192,12 @@
           },
           {
             "name": "Peer Pressure",
+            "description": "Hangover-afflicted foes contaminate other nearby foes every 4 Sec.",
             "type": "Normal",
+            "effect": "Hangover Damage: 4",
+            "rare": "Multiplier: 1.3–1.5",
+            "epic": "Multiplier: 2.0–2.5",
+            "heroic": "Multiplier: 2.5–2.7",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/4a/Peer_Pressure.png?version=2ca2cbddc57be06b405cefca930f88de",
             "upgrades": [
               {
@@ -3580,7 +4210,12 @@
           },
           {
             "name": "High Tolerance",
+            "description": "Take less damage while standing in Festive Fog.",
             "type": "Normal",
+            "effect": "Damage Resistance: 10–15%",
+            "rare": "Multiplier: 1.3–1.5",
+            "epic": "Multiplier: 2.0–2.5",
+            "heroic": "Multiplier: 2.5–2.7",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/9/91/High_Tolerance.png?version=415bf27778e3d99067a478c95934e765",
             "upgrades": [
               {
@@ -3613,49 +4248,133 @@
           },
           {
             "name": "Black Out",
+            "description": "Hangover-afflicted foes take bonus damage in Festive Fog.",
             "type": "Legendary",
+            "effect": "Haze Combo Damage: 100%",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/f/ff/Black_Out.png?version=f04ef048049f2ba9624659f632e868f3",
             "upgrades": []
           },
           {
+            "name": "Proud Bearing",
+            "description": "You begin each Encounter with your God Gauge partly full.",
+            "type": "Athena",
+            "effect": "Starting Gauge: 20%",
+            "rare": "Starting Gauge: 25%",
+            "epic": "Starting Gauge: 30%",
+            "heroic": "Starting Gauge: 40%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/2e/Proud_Bearing.png?version=1b536f4f820024171efd942dbbb326a6",
+            "upgrades": []
+          },
+          {
+            "name": "Boiling Point",
+            "description": "Your God Gauge charges faster when you take damage.",
+            "type": "Poseidon",
+            "effect": "Faster Gauge Gain When Hit: +40%",
+            "rare": "Faster Gauge Gain When Hit: +50%",
+            "epic": "Faster Gauge Gain When Hit: +60%",
+            "heroic": "Faster Gauge Gain When Hit: +70%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b5/Boiling_Point.png?version=2cc3c1acf6a9d2d3618bc510b7f66f13",
+            "upgrades": []
+          },
+          {
+            "name": "Clouded Judgment",
+            "description": "Your God Gauge charges faster when you deal or take damage.",
+            "type": "Zeus",
+            "effect": "Faster Wrath Gain: +10%",
+            "rare": "Multiplier: +12%",
+            "epic": "Multiplier: +14%",
+            "heroic": "Multiplier: +16%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/47/Clouded_Judgment.png?version=b7433232108a3ab40290f930acd79337",
+            "upgrades": []
+          },
+          {
+            "name": "Billowing Strength",
+            "description": "After using Call, you deal more damage for 15 Sec.",
+            "type": "Zeus",
+            "effect": "Bonus Damage: +20%",
+            "rare": "Bonus Damage: +22%",
+            "epic": "Bonus Damage: +24%",
+            "heroic": "Bonus Damage: +26%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3d/Billowing_Strength.png?version=71c2098db0fa1f05f1a2e599629b85d8",
+            "upgrades": []
+          },
+          {
             "name": "Low Tolerance",
+            "description": "Your Hangover effects stack even more times against Weak foes.",
             "type": "Duo",
+            "effect": "Bonus Hangover Stacks: 3",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/45/Low_Tolerance.png?version=5b02552df82df3f9424cc53761ee98f2",
             "upgrades": []
           },
           {
             "name": "Curse of Nausea",
+            "description": "Your Hangover effects deal damage faster.",
             "type": "Duo",
+            "effect": "Damage Rate: .50 sec -> .35 sec",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/5/55/Curse_of_Nausea.png/150px-Curse_of_Nausea.png?version=836fcee7bcd76e79f80863b28172aa20",
             "upgrades": []
           },
           {
             "name": "Splitting Headache",
+            "description": "Hangover-afflicted foes are more likely to take Critical damage.",
             "type": "Duo",
+            "effect": "Bonus Critical Chance per Hangover Stack: +1.5%",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/d/da/Splitting_Headache.png/150px-Splitting_Headache.png?version=8c860e2046bc17b076001f00b15aa749",
             "upgrades": []
           },
           {
             "name": "Calculated Risk",
+            "description": "Your foes' ranged-attack projectiles are slower.",
             "type": "Duo",
+            "effect": "Foe Projectile Speed Reduction: +40%",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/0/0c/Calculated_Risk.png/150px-Calculated_Risk.png?version=367aed376b392147f190b0a6415a8a09",
             "upgrades": []
           },
           {
             "name": "Ice Wine",
+            "description": "Your Cast blasts an area with freezing Festive Fog that inflicts Chill.",
             "type": "Duo",
+            "effect": "Blast Damage: +50%",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/8/8e/Ice_Wine.png?version=03c1e42d920d5b6432019e768b295b5c",
             "upgrades": []
           },
           {
             "name": "Exclusive Access",
+            "description": "Any Boons you find have superior effects.",
             "type": "Duo",
+            "effect": "Minimum Boon Rarity: Epic",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/32/Exclusive_Access.png?version=446e8cb27ce2b9681462935453d58b49",
             "upgrades": []
           },
           {
             "name": "Scintillating Feast",
+            "description": "Your Festive Fog effects also deal lightning damage periodically.",
             "type": "Duo",
+            "effect": "Lightning Damage: 80",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e2/Scintillating_Feast.png?version=ec3c814073ceb907ab04272d31602082",
             "upgrades": []
           }
@@ -3665,7 +4384,12 @@
         "boons": [
           {
             "name": "Tempest Strike",
+            "description": "Your Attack deals more damage and knocks foes away.",
             "type": "Normal",
+            "effect": "Attack Damage: +30%",
+            "rare": "Multiplier: 1.3–1.5",
+            "epic": "Multiplier: 1.8–2.0",
+            "heroic": "Multiplier: 2.3–2.5",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/b/b2/Tempest_Strike.png/150px-Tempest_Strike.png?version=fbdee45b4ef0adcb0ae18e12455e7c38",
             "upgrades": [
               {
@@ -3765,7 +4489,12 @@
           },
           {
             "name": "Tempest Flourish",
+            "description": "Your Special deals more damage and knocks foes away.",
             "type": "Normal",
+            "effect": "Special Damage: +70%",
+            "rare": "Multiplier: 1.3–1.5",
+            "epic": "Multiplier: 1.8–2.0",
+            "heroic": "Multiplier: 2.3–2.5",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c7/Tempest_Flourish.png?version=b80f198165530506fa75d65d2e8f2097",
             "upgrades": [
               {
@@ -3865,7 +4594,12 @@
           },
           {
             "name": "Flood Shot",
+            "description": "Your Cast damages foes in an area and knocks them away.",
             "type": "Normal",
+            "effect": "Cast Damage: 60",
+            "rare": "Cast Damage: 72",
+            "epic": "Cast Damage: 84",
+            "heroic": "Cast Damage: 96",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/1/17/Flood_Shot.png/150px-Flood_Shot.png?version=af6e913bb1a9e1d258c85d1ba27e9532",
             "upgrades": [
               {
@@ -3993,7 +4727,12 @@
           },
           {
             "name": "Flood Flare",
+            "description": "Your Cast damages foes in an area and knocks them away.",
             "type": "Normal",
+            "effect": "Cast Damage: 60",
+            "rare": "Cast Damage: 72",
+            "epic": "Cast Damage: 84",
+            "heroic": "Cast Damage: 96",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/1/17/Flood_Shot.png/150px-Flood_Shot.png?version=af6e913bb1a9e1d258c85d1ba27e9532",
             "upgrades": [
               {
@@ -4115,7 +4854,12 @@
           },
           {
             "name": "Tidal Dash",
+            "description": "Your Dash damages foes in an area and knocks them away.",
             "type": "Normal",
+            "effect": "Dash Damage: 35",
+            "rare": "Dash Damage: 42",
+            "epic": "Dash Damage: 49",
+            "heroic": "Dash Damage: 56",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c8/Tidal_Dash.png?version=7f68fd41b94ef5895d09e94705f9cc66",
             "upgrades": [
               {
@@ -4215,7 +4959,12 @@
           },
           {
             "name": "Poseidon's Aid",
+            "description": "Your Call makes you surge into foes while Impervious for 1.2 Sec.",
             "type": "Normal",
+            "effect": "Impact Damage: 250",
+            "rare": "Impact Damage: 300",
+            "epic": "Impact Damage: 350",
+            "heroic": "Impact Damage: 400",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/ea/Poseidon%27s_Aid.png?version=174a122bdf2dadf5b955be03748c99d7",
             "upgrades": [
               {
@@ -4345,7 +5094,12 @@
           },
           {
             "name": "Typhoon's Fury",
+            "description": "You deal more damage when slamming foes into barriers.",
             "type": "Normal",
+            "effect": "Slam Damage: 300%",
+            "rare": "Slam Damage: 350%",
+            "epic": "Slam Damage: 400%",
+            "heroic": "Slam Damage: 450%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3b/Typhoon%27s_Fury.png?version=d5e648d511271d2c9432f1360fa0ebce",
             "upgrades": [
               {
@@ -4364,13 +5118,23 @@
           },
           {
             "name": "Hydraulic Might",
+            "description": "Your Attack and Special are stronger the first 5 Sec. in Encounter(s).",
             "type": "Normal",
+            "effect": "Initial Damage Bonus: +130%",
+            "rare": "Multiplier: 1.34",
+            "epic": "Multiplier: 1.67",
+            "heroic": "Multiplier: 2.00",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b4/Hydraulic_Might.png?version=11d24b3007f9c851d538386af0f1cf38",
             "upgrades": []
           },
           {
             "name": "Ocean's Bounty",
+            "description": "Any Gemstone, Darkness or Obols chamber rewards are worth more.",
             "type": "Normal",
+            "effect": "Reward Bonus: +50%",
+            "rare": "Reward Bonus: +55%",
+            "epic": "Reward Bonus: +60%",
+            "heroic": "Reward Bonus: +65%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/a7/Ocean%27s_Bounty.png?version=9e8d7b2c2fc5ba3ffe992f9045d0cc36",
             "upgrades": [
               {
@@ -4383,7 +5147,12 @@
           },
           {
             "name": "Sunken Treasure",
+            "description": "Gain an assortment of Gemstone, Darkness, Obols and Health.",
             "type": "Normal",
+            "effect": "Obols Awarded: 50–70, Health Awarded: 1–3 items, Darkness Awarded: 50-100, Chance of Nectar: 10%, Chance of Diamond: 0.03%",
+            "rare": "Multiplier: 1.3–1.5",
+            "epic": "Multiplier: 2.0–2.2",
+            "heroic": "N/A",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/f/fa/Sunken_Treasure.png?version=cd092df6be0e5c040e77dc04e4b3a59f",
             "upgrades": [
               {
@@ -4396,7 +5165,12 @@
           },
           {
             "name": "Razor Shoals",
+            "description": "Using knock-away effects also Rupture foes.",
             "type": "Normal",
+            "effect": "Rupture Damage: 5 every 0.2 Sec.",
+            "rare": "Rupture Damage: 7.5",
+            "epic": "Rupture Damage: 10",
+            "heroic": "Rupture Damage: 12.5",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/6a/Razor_Shoals.png?version=8fade23ed4a985675697c0d597825894",
             "upgrades": [
               {
@@ -4415,13 +5189,23 @@
           },
           {
             "name": "Boiling Point",
+            "description": "Your God Gauge charges faster when you take damage.",
             "type": "Normal",
+            "effect": "Faster Gauge Gain When Hit: +40%",
+            "rare": "Faster Gauge Gain When Hit: +50%",
+            "epic": "Faster Gauge Gain When Hit: +60%",
+            "heroic": "Faster Gauge Gain When Hit: +70%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b5/Boiling_Point.png?version=2cc3c1acf6a9d2d3618bc510b7f66f13",
             "upgrades": []
           },
           {
             "name": "Breaking Wave",
+            "description": "Slamming foes into walls or corners creates a watery blast in the area.",
             "type": "Normal",
+            "effect": "Stun Duration: 100",
+            "rare": "Multiplier: 1.3–1.5",
+            "epic": "Multiplier: 2.0–2.5",
+            "heroic": "Multiplier: 2.5–2.7",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/8/84/Breaking_Wave.png?version=0508847e3a33416b5fe3a522c516d9d4",
             "upgrades": [
               {
@@ -4440,67 +5224,166 @@
           },
           {
             "name": "Wave Pounding",
+            "description": "Your boons with Knock-Away effects deal bonus damage to bosses.",
             "type": "Normal",
+            "effect": "Bonus damage: +10%",
+            "rare": "Bonus damage: +20%",
+            "epic": "Bonus damage: +30%",
+            "heroic": "Bonus damage: +40%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e3/Wave_Pounding.png?version=903e0c16d8439aaf9aacb5d8e0482c19",
             "upgrades": []
           },
           {
             "name": "Rip Current",
+            "description": "Your Call pulls in foes and the effect lasts longer.",
             "type": "Normal",
+            "effect": "Longer Duration: ?",
+            "rare": "Multiplier: ?",
+            "epic": "Multiplier: ?",
+            "heroic": "Multiplier: ?",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/1/14/Rip_Current.png/150px-Rip_Current.png?version=80f89bdac06088a4b12a745592dc5db7",
             "upgrades": []
           },
           {
             "name": "Huge Catch",
+            "description": "You have a greater chance to find Fishing Point in each Chamber.",
             "type": "Legendary",
+            "effect": "Fish Spawn Chance: +20%",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/cc/Huge_Catch.png/150px-Huge_Catch.png?version=7d74ab4747b9ece2822f2067b454fd5e",
             "upgrades": []
           },
           {
             "name": "Second Wave",
+            "description": "Your knock-away effects shove foes a second time after the first.",
             "type": "Legendary",
+            "effect": "Second Knockback Delay: 0.7 Sec.",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/18/Second_Wave.png?version=b8d6fd0b090318b1e47088d5875dfdec",
             "upgrades": []
           },
           {
+            "name": "Exit Wounds",
+            "description": "Your foes take damage when your Cast stuck in them is dislodged.",
+            "type": "Artemis",
+            "effect": "Dislodge Damage: 100",
+            "rare": "Dislodge Damage: 120",
+            "epic": "Dislodge Damage: 140",
+            "heroic": "Dislodge Damage: 160",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/d/d1/Exit_Wounds.png/150px-Exit_Wounds.png?version=74870dcb1cdcb40c1af9dd7b93e31c56",
+            "upgrades": []
+          },
+          {
+            "name": "Proud Bearing",
+            "description": "You begin each Encounter with your God Gauge partly full.",
+            "type": "Athena",
+            "effect": "Starting Gauge: 20%",
+            "rare": "Starting Gauge: 25%",
+            "epic": "Starting Gauge: 30%",
+            "heroic": "Starting Gauge: 40%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/2e/Proud_Bearing.png?version=1b536f4f820024171efd942dbbb326a6",
+            "upgrades": []
+          },
+          {
+            "name": "Clouded Judgment",
+            "description": "Your God Gauge charges faster when you deal or take damage.",
+            "type": "Zeus",
+            "effect": "Faster Wrath Gain: +10%",
+            "rare": "Multiplier: +12%",
+            "epic": "Multiplier: +14%",
+            "heroic": "Multiplier: +16%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/47/Clouded_Judgment.png?version=b7433232108a3ab40290f930acd79337",
+            "upgrades": []
+          },
+          {
+            "name": "Billowing Strength",
+            "description": "After using Call, you deal more damage for 15 Sec.",
+            "type": "Zeus",
+            "effect": "Bonus Damage: +20%",
+            "rare": "Bonus Damage: +22%",
+            "epic": "Bonus Damage: +24%",
+            "heroic": "Bonus Damage: +26%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3d/Billowing_Strength.png?version=71c2098db0fa1f05f1a2e599629b85d8",
+            "upgrades": []
+          },
+          {
             "name": "Sweet Nectar",
+            "description": "Any Poms of Power you find are more effective.",
             "type": "Duo",
+            "effect": "Bonus Lv. from Poms: +1",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/56/Sweet_Nectar.png?version=272c3b5d99c837b65cc0065328427d0c",
             "upgrades": []
           },
           {
             "name": "Curse of Drowning",
+            "description": "Your Cast is a pulse that deals damage to foes around you.",
             "type": "Duo",
+            "effect": "Pulses per Cast: 3",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/57/Curse_of_Drowning.png?version=e828ee81b4e9cccc91d414e7b8539141",
             "upgrades": []
           },
           {
             "name": "Mirage Shot",
+            "description": "Your Cast fires a second projectile, though it has reduced damage.",
             "type": "Duo",
+            "effect": "Secondary Shot Damage: 30%",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/a/ab/Mirage_Shot.png/150px-Mirage_Shot.png?version=9aaa498eb4f9a2c93e7ea75f92fc2637",
             "upgrades": []
           },
           {
             "name": "Unshakable Mettle",
+            "description": "You cannot be stunned, and resist some damage from Bosses.",
             "type": "Duo",
+            "effect": "Boss Damage Reduction: +5%",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/cf/Unshakable_Mettle.png/150px-Unshakable_Mettle.png?version=31a5293c6b3f02322ebd639c48568b79",
             "upgrades": []
           },
           {
             "name": "Blizzard Shot",
+            "description": "Your Cast moves slowly, piercing foes and firing shards around it.",
             "type": "Duo",
+            "effect": "Shard Damage: 40",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/75/Blizzard_Shot.png?version=5528ef9763c75e9685ddd37d02cc7e95",
             "upgrades": []
           },
           {
             "name": "Exclusive Access",
+            "description": "Any Boons you find have superior effects.",
             "type": "Duo",
+            "effect": "Minimum Boon Rarity: Epic",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/32/Exclusive_Access.png?version=446e8cb27ce2b9681462935453d58b49",
             "upgrades": []
           },
           {
             "name": "Sea Storm",
+            "description": "Your knock-away effects also cause foes to be struck by lightning.",
             "type": "Duo",
+            "effect": "Lightning Damage 40",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c7/Sea_Storm.png?version=090159da0c5080261aed0d7225c2bcb2",
             "upgrades": []
           }

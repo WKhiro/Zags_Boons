@@ -1,12 +1,13 @@
 import React, { useState } from "react"
 import { graphql } from "gatsby"
+// Unique key generator for mapped elements
+import { v4 as uuidv4 } from "uuid"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Boon from "../components/boon"
-import BoonTester from "../components/boonTester"
+import PrerequisiteBoons from "../components/prerequisiteBoons"
 import PotentialBoons from "../components/potentialBoons"
 import AvailableBoons from "../components/availableBoons"
-import "./testerx.css"
+import "./gods.css"
 
 export default function Poseidon({ data }) {
   const gods = data.dataJson.gods
@@ -15,6 +16,8 @@ export default function Poseidon({ data }) {
   // Poseidon's boon list in this case
   const godData = gods[0][godName]
   var [display, setDisplay] = useState([false])
+  // On-off styling for boons on click
+  var boonClass = ""
   var available = []
   var potential = []
   var displayingList = []
@@ -26,37 +29,49 @@ export default function Poseidon({ data }) {
   }
 
   const updateLists = boonIndex => {
+    // Used to reference the upgrade's data (effects, rarity bonuses)
+    let upgradeData = ""
+    // Name of the boon that was just clicked on
+    const clickedBoon = godData.boons[boonIndex].name
+
     godData.boons[boonIndex].upgrades.forEach(upgrade => {
-      const clickedBoon = godData.boons[boonIndex].name
+      // Find the upgrade's data in the general boon list
+      upgradeData = godData.boons.find(boon => boon.name === upgrade.name)
 
       // Check if any potential upgrades become avaliable with the addition of the clicked boon
       if (
         potential.some(
-          e => e.Name === upgrade.name && e.Other.includes(clickedBoon)
+          e => e.name === upgrade.name && e.other.includes(clickedBoon)
         )
       ) {
         // Add unlocked upgrade to the available list, and remove from potential list
         available.push({
-          Name: upgrade.name,
-          Iconurl: upgrade.iconurl,
+          name: upgradeData.name,
+          description: upgradeData.description,
+          type: upgradeData.type,
+          iconurl: upgradeData.iconurl,
+          effect: upgradeData.effect,
+          rare: upgradeData.rare,
+          epic: upgradeData.epic,
+          heroic: upgradeData.heroic,
         })
         potential.splice(
           potential
             .map(boon => {
-              return boon.Name
+              return boon.name
             })
-            .indexOf(upgrade.name),
+            .indexOf(upgradeData.name),
           1
         )
       }
 
       // Check if the clicked boon is in the available list
-      if (available.some(e => e.Name === clickedBoon)) {
+      if (available.some(e => e.name === clickedBoon)) {
         // Remove it from the available list because we now have it (clicked on it)
         available.splice(
           available
             .map(boon => {
-              return boon.Name
+              return boon.name
             })
             .indexOf(clickedBoon),
           1
@@ -66,49 +81,59 @@ export default function Poseidon({ data }) {
       // Add upgrades with no other prerequisite boons to the available list if it's not already there
       if (
         upgrade.other.length === 0 &&
-        !available.some(e => e.Name === upgrade.name)
+        !available.some(e => e.name === upgradeData.name)
       ) {
         available.push({
-          Name: upgrade.name,
-          Iconurl: upgrade.iconurl,
+          name: upgradeData.name,
+          description: upgradeData.description,
+          type: upgradeData.type,
+          iconurl: upgradeData.iconurl,
+          effect: upgradeData.effect,
+          rare: upgradeData.rare,
+          epic: upgradeData.epic,
+          heroic: upgradeData.heroic,
         })
       }
 
       // The upgrade isn't in either list; add it to the potential list
       if (
-        !potential.some(e => e.Name === upgrade.name) &&
-        !available.some(e => e.Name === upgrade.name)
+        !potential.some(e => e.name === upgradeData.name) &&
+        !available.some(e => e.name === upgradeData.name)
       ) {
         potential.push({
-          Name: upgrade.name,
-          Other: upgrade.other,
-          Iconurl: upgrade.iconurl,
+          name: upgradeData.name,
+          description: upgradeData.description,
+          type: upgradeData.type,
+          iconurl: upgradeData.iconurl,
+          effect: upgradeData.effect,
+          rare: upgradeData.rare,
+          epic: upgradeData.epic,
+          heroic: upgradeData.heroic,
+          other: upgrade.other,
         })
       }
     })
   }
 
   return (
-    <Layout>
+    <Layout key={uuidv4()}>
       <SEO title="Home" />
-      <div class="box">
+      <div className="box">
         <div className="one">
           <h2>Prerequisite Boons</h2>
           {data.dataJson.gods.map((godType, index) =>
             godType[godName].boons
               .filter(boonType => boonType.upgrades.length !== 0)
               .map((boonType, index) => {
-                var classButton = display[
-                  godType[godName].boons.indexOf(boonType)
-                ]
-                  ? "buttonFlare"
-                  : "buttonReadjust"
+                boonClass = display[godType[godName].boons.indexOf(boonType)]
+                  ? "boonOn"
+                  : "boonOff"
                 return (
-                  <BoonTester
-                    name={boonType.name}
-                    iconurl={boonType.iconurl}
+                  <PrerequisiteBoons
+                    key={uuidv4()}
+                    boonData={boonType}
                     index={godType[godName].boons.indexOf(boonType)}
-                    className={classButton}
+                    className={boonClass}
                     onClick={toggleDisplay}
                   />
                 )
@@ -128,6 +153,7 @@ export default function Poseidon({ data }) {
             .map(boolVal => {
               return (
                 <PotentialBoons
+                  key={uuidv4()}
                   potential={potential}
                   displayingList={displayingList}
                 />
@@ -150,6 +176,12 @@ export const query = graphql`
         poseidon {
           boons {
             name
+            description
+            type
+            effect
+            rare
+            epic
+            heroic
             iconurl
             upgrades {
               name

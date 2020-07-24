@@ -1,47 +1,58 @@
 import React from "react"
-import "../pages/testerx.css"
+import "./boonStyle.css"
+import NormalTooltip from "./normalTooltip"
+import { v4 as uuidv4 } from "uuid"
 
 export default function PotentialBoons(props) {
   const potential = props.potential
   const displayingList = props.displayingList
 
   return potential.map(element => {
-    if (!displayingList.includes(element.Name)) {
-      displayingList.push(element.Name)
-      if (element.Other2) {
-        if (element.Other2.length !== 0) {
+    if (!displayingList.includes(element.name)) {
+      displayingList.push(element.name)
+
+      // Check if the upgrade requires two more prerequisites instead of just one
+      if (element.other2) {
+        if (element.other2.length !== 0) {
           return (
-            <div className="too">
-              <img className="testimg" src={element.Iconurl} alt="" />
-              <h3 className="spaceBoon">{element.Name}</h3>
-              {element.Other.map(reqs => {
-                return <h5>+{reqs}</h5>
+            <div key={uuidv4()} className="too">
+              <img className="testimg" src={element.iconurl} alt="" />
+              <h3 className="spaceBoon">{element.name}</h3>
+              {element.other.map(reqs => {
+                return <h5>+ {reqs}</h5>
               })}
               IN ADDITION
-              {element.Other2.map(reqs2 => {
-                return <h5>+{reqs2}</h5>
+              {element.other2.map(reqs2 => {
+                return <h5>+ {reqs2}</h5>
               })}
             </div>
           )
         } else {
           return (
-            <div className="too">
-              <img className="testimg" src={element.Iconurl} alt="" />
-              <h3 className="spaceBoon">{element.Name}</h3>
-              {element.Other.map(reqs => {
-                return <h5>+{reqs}</h5>
+            <div key={uuidv4()} className="too">
+              <img className="testimg" src={element.iconurl} alt="" />
+              <h3 className="spaceBoon">{element.name}</h3>
+              {element.other.map(reqs => {
+                return <h5>+ {reqs}</h5>
               })}
             </div>
           )
         }
       } else {
         return (
-          <div className="too">
-            <img className="testimg" src={element.Iconurl} alt="" />
-            <h4>{element.Name}</h4>
+          <div key={uuidv4()} className="too">
+            <img
+              data-tip
+              data-for={element.name}
+              className="testimg"
+              src={element.iconurl}
+              alt=""
+            />
+            <NormalTooltip id={element.name} boonData={element} />
+            <h4>{element.name}</h4>
             <div className="derp">
-              {element.Other.map(reqs => {
-                return <h5>+{reqs}</h5>
+              {element.other.map(reqs => {
+                return <h5 key={uuidv4()}>+ {reqs}</h5>
               })}
             </div>
           </div>

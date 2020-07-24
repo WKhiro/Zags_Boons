@@ -1,9 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
-import Logo from "../images/logo.png"
 import { Nav, Navbar } from "react-bootstrap"
 import "./header.css"
 import "bootstrap/dist/css/bootstrap.css" // Necessary for react-bootstrap
+import { v4 as uuidv4 } from "uuid"
 
 const Header = ({ siteTitle, menuLinks }) => (
   <Navbar expand="xl" variant="dark">
@@ -53,7 +53,7 @@ const Header = ({ siteTitle, menuLinks }) => (
               linkClass = "linkFormat"
           }
           return (
-            <Nav.Item>
+            <Nav.Item key={uuidv4()}>
               <Link
                 className={linkClass}
                 to={link.link}

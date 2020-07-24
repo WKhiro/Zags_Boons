@@ -1,7 +1,17 @@
-.testin > img,
-.testin > h3 {
+.testin {
+  color: white;
+  border: 2px solid gold;
+  border-radius: 12px;
   display: inline-block;
-  vertical-align: middle;
+  padding: 10px;
+  margin: 2px;
+  vertical-align: top;
+}
+
+.testin > img,
+.testin > h3,
+.testin > h4 {
+  display: inline-block;
   margin: 0;
 }
 
@@ -55,23 +65,23 @@ h5 {
   background: tomato;
 }
 
-.buttonReadjust {
+.boonOff {
   width: 100px;
   height: 100px;
   filter: drop-shadow(5px 5px 5px #222);
 }
 
-.buttonReadjust:hover {
+.boonOff:hover {
   opacity: 0.8;
 }
 
-.buttonFlare {
+.boonOn {
   width: 100px;
   height: 100px;
   filter: drop-shadow(0 0 10px #fff) drop-shadow(0 0 30px rgb(252, 226, 32));
 }
 
-.buttonFlare:hover {
+.boonOn:hover {
   opacity: 0.8;
 }
 
@@ -89,4 +99,40 @@ h5 {
 
 .heroic {
   color: red;
+}
+
+.legendary {
+  color: orange;
+}
+
+.tool {
+  border-width: 2px !important;
+  border-color: white !important;
+}
+
+.tool > p {
+  color: white;
+  margin: 0;
+}
+
+.spaceBoon {
+  margin-bottom: 100px;
+}
+
+.too {
+  color: white;
+  border: 2px solid purple;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.too > img,
+.too > h4 {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.too > img {
+  margin-right: 10px;
 }
