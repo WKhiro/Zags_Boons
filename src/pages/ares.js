@@ -16,6 +16,8 @@ export default function Ares({ data }) {
   // Ares' boon list in this case
   const godData = gods[0][godName]
   var [display, setDisplay] = useState([false])
+  // On-off styling for boons on click
+  var boonClass = ""
   var available = []
   var potential = []
   var displayingList = []
@@ -27,26 +29,38 @@ export default function Ares({ data }) {
   }
 
   const updateLists = boonIndex => {
+    // Used to reference the upgrade's data (effects, rarity bonuses)
+    let upgradeData = ""
+    // Name of the boon that was just clicked on
+    const clickedBoon = godData.boons[boonIndex].name
+
     godData.boons[boonIndex].upgrades.forEach(upgrade => {
-      const clickedBoon = godData.boons[boonIndex].name
+      // Find the upgrade's data in the general boon list
+      upgradeData = godData.boons.find(boon => boon.name === upgrade.name)
 
       // Check if any potential upgrades become avaliable with the addition of the clicked boon
       if (
         potential.some(
-          e => e.Name === upgrade.name && e.Other.includes(clickedBoon)
+          e => e.name === upgrade.name && e.other.includes(clickedBoon)
         )
       ) {
         // Add unlocked upgrade to the available list, and remove from potential list
         available.push({
-          Name: upgrade.name,
-          Iconurl: upgrade.iconurl,
+          name: upgradeData.name,
+          description: upgradeData.description,
+          type: upgradeData.type,
+          iconurl: upgradeData.iconurl,
+          effect: upgradeData.effect,
+          rare: upgradeData.rare,
+          epic: upgradeData.epic,
+          heroic: upgradeData.heroic,
         })
         potential.splice(
           potential
             .map(boon => {
-              return boon.Name
+              return boon.name
             })
-            .indexOf(upgrade.name),
+            .indexOf(upgradeData.name),
           1
         )
       }
@@ -56,20 +70,20 @@ export default function Ares({ data }) {
         // If 'Vengeful Mood' is in the potential list and the clicked boon is a prerequisite
         if (
           upgrade.other2.includes(clickedBoon) &&
-          potential.some(boon => boon.Name === upgrade.name)
+          potential.some(boon => boon.name === upgradeData.name)
         ) {
           // Remove one of the prerequisites
-          potential.find(boon => boon.Name === upgrade.name).Other2 = []
+          potential.find(boon => boon.name === upgradeData.name).other2 = []
         }
       }
 
       // Check if the clicked boon is in the available list
-      if (available.some(e => e.Name === clickedBoon)) {
+      if (available.some(e => e.name === clickedBoon)) {
         // Remove it from the available list because we now have it (clicked on it)
         available.splice(
           available
             .map(boon => {
-              return boon.Name
+              return boon.name
             })
             .indexOf(clickedBoon),
           1
@@ -79,35 +93,53 @@ export default function Ares({ data }) {
       // Add upgrades with no other prerequisite boons to the available list if it's not already there
       if (
         upgrade.other.length === 0 &&
-        !available.some(e => e.Name === upgrade.name)
+        !available.some(e => e.name === upgradeData.name)
       ) {
         available.push({
-          Name: upgrade.name,
-          Iconurl: upgrade.iconurl,
+          name: upgradeData.name,
+          description: upgradeData.description,
+          type: upgradeData.type,
+          iconurl: upgradeData.iconurl,
+          effect: upgradeData.effect,
+          rare: upgradeData.rare,
+          epic: upgradeData.epic,
+          heroic: upgradeData.heroic,
         })
       }
 
       // The upgrade isn't in either list; add it to the potential list
       if (
-        !potential.some(e => e.Name === upgrade.name) &&
-        !available.some(e => e.Name === upgrade.name)
+        !potential.some(e => e.name === upgradeData.name) &&
+        !available.some(e => e.name === upgradeData.name)
       ) {
         // 'Vengeful Mood' boon clause
         if (upgrade.other2) {
           if (!upgrade.other2.includes(clickedBoon)) {
             potential.push({
-              Name: upgrade.name,
-              Other: upgrade.other,
-              Other2: upgrade.other2,
-              Iconurl: upgrade.iconurl,
+              name: upgradeData.name,
+              description: upgradeData.description,
+              type: upgradeData.type,
+              iconurl: upgradeData.iconurl,
+              effect: upgradeData.effect,
+              rare: upgradeData.rare,
+              epic: upgradeData.epic,
+              heroic: upgradeData.heroic,
+              other: upgrade.other,
+              other2: upgrade.other2,
             })
           }
         } else {
           potential.push({
-            Name: upgrade.name,
-            Other: upgrade.other,
-            Other2: [],
-            Iconurl: upgrade.iconurl,
+            name: upgradeData.name,
+            description: upgradeData.description,
+            type: upgradeData.type,
+            iconurl: upgradeData.iconurl,
+            effect: upgradeData.effect,
+            rare: upgradeData.rare,
+            epic: upgradeData.epic,
+            heroic: upgradeData.heroic,
+            other: upgrade.other,
+            other2: [],
           })
         }
       }
@@ -115,7 +147,7 @@ export default function Ares({ data }) {
   }
 
   return (
-    <Layout>
+    <Layout key={uuidv4()}>
       <SEO title="Home" />
       <div className="box">
         <div className="one">
@@ -124,17 +156,15 @@ export default function Ares({ data }) {
             godType[godName].boons
               .filter(boonType => boonType.upgrades.length !== 0)
               .map((boonType, index) => {
-                var classButton = display[
-                  godType[godName].boons.indexOf(boonType)
-                ]
-                  ? "buttonFlare"
-                  : "buttonReadjust"
+                boonClass = display[godType[godName].boons.indexOf(boonType)]
+                  ? "boonOn"
+                  : "boonOff"
                 return (
                   <PrerequisiteBoons
-                    name={boonType.name}
-                    iconurl={boonType.iconurl}
+                    key={uuidv4()}
+                    boonData={boonType}
                     index={godType[godName].boons.indexOf(boonType)}
-                    className={classButton}
+                    className={boonClass}
                     onClick={toggleDisplay}
                   />
                 )
@@ -154,6 +184,7 @@ export default function Ares({ data }) {
             .map(boolVal => {
               return (
                 <PotentialBoons
+                  key={uuidv4()}
                   potential={potential}
                   displayingList={displayingList}
                 />
@@ -176,13 +207,18 @@ export const query = graphql`
         ares {
           boons {
             name
+            description
+            type
+            effect
+            rare
+            epic
+            heroic
             iconurl
             upgrades {
               name
-              iconurl
               type
+              iconurl
               other
-              other2
             }
           }
         }

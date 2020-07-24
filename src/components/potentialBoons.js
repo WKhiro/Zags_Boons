@@ -16,8 +16,15 @@ export default function PotentialBoons(props) {
         if (element.other2.length !== 0) {
           return (
             <div key={uuidv4()} className="too">
-              <img className="testimg" src={element.iconurl} alt="" />
-              <h3 className="spaceBoon">{element.name}</h3>
+              <img
+                data-tip
+                data-for={element.name}
+                className="testimg"
+                src={element.iconurl}
+                alt=""
+              />
+              <NormalTooltip id={element.name} boonData={element} />
+              <h4 className="spaceBoon">{element.name}</h4>
               {element.other.map(reqs => {
                 return <h5>+ {reqs}</h5>
               })}
@@ -30,8 +37,15 @@ export default function PotentialBoons(props) {
         } else {
           return (
             <div key={uuidv4()} className="too">
-              <img className="testimg" src={element.iconurl} alt="" />
-              <h3 className="spaceBoon">{element.name}</h3>
+              <img
+                data-tip
+                data-for={element.name}
+                className="testimg"
+                src={element.iconurl}
+                alt=""
+              />
+              <NormalTooltip id={element.name} boonData={element} />
+              <h4 className="spaceBoon">{element.name}</h4>
               {element.other.map(reqs => {
                 return <h5>+ {reqs}</h5>
               })}
@@ -50,11 +64,9 @@ export default function PotentialBoons(props) {
             />
             <NormalTooltip id={element.name} boonData={element} />
             <h4>{element.name}</h4>
-            <div className="derp">
-              {element.other.map(reqs => {
-                return <h5 key={uuidv4()}>+ {reqs}</h5>
-              })}
-            </div>
+            {element.other.map(reqs => {
+              return <h5 key={uuidv4()}>+ {reqs}</h5>
+            })}
           </div>
         )
       }

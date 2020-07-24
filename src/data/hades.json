@@ -877,7 +877,12 @@
         "boons": [
           {
             "name": "Curse of Agony",
+            "description": "Your Attack inflicts Doom.",
             "type": "Normal",
+            "effect": "Curse Damage: 50",
+            "rare": "Curse Damage: 75",
+            "epic": "Curse Damage: 100",
+            "heroic": "Curse Damage: 125",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/8/83/Curse_of_Agony.png?version=97e55d892afb5684df2cddcc49aa5806",
             "upgrades": [
               {
@@ -951,7 +956,12 @@
           },
           {
             "name": "Curse of Pain",
+            "description": "Your Special inflicts Doom.",
             "type": "Normal",
+            "effect": "Curse Damage: 60",
+            "rare": "Curse Damage: 80",
+            "epic": "Curse Damage: 100",
+            "heroic": "Curse Damage: 120",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/a4/Curse_of_Pain.png?version=f98b95b993a41979f13d2b14deafe0c4",
             "upgrades": [
               {
@@ -1019,7 +1029,12 @@
           },
           {
             "name": "Slicing Shot",
+            "description": "Your Cast sends a Blade Rift hurling ahead.",
             "type": "Normal",
+            "effect": "Rift Damage per Hit: 10",
+            "rare": "Rift Damage per Hit: 11",
+            "epic": "Rift Damage per Hit: 13",
+            "heroic": "Rift Damage per Hit: 14",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/75/Slicing_Shot.png?version=56b3d8669c9a86212987ec5fd36eacdf",
             "upgrades": [
               {
@@ -1087,7 +1102,12 @@
           },
           {
             "name": "Slicing Flare",
+            "description": "Your Cast sends a Blade Rift hurling ahead.",
             "type": "Normal",
+            "effect": "Rift Damage per Hit: 10",
+            "rare": "Rift Damage per Hit: 11",
+            "epic": "Rift Damage per Hit: 13",
+            "heroic": "Rift Damage per Hit: 14",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/75/Slicing_Shot.png?version=56b3d8669c9a86212987ec5fd36eacdf",
             "upgrades": [
               {
@@ -1155,7 +1175,12 @@
           },
           {
             "name": "Blade Dash",
+            "description": "Your Dash creates a Blade Rift where you started.",
             "type": "Normal",
+            "effect": "Rift Damage per Hit: 5",
+            "rare": "Rift Damage per Hit: 6",
+            "epic": "Rift Damage per Hit: 7",
+            "heroic": "Rift Damage per Hit: 8",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/58/Blade_Dash.png?version=318a318243829c12d369b1622077773e",
             "upgrades": [
               {
@@ -1206,7 +1231,12 @@
           },
           {
             "name": "Ares' Aid",
+            "description": "Your Call turns you into an Impervious Blade Rift for 1.2 Sec.",
             "type": "Normal",
+            "effect": "Rift Damage per Hit: 30",
+            "rare": "Rift Damage per Hit: 37.5",
+            "epic": "Rift Damage per Hit: 45",
+            "heroic": "Rift Damage per Hit: 52.5",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/63/Ares%27_Aid.png?version=1ab56241e3a4287defb45c807732d862",
             "upgrades": [
               {
@@ -1281,7 +1311,12 @@
           },
           {
             "name": "Curse of Vengeance",
+            "description": "After you take damage, inflict Doom on surrounding foes.",
             "type": "Normal",
+            "effect": "Revenge Damage: 90",
+            "rare": "Revenge Damage: 99",
+            "epic": "Revenge Damage: 108",
+            "heroic": "Revenge Damage: 117",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/04/Curse_of_Vengeance.png?version=d1cd4cf14313457422bf6b42a6397fd9",
             "upgrades": [
               {
@@ -1314,25 +1349,45 @@
           },
           {
             "name": "Urge to Kill",
+            "description": "Your Attack and Cast deal more damage.",
             "type": "Normal",
+            "effect": "Attack and Cast Damage: +8%",
+            "rare": "Attack and Cast Damage: +10%",
+            "epic": "Attack and Cast Damage: +12%",
+            "heroic": "Attack and Cast Damage: +14%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/25/Urge_to_Kill.png?version=910d5034ec32099f0db3d7201f172d39",
             "upgrades": []
           },
           {
             "name": "Battle Rage",
+            "description": "After slaying a foe, your next Attack or Special deals more damage.",
             "type": "Normal",
+            "effect": "Damage Bonus: +100%",
+            "rare": "Damage Bonus: +150%",
+            "epic": "Damage Bonus: +200%",
+            "heroic": "Damage Bonus: +250%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/a1/Battle_Rage.png?version=0178dbba8f48c444b7f7ac664e5a9452",
             "upgrades": []
           },
           {
             "name": "Blood Frenzy",
+            "description": "After using Death Defiance, deal more damage that encounter.",
             "type": "Normal",
+            "effect": "Damage Bonus: ?",
+            "rare": "Damage Bonus: ?",
+            "epic": "Damage Bonus: ?",
+            "heroic": "Damage Bonus: ?",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/66/Blood_Frenzy.png?version=9dcf88ec4f94268d239c0b8864fa43f5",
             "upgrades": []
           },
           {
             "name": "Black Metal",
+            "description": "Your Blade Rift powers deal damage in a wider area.",
             "type": "Normal",
+            "effect": "Bonus Area of Effect: +20%",
+            "rare": "Bonus Area of Effect: +22%",
+            "epic": "Bonus Area of Effect: +24%",
+            "heroic": "Bonus Area of Effect: +26%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/0a/Black_Metal.png?version=d7221fdfc3f345456ecd66c58f04ec21",
             "upgrades": [
               {
@@ -1345,7 +1400,12 @@
           },
           {
             "name": "Engulfing Vortex",
+            "description": "Your Blade Rift effects last longer and pull foes in.",
             "type": "Normal",
+            "effect": "Rift Duration: +0.2 Sec.",
+            "rare": "Multiplier: 1.3–1.5",
+            "epic": "Multiplier: 2.0-2.5",
+            "heroic": "Multiplier: 2.5-2.7",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/a3/Engulfing_Vortex.png?version=5ac740fac43cb74d76d5d00a81271781",
             "upgrades": [
               {
@@ -1358,61 +1418,155 @@
           },
           {
             "name": "Dire Misfortune",
+            "description": "Your Doom effects deal more damage when applied multiple times.",
             "type": "Normal",
+            "effect": "Bonus Damage per Curse: 5",
+            "rare": "Bonus Damage per Curse: 7.5",
+            "epic": "Bonus Damage per Curse: 10",
+            "heroic": "Bonus Damage per Curse: 12.5",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3b/Dire_Misfortune.png?version=affc9646ef86f1fb09ef119c0e7988e8",
             "upgrades": []
           },
           {
             "name": "Impending Doom",
+            "description": "Your Doom effects deal more damage, after +0.5 Sec.",
             "type": "Normal",
+            "effect": "Bonus Doom Damage: +60%",
+            "rare": "Damage Bonus: +66%",
+            "epic": "Damage Bonus: +72%",
+            "heroic": "Damage Bonus: +78%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/63/Impending_Doom.png?version=65674e3295111dbef940436dc1e52695",
             "upgrades": []
           },
           {
             "name": "Vicious Cycle",
+            "description": "Your Blade Rift effects deal more damage for each consecutive hit.",
             "type": "Legendary",
+            "effect": "Damage Increase per Hit: 1",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/9/92/Vicious_Cycle.png?version=88ebc27ee7c6ea7d50178e24ba94b48c",
             "upgrades": []
           },
           {
+            "name": "Proud Bearing",
+            "description": "You begin each Encounter with your God Gauge partly full.",
+            "type": "Athena",
+            "effect": "Starting Gauge: 20%",
+            "rare": "Starting Gauge: 25%",
+            "epic": "Starting Gauge: 30%",
+            "heroic": "Starting Gauge: 40%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/2e/Proud_Bearing.png?version=1b536f4f820024171efd942dbbb326a6",
+            "upgrades": []
+          },
+          {
+            "name": "Boiling Point",
+            "description": "Your God Gauge charges faster when you take damage.",
+            "type": "Poseidon",
+            "effect": "Faster Gauge Gain When Hit: +40%",
+            "rare": "Faster Gauge Gain When Hit: +50%",
+            "epic": "Faster Gauge Gain When Hit: +60%",
+            "heroic": "Faster Gauge Gain When Hit: +70%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b5/Boiling_Point.png?version=2cc3c1acf6a9d2d3618bc510b7f66f13",
+            "upgrades": []
+          },
+          {
+            "name": "Clouded Judgment",
+            "description": "Your God Gauge charges faster when you deal or take damage.",
+            "type": "Zeus",
+            "effect": "Faster Wrath Gain: +10%",
+            "rare": "Multiplier: +12%",
+            "epic": "Multiplier: +14%",
+            "heroic": "Multiplier: +16%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/47/Clouded_Judgment.png?version=b7433232108a3ab40290f930acd79337",
+            "upgrades": []
+          },
+          {
+            "name": "Billowing Strength",
+            "description": "After using Call, you deal more damage for 15 Sec.",
+            "type": "Zeus",
+            "effect": "Bonus Damage: +20%",
+            "rare": "Bonus Damage: +22%",
+            "epic": "Bonus Damage: +24%",
+            "heroic": "Bonus Damage: +26%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3d/Billowing_Strength.png?version=71c2098db0fa1f05f1a2e599629b85d8",
+            "upgrades": []
+          },
+          {
             "name": "Curse of Longing",
+            "description": "Your Doom effects continuously strike Weak foes.",
             "type": "Duo",
+            "effect": "Successive Hit Damage: 50%",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/1f/Curse_of_Longing.png?version=83166ed2b10049847fe9599635665752",
             "upgrades": []
           },
           {
             "name": "Hunting Blades",
+            "description": "Your Cast creates a faster Blade Rift that seeks the nearest foe.",
             "type": "Duo",
+            "effect": "Seek Duration: 3.3 Sec.",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/f/fd/Hunting_Blades.png?version=ac649db037e05d94b35db4b80a0f77ca",
             "upgrades": []
           },
           {
             "name": "Merciful End",
+            "description": "Your attacks that can Deflect immediately activate Doom effects.",
             "type": "Duo",
+            "effect": "Doom Combo Damage: 50",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/ca/Merciful_End.png?version=e582a9d64954ea0212af04625170515f",
             "upgrades": []
           },
           {
             "name": "Freezing Vortex",
+            "description": "Your Cast inflicts Chill, but is smaller and moves slower.",
             "type": "Duo",
+            "effect": "Blade Rift size -50%",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/a1/Freezing_Vortex.png?version=87d95bb68477dcf1b6b78442ec7803ca",
             "upgrades": []
           },
           {
             "name": "Curse of Nausea",
+            "description": "Your Poison effects deal damage faster.",
             "type": "Duo",
+            "effect": "Damage Rate: .5 sec -> .35 sec",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/5/55/Curse_of_Nausea.png/150px-Curse_of_Nausea.png?version=836fcee7bcd76e79f80863b28172aa20",
             "upgrades": []
           },
           {
             "name": "Curse of Drowning",
+            "description": "Your Cast is a pulse that deals damage to foes around you.",
             "type": "Duo",
+            "effect": "Pulses per Cast: 3",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/57/Curse_of_Drowning.png?version=e828ee81b4e9cccc91d414e7b8539141",
             "upgrades": []
           },
           {
             "name": "Vengeful Mood",
+            "description": "Your Revenge attacks sometimes occur without taking damage.",
             "type": "Duo",
+            "effect": "Auto-Revenge Rate: 3.5 Sec.",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/0a/Vengeful_Mood.png?version=663dac52995e17918825c4c439d3d585",
             "upgrades": []
           }
@@ -5393,7 +5547,12 @@
         "boons": [
           {
             "name": "Lightning Strike",
+            "description": "Your Attack emits chain-lightning when you damage a foe.",
             "type": "Normal",
+            "effect": "Lightning Damage: 10",
+            "rare": "Lightning Damage: 12.5",
+            "epic": "Lightning Damage: 15",
+            "heroic": "Lightning Damage: 20",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/f/f6/Lightning_Strike.png?version=d8e800be65def6a9b011536787184f5a",
             "upgrades": [
               {
@@ -5482,7 +5641,12 @@
           },
           {
             "name": "Thunder Flourish",
+            "description": "Your Special causes a lightning bolt to strike nearby foes.",
             "type": "Normal",
+            "effect": "Lightning Damage: 30",
+            "rare": "Lightning Damage: 37.5",
+            "epic": "Lightning Damage: 45",
+            "heroic": "Lightning Damage: 60",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/a/ad/Thunder_Flourish.png?version=7df37fd71d2e758e9b9e79b2751d626f",
             "upgrades": [
               {
@@ -5577,7 +5741,12 @@
           },
           {
             "name": "Electric Shot",
+            "description": "Your Cast is a burst of chain-lightning that bounces between foes.",
             "type": "Normal",
+            "effect": "Cast Damage: 60",
+            "rare": "Cast Damage: 72",
+            "epic": "Cast Damage: 84",
+            "heroic": "Cast Damage: 96",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/01/Electric_Shot.png?version=7b0f362030e4a4d3879120dadccb5bc7",
             "upgrades": [
               {
@@ -5672,7 +5841,12 @@
           },
           {
             "name": "Electric Flare",
+            "description": "Your Cast is a burst of chain-lightning that bounces between foes.",
             "type": "Normal",
+            "effect": "Cast Damage: 60",
+            "rare": "Cast Damage: 72",
+            "epic": "Cast Damage: 84",
+            "heroic": "Cast Damage: 96",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/01/Electric_Shot.png?version=7b0f362030e4a4d3879120dadccb5bc7",
             "upgrades": [
               {
@@ -5749,7 +5923,12 @@
           },
           {
             "name": "Thunder Dash",
+            "description": "Your Dash causes a lightning bolt to strike nearby foes.",
             "type": "Normal",
+            "effect": "Lightning Damage: 10",
+            "rare": "Lightning Damage: 13.3",
+            "epic": "Lightning Damage: 16.6",
+            "heroic": "Lightning Damage: 20",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b4/Thunder_Dash.png?version=76737e4ff5ae85d900b7737d8b3241d3",
             "upgrades": [
               {
@@ -5844,7 +6023,12 @@
           },
           {
             "name": "Zeus' Aid",
+            "description": "Your Call makes lightning strike nearby foes repeatedly for 1.5 Sec.",
             "type": "Normal",
+            "effect": "Lightning Damage: 60",
+            "rare": "Lightning Damage: 66",
+            "epic": "Lightning Damage: 72",
+            "heroic": "Lightning Damage: 84",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/ec/Zeus%27_Aid.png?version=cfd230f95351b69b7d3918e927ed2538",
             "upgrades": [
               {
@@ -5963,7 +6147,12 @@
           },
           {
             "name": "Heaven's Vengeance",
+            "description": "After you take damage, your foe is struck by lightning.",
             "type": "Normal",
+            "effect": "Revenge Damage: 80",
+            "rare": "Multiplier: 1.3–1.5",
+            "epic": "Multiplier: 1.8–2.0",
+            "heroic": "Multiplier: 2.3–2.5",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c5/Heaven%27s_Vengeance.png?version=90b557adfa83ca9a7b2f2c0b3434e438",
             "upgrades": [
               {
@@ -5997,13 +6186,23 @@
           },
           {
             "name": "Lightning Reflexes",
+            "description": "After you Dash just before getting hit, a bolt strikes a nearby foes.",
             "type": "Normal",
+            "effect": "Lightning Damage: 20",
+            "rare": "Lightning Damage: 30",
+            "epic": "Lightning Damage: 40",
+            "heroic": "Lightning Damage: 50",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/2/25/Lightning_Reflexes.png/150px-Lightning_Reflexes.png?version=0b1eea8a9729523186cdd1e172c2c7c0",
             "upgrades": []
           },
           {
             "name": "Storm Lightning",
+            "description": "Your chain-lightning effects bounce more times before expiring.",
             "type": "Normal",
+            "effect": "Lightning Bounces: +2",
+            "rare": "Multiplier: +4",
+            "epic": "Multiplier: +6",
+            "heroic": "Multiplier: +8",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/6b/Storm_Lightning.png?version=6bbcd82147a20dcc931b2f2335ef5e97",
             "upgrades": [
               {
@@ -6016,7 +6215,12 @@
           },
           {
             "name": "High Voltage",
+            "description": "Your lightning bolt effects deal damage in a larger area.",
             "type": "Normal",
+            "effect": "Bolt Area of Effect: +60%",
+            "rare": "Multiplier: +72%",
+            "epic": "Multiplier: +84%",
+            "heroic": "Multiplier: +96%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/d/d9/High_Voltage.png?version=0c61e99b2ffe28c7936b2eb0eddc1134",
             "upgrades": [
               {
@@ -6029,7 +6233,12 @@
           },
           {
             "name": "Double Strike",
+            "description": "Your lightning bolt effects have a chance to strike twice.",
             "type": "Normal",
+            "effect": "Strike Chance: 25%",
+            "rare": "Multiplier: 30%",
+            "epic": "Multiplier: 35%",
+            "heroic": "Multiplier: 40%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/65/Double_Strike.png?version=af3b4539d04d5493bfa1483fdacff450",
             "upgrades": [
               {
@@ -6042,7 +6251,12 @@
           },
           {
             "name": "Static Discharge",
+            "description": "Your lightning effects also make foes Jolted.",
             "type": "Normal",
+            "effect": "Jolt Damage: 60",
+            "rare": "Multiplier: 1.3–1.5",
+            "epic": "Multiplier: 1.8–2.0",
+            "heroic": "Multiplier: 2.3–2.5",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/76/Static_Discharge.png?version=b5ad85394c0936cc83f3530ab74423c1",
             "upgrades": [
               {
@@ -6060,61 +6274,144 @@
           },
           {
             "name": "Clouded Judgment",
+            "description": "Your God Gauge charges faster when you deal or take damage.",
             "type": "Normal",
+            "effect": "Faster Wrath Gain: +10%",
+            "rare": "Multiplier: +12%",
+            "epic": "Multiplier: +14%",
+            "heroic": "Multiplier: +16%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/4/47/Clouded_Judgment.png?version=b7433232108a3ab40290f930acd79337",
             "upgrades": []
           },
           {
             "name": "Billowing Strength",
+            "description": "After using Call, you deal more damage for 15 Sec.",
             "type": "Normal",
+            "effect": "Bonus Damage: +20%",
+            "rare": "Bonus Damage: +22%",
+            "epic": "Bonus Damage: +24%",
+            "heroic": "Bonus Damage: +26%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/3/3d/Billowing_Strength.png?version=71c2098db0fa1f05f1a2e599629b85d8",
             "upgrades": []
           },
           {
             "name": "Splitting Bolt",
+            "description": "All your lightning effects create an additional burst.",
             "type": "Legendary",
+            "effect": "Lightning Damage: 40",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/5/58/Splitting_Bolt.png?version=b44354ec864f42e45b50b232ba17be89",
             "upgrades": []
           },
           {
+            "name": "Exit Wounds",
+            "description": "Your foes take damage when your Cast stuck in them is dislodged.",
+            "type": "Artemis",
+            "effect": "Dislodge Damage: 100",
+            "rare": "Dislodge Damage: 120",
+            "epic": "Dislodge Damage: 140",
+            "heroic": "Dislodge Damage: 160",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/d/d1/Exit_Wounds.png/150px-Exit_Wounds.png?version=74870dcb1cdcb40c1af9dd7b93e31c56",
+            "upgrades": []
+          },
+          {
+            "name": "Proud Bearing",
+            "description": "You begin each Encounter with your God Gauge partly full.",
+            "type": "Athena",
+            "effect": "Starting Gauge: 20%",
+            "rare": "Starting Gauge: 25%",
+            "epic": "Starting Gauge: 30%",
+            "heroic": "Starting Gauge: 40%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/2e/Proud_Bearing.png?version=1b536f4f820024171efd942dbbb326a6",
+            "upgrades": []
+          },
+          {
+            "name": "Boiling Point",
+            "description": "Your God Gauge charges faster when you take damage.",
+            "type": "Poseidon",
+            "effect": "Faster Gauge Gain When Hit: +40%",
+            "rare": "Faster Gauge Gain When Hit: +50%",
+            "epic": "Faster Gauge Gain When Hit: +60%",
+            "heroic": "Faster Gauge Gain When Hit: +70%",
+            "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/b/b5/Boiling_Point.png?version=2cc3c1acf6a9d2d3618bc510b7f66f13",
+            "upgrades": []
+          },
+          {
             "name": "Smoldering Air",
+            "description": "Your Call charges up automatically, but is capped at 25%.",
             "type": "Duo",
+            "effect": "Auto Gauge Gain: 1% every .2 seconds",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/c/ca/Smoldering_Air.png/150px-Smoldering_Air.png?version=101da95586987bc441e7960bc7aadd51",
             "upgrades": []
           },
           {
             "name": "Vengeful Mood",
+            "description": "Your Revenge attacks sometimes occur without taking damage.",
             "type": "Duo",
+            "effect": "Auto-Revenge Rate: 3.5 Sec.",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/0/0a/Vengeful_Mood.png?version=663dac52995e17918825c4c439d3d585",
             "upgrades": []
           },
           {
             "name": "Lightning Rod",
+            "description": "Your collectible Cast Ammo strike nearby foes with lightning every 1.5 Sec.",
             "type": "Duo",
+            "effect": "Lightning Damage: 100",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/6/62/Lightning_Rod.png?version=ed83baa93b0f106e283ead39aeac0727",
             "upgrades": []
           },
           {
             "name": "Lightning Phalanx",
+            "description": "Your Phalanx Shot Cast bounces between nearby foes.",
             "type": "Duo",
+            "effect": "Max Bounces: 5",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/7/70/Lightning_Phalanx.png?version=58a10da5c418277411266b5e5b2d863d",
             "upgrades": []
           },
           {
             "name": "Cold Fusion",
+            "description": "Jolted status does not expire on your enemies' attacks.",
             "type": "Duo",
+            "effect": "Jolted duration: 10 Sec.",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/2/2e/Cold_Fusion.png?version=232f54a98aaecb47ea0b17374b6d2286",
             "upgrades": []
           },
           {
             "name": "Scintillating Feast",
+            "description": "Your Festive Fog effects also deal lightning damage periodically.",
             "type": "Duo",
+            "effect": "Lightning Damage: 80",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/e/e2/Scintillating_Feast.png?version=ec3c814073ceb907ab04272d31602082",
             "upgrades": []
           },
           {
             "name": "Sea Storm",
+            "description": "Your knock-away effects also cause foes to be struck by lightning.",
             "type": "Duo",
+            "effect": "Lightning Damage 40",
+            "rare": "",
+            "epic": "",
+            "heroic": "",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/c/c7/Sea_Storm.png?version=090159da0c5080261aed0d7225c2bcb2",
             "upgrades": []
           }

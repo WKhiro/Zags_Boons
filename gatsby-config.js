@@ -78,10 +78,6 @@ module.exports = {
           {
             family: `Belleza`,
           },
-          {
-            family: `Linden Hill`,
-            variants: [`400i`],
-          },
         ],
       },
     },
