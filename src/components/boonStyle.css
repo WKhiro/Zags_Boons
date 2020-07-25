@@ -49,25 +49,9 @@ h5 {
   border: 2px solid green;
 }
 
-.one,
-.three {
-  flex: 0 0 50%;
-  background: cyan;
-  width: 50%;
-}
-.two {
-  flex: 0 0 100%;
-  order: 1;
-  background: moccasin;
-  width: 50%;
-}
-.three {
-  background: tomato;
-}
-
 .boonOff {
-  width: 100px;
-  height: 100px;
+  max-width: 80px;
+  max-height: 80px;
   filter: drop-shadow(5px 5px 5px #222);
 }
 
@@ -76,8 +60,8 @@ h5 {
 }
 
 .boonOn {
-  width: 100px;
-  height: 100px;
+  max-width: 80px;
+  max-height: 80px;
   filter: drop-shadow(0 0 10px #fff) drop-shadow(0 0 30px rgb(252, 226, 32));
 }
 

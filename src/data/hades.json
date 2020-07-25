@@ -4301,10 +4301,10 @@
             "name": "Strong Drink",
             "description": "Using a Fountain restores all Health and gives you bonus damage.",
             "type": "Normal",
-            "effect": "Bonus Damage per Fountain: 2%",
+            "effect": "Bonus Damage per Fountain: 3%",
             "rare": "Bonus Damage per Fountain: 4%",
-            "epic": "Bonus Damage per Fountain: 6%",
-            "heroic": "Bonus Damage per Fountain: 8%",
+            "epic": "Bonus Damage per Fountain: 5%",
+            "heroic": "Bonus Damage per Fountain: 6%",
             "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/thumb/b/b3/Strong_Drink.png/150px-Strong_Drink.png?version=d3716de9658358cb6268e8a0fc841e12",
             "upgrades": []
           },

@@ -119,28 +119,34 @@ export default function Athena({ data }) {
     <Layout key={uuidv4()}>
       <SEO title="Home" />
       <div className="box">
-        <div className="one">
-          <h2>Prerequisite Boons</h2>
-          {data.dataJson.gods.map((godType, index) =>
-            godType[godName].boons
-              .filter(boonType => boonType.upgrades.length !== 0)
-              .map((boonType, index) => {
-                boonClass = display[godType[godName].boons.indexOf(boonType)]
-                  ? "boonOn"
-                  : "boonOff"
-                return (
-                  <PrerequisiteBoons
-                    key={uuidv4()}
-                    boonData={boonType}
-                    index={godType[godName].boons.indexOf(boonType)}
-                    className={boonClass}
-                    onClick={toggleDisplay}
-                  />
-                )
-              })
-          )}
+        <div className="tx1">
+          <div>
+            <h2>Prerequisite Boons</h2>
+            {data.dataJson.gods.map((godType, index) =>
+              godType[godName].boons
+                .filter(boonType => boonType.upgrades.length !== 0)
+                .map((boonType, index) => {
+                  boonClass = display[godType[godName].boons.indexOf(boonType)]
+                    ? "boonOn"
+                    : "boonOff"
+                  return (
+                    <PrerequisiteBoons
+                      key={uuidv4()}
+                      boonData={boonType}
+                      index={godType[godName].boons.indexOf(boonType)}
+                      className={boonClass}
+                      onClick={toggleDisplay}
+                    />
+                  )
+                })
+            )}
+          </div>
+          <div>
+            <h2>Available Upgrades</h2>
+            <AvailableBoons available={available} />
+          </div>
         </div>
-        <div className="two">
+        <div className="tx2">
           <h2>Potential Upgrades</h2>
           <div className="box2">
             {/* Determine what to display based on clicked boons before rendering */}
@@ -161,10 +167,6 @@ export default function Athena({ data }) {
                 )
               })}
           </div>
-        </div>
-        <div className="three">
-          <h2>Available Upgrades</h2>
-          <AvailableBoons available={available} />
         </div>
       </div>
     </Layout>

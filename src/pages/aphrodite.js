@@ -118,51 +118,55 @@ export default function Aphrodite({ data }) {
   return (
     <Layout key={uuidv4()}>
       <SEO title="Home" />
-      <div class="box">
-        <div className="one">
-          <h2>Prerequisite Boons</h2>
-          {data.dataJson.gods.map((godType, index) =>
-            godType[godName].boons
-              .filter(boonType => boonType.upgrades.length !== 0)
-              .map((boonType, index) => {
-                boonClass = display[godType[godName].boons.indexOf(boonType)]
-                  ? "boonOn"
-                  : "boonOff"
+      <div className="box">
+        <div className="tx1">
+          <div>
+            <h2>Prerequisite Boons</h2>
+            {data.dataJson.gods.map((godType, index) =>
+              godType[godName].boons
+                .filter(boonType => boonType.upgrades.length !== 0)
+                .map((boonType, index) => {
+                  boonClass = display[godType[godName].boons.indexOf(boonType)]
+                    ? "boonOn"
+                    : "boonOff"
+                  return (
+                    <PrerequisiteBoons
+                      key={uuidv4()}
+                      boonData={boonType}
+                      index={godType[godName].boons.indexOf(boonType)}
+                      className={boonClass}
+                      onClick={toggleDisplay}
+                    />
+                  )
+                })
+            )}
+          </div>
+          <div>
+            <h2>Available Upgrades</h2>
+            <AvailableBoons available={available} />
+          </div>
+        </div>
+        <div className="tx2">
+          <h2>Potential Upgrades</h2>
+          <div className="box2">
+            {/* Determine what to display based on clicked boons before rendering */}
+            {display.forEach((boolVal, boonIndex) => {
+              if (boolVal) {
+                updateLists(boonIndex)
+              }
+            })}
+            {display
+              .filter(boolVal => boolVal)
+              .map(boolVal => {
                 return (
-                  <PrerequisiteBoons
+                  <PotentialBoons
                     key={uuidv4()}
-                    boonData={boonType}
-                    index={godType[godName].boons.indexOf(boonType)}
-                    className={boonClass}
-                    onClick={toggleDisplay}
+                    potential={potential}
+                    displayingList={displayingList}
                   />
                 )
-              })
-          )}
-        </div>
-        <div className="two">
-          <h2>Potential Upgrades</h2>
-          {/* Determine what to display based on clicked boons before rendering */}
-          {display.forEach((boolVal, boonIndex) => {
-            if (boolVal) {
-              updateLists(boonIndex)
-            }
-          })}
-          {display
-            .filter(boolVal => boolVal)
-            .map(boolVal => {
-              return (
-                <PotentialBoons
-                  key={uuidv4()}
-                  potential={potential}
-                  displayingList={displayingList}
-                />
-              )
-            })}
-        </div>
-        <div className="three">
-          <h2>Available Upgrades</h2>
-          <AvailableBoons available={available} />
+              })}
+          </div>
         </div>
       </div>
     </Layout>

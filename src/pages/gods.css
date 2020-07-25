@@ -5,7 +5,7 @@
 .box2 {
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid blue;
+  border: none;
 }
 
 .box2 > * {
@@ -19,7 +19,7 @@
     flex: 1 1 150px;
   }
   .box2 {
-    border: 2px solid red;
+    border: none;
   }
 }
 
@@ -106,31 +106,42 @@ h5 {
 .box {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  height: flex;
+  flex-direction: row;
   border: none;
 }
 
 .one,
 .three {
-  flex: 0 0 50%;
   background: darkslategrey;
-  width: 50%;
   padding: 10px;
   border: 2px solid black;
   border-radius: 12px;
 }
 
 .two {
-  flex: 0 0 100%;
   order: 1;
   border: 2px solid black;
   border-radius: 12px;
   background: darkslategrey;
-  width: 50%;
   padding: 10px;
 }
 
 .three {
   background: darkslategrey;
+}
+
+.tx1,
+.tx2 {
+  background: darkslategrey;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+
+.tx1 {
+  flex: 1 1 200px;
+}
+
+.tx2 {
+  flex: 1 1 200px;
 }
