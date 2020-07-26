@@ -18,35 +18,35 @@ const Header = ({ siteTitle, menuLinks }) => (
           var activeClass = "activeFormat"
           switch (link.name) {
             case "Aphrodite":
-              linkClass = "aphrodite"
+              linkClass = "aphroditeHeader"
               activeClass = "aphroditeActive"
               break
             case "Ares":
-              linkClass = "ares"
+              linkClass = "aresHeader"
               activeClass = "aresActive"
               break
             case "Artemis":
-              linkClass = "artemis"
+              linkClass = "artemisHeader"
               activeClass = "artemisActive"
               break
             case "Athena":
-              linkClass = "athena"
+              linkClass = "athenaHeader"
               activeClass = "athenaActive"
               break
             case "Demeter":
-              linkClass = "demeter"
+              linkClass = "demeterHeader"
               activeClass = "demeterActive"
               break
             case "Dionysus":
-              linkClass = "dionysus"
+              linkClass = "dionysusHeader"
               activeClass = "dionysusActive"
               break
             case "Poseidon":
-              linkClass = "poseidon"
+              linkClass = "poseidonHeader"
               activeClass = "poseidonActive"
               break
             case "Zeus":
-              linkClass = "zeus"
+              linkClass = "zeusHeader"
               activeClass = "zeusActive"
               break
             default:

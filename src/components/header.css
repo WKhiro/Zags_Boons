@@ -25,69 +25,69 @@
 }
 
 .linkFormat,
-.aphrodite,
-.ares,
-.artemis,
-.athena,
-.demeter,
-.dionysus,
-.poseidon,
-.zeus {
+.aphroditeHeader,
+.aresHeader,
+.artemisHeader,
+.athenaHeader,
+.demeterHeader,
+.dionysusHeader,
+.poseidonHeader,
+.zeusHeader {
   text-decoration: none;
   color: white;
   margin-left: 20px;
 }
 
 .linkFormat:hover,
-.aphrodite:hover,
-.ares:hover,
-.artemis:hover,
-.athena:hover,
-.demeter:hover,
-.dionysus:hover,
-.poseidon:hover,
-.zeus:hover {
+.aphroditeHeader:hover,
+.aresHeader:hover,
+.artemisHeader:hover,
+.athenaHeader:hover,
+.demeterHeader:hover,
+.dionysusHeader:hover,
+.poseidonHeader:hover,
+.zeusHeader:hover {
   text-decoration: none;
   color: white;
   opacity: 0.8;
 }
 
-.aphrodite:hover,
+.aphroditeHeader:hover,
 .aphroditeActive {
   filter: drop-shadow(0 0 15px #fff) drop-shadow(0 0px 4px pink);
 }
 
-.ares:hover,
+.aresHeader:hover,
 .aresActive {
   filter: drop-shadow(0 0 15px #fff) drop-shadow(0 0px 4px red);
 }
 
-.artemis:hover,
+.artemisHeader:hover,
 .artemisActive {
   filter: drop-shadow(0 0 15px #fff) drop-shadow(0 0px 4px green);
 }
 
-.athena:hover,
+.athenaHeader:hover,
 .athenaActive {
   filter: drop-shadow(0 0 15px #fff) drop-shadow(0 0px 4px lemonchiffon);
 }
 
-.demeter:hover,
+.demeterHeader:hover,
 .demeterActive {
   filter: drop-shadow(0 0 15px #fff) drop-shadow(0 0px 4px aqua);
 }
 
-.dionysus:hover,
+.dionysusHeader:hover,
 .dionysusActive {
   filter: drop-shadow(0 0 15px #fff) drop-shadow(0 0px 4px purple);
 }
 
-.poseidon:hover,
+.poseidonHeader:hover,
 .poseidonActive {
   filter: drop-shadow(0 0 15px #fff) drop-shadow(0 0px 4px blue);
 }
 
-.zeus:hover,
+.zeusHeader:hover,
 .zeusActive {
   filter: drop-shadow(0 0 15px #fff) drop-shadow(0 0px 4px yellow);
 }
