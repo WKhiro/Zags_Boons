@@ -15,9 +15,10 @@ export default function IndexPage({ data }) {
           This website is currently being created for the early-access PC game,
           Hades, by SuperGiant Games. The main character, Zagreus, collects a
           variety of upgrades known as "boons" from the Gods upon Olympus during
-          his escape from the Underworld. This website is meant to allow for
-          easy viewing of boons' upgrades, prerequisites, and effects based on
-          rarity level. can be viewed here.
+          his escape from the Underworld. Since there are so many boons that
+          Zagreus can obtain, I wanted to create a website that would allow for
+          players to easily view boon upgrades, prerequisites, and effects based
+          on rarity level.
         </p>
         <p className="description">
           All art assets come from Hades or from websites created and owned by

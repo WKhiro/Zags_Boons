@@ -4,13 +4,17 @@ import ReactTooltip from "react-tooltip"
 
 export default function NormalTooltip(props) {
   var boonData = props.boonData
+  var specialClass = "legendary"
   if (boonData.type === "Legendary" || boonData.type === "Duo") {
+    if (boonData.type === "Duo") {
+      specialClass = "duo"
+    }
     return (
       <ReactTooltip className="tool" place="top" id={props.id} type="dark">
         <h5>{boonData.name}</h5>
         <p>{boonData.description}</p>
         <p>
-          <span className="legendary">Effect: </span>
+          <span className={specialClass}>Effect: </span>
           {boonData.effect}
         </p>
       </ReactTooltip>
