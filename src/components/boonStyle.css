@@ -114,7 +114,6 @@ h5 {
   font-family: "Xtra";
   font-size: 50px;
   position: absolute;
-  z-index: 1;
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -158,14 +157,13 @@ h5 {
   height: 150px;
   position: relative;
   padding: 0px;
-  z-index: 0;
 }
 
 .godTester {
   position: absolute;
   top: 15%;
   left: 20%;
-  z-index: -1;
+  z-index: 1;
 }
 
 @media screen and (max-width: 800px) {

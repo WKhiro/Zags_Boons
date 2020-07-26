@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 import PrerequisiteBoons from "../components/prerequisiteBoons"
 import PotentialBoons from "../components/potentialBoons"
 import AvailableBoons from "../components/availableBoons"
+import GodTitle from "../components/godTitle"
 import "./gods.css"
 
 export default function Athena({ data }) {
@@ -118,6 +119,7 @@ export default function Athena({ data }) {
   return (
     <Layout key={uuidv4()}>
       <SEO title="Home" />
+      <GodTitle name={godName[0]} src={data.file.childImageSharp.fixed} />
       <div className="box">
         <div className="tx1">
           <div>
@@ -141,7 +143,7 @@ export default function Athena({ data }) {
                 })
             )}
           </div>
-          <div>
+          <div className="avail">
             <h2>Available Upgrades</h2>
             <AvailableBoons available={available} />
           </div>
@@ -194,6 +196,13 @@ export const query = graphql`
               other
             }
           }
+        }
+      }
+    }
+    file(relativePath: { eq: "athena.png" }) {
+      childImageSharp {
+        fixed(width: 150, height: 200) {
+          ...GatsbyImageSharpFixed
         }
       }
     }

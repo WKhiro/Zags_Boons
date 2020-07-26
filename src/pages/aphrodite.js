@@ -143,7 +143,7 @@ export default function Aphrodite({ data }) {
                 })
             )}
           </div>
-          <div>
+          <div className="avail">
             <h2>Available Upgrades</h2>
             <AvailableBoons available={available} />
           </div>

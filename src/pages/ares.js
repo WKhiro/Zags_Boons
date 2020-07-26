@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 import PrerequisiteBoons from "../components/prerequisiteBoons"
 import PotentialBoons from "../components/potentialBoons"
 import AvailableBoons from "../components/availableBoons"
+import GodTitle from "../components/godTitle"
 import "./gods.css"
 
 export default function Ares({ data }) {
@@ -149,6 +150,7 @@ export default function Ares({ data }) {
   return (
     <Layout key={uuidv4()}>
       <SEO title="Home" />
+      <GodTitle name={godName[0]} src={data.file.childImageSharp.fixed} />
       <div className="box">
         <div className="tx1">
           <div>
@@ -226,6 +228,13 @@ export const query = graphql`
               other2
             }
           }
+        }
+      }
+    }
+    file(relativePath: { eq: "ares.png" }) {
+      childImageSharp {
+        fixed(width: 170, height: 150) {
+          ...GatsbyImageSharpFixed
         }
       }
     }

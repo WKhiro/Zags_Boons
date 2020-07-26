@@ -1,6 +1,17 @@
 .maintext {
+  padding-top: 50px;
   text-align: center;
   color: white;
+}
+
+.description {
+  color: white;
+  text-align: center;
+}
+
+.descriptionContainer {
+  max-width: 50%;
+  margin: 0 auto;
 }
 
 .zag {
