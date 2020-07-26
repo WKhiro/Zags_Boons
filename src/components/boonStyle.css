@@ -1,5 +1,6 @@
 .testin {
   color: white;
+  background: black;
   border: 2px solid gold;
   border-radius: 12px;
   display: inline-block;
@@ -24,31 +25,6 @@ h5 {
   margin: 0;
 }
 
-.bordering {
-  border: 2px solid purple;
-  border-radius: 12px;
-}
-
-.contains {
-  border: none;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.conter {
-  border: 2px solid red;
-  display: inline-block;
-  padding: 20px;
-}
-
-.box {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  height: 1000px;
-  border: 2px solid green;
-}
-
 .boonOff {
   max-width: 80px;
   max-height: 80px;
@@ -62,7 +38,7 @@ h5 {
 .boonOn {
   max-width: 80px;
   max-height: 80px;
-  filter: drop-shadow(0 0 10px #fff) drop-shadow(0 0 30px rgb(252, 226, 32));
+  filter: drop-shadow(0 0 10px #fff) drop-shadow(0 0 30px aqua);
 }
 
 .boonOn:hover {
@@ -92,6 +68,8 @@ h5 {
 .tool {
   border-width: 2px !important;
   border-color: white !important;
+  background: black !important;
+  opacity: 1 !important;
 }
 
 .tool > p {
@@ -105,6 +83,7 @@ h5 {
 
 .too {
   color: white;
+  background: black;
   border: 2px solid purple;
   border-radius: 12px;
   padding: 10px;

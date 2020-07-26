@@ -88,51 +88,27 @@ h5 {
   margin: 0;
 }
 
-.bordering {
-  text-align: center;
-  border: 2px solid purple;
-}
-
-.contains {
-  border: 2px solid blue;
-}
-
-.conter {
-  border: 2px solid red;
-  display: inline-block;
-  padding: 20px;
-}
-
 .box {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  flex-flow: row wrap;
   border: none;
+  margin: 0 100px 0 100px;
 }
 
-.one,
-.three {
-  background: darkslategrey;
-  padding: 10px;
-  border: 2px solid black;
-  border-radius: 12px;
-}
-
-.two {
-  order: 1;
-  border: 2px solid black;
-  border-radius: 12px;
-  background: darkslategrey;
-  padding: 10px;
-}
-
-.three {
-  background: darkslategrey;
+@media screen and (max-width: 800px) {
+  .box {
+    margin: 0 50px 0 50px;
+  }
 }
 
 .tx1,
 .tx2 {
-  background: darkslategrey;
+  margin-top: 50px;
+  background-image: url("../images/asp.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 10px;
   border: 2px solid black;
   border-radius: 12px;
@@ -144,4 +120,8 @@ h5 {
 
 .tx2 {
   flex: 1 1 200px;
+}
+
+.avail {
+  min-height: 200px;
 }

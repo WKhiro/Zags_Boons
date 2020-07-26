@@ -93,14 +93,12 @@
 }
 
 .navbar {
-  min-height: 150px;
-  background: radial-gradient(
-    at left 60%,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(114, 45, 233, 1) 0%,
-    rgba(0, 0, 0, 1) 100%
-  );
-  margin-bottom: 50px;
+  min-height: 100px;
+  background-image: url("../images/elysium2.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .navbar-nav,

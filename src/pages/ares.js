@@ -172,7 +172,7 @@ export default function Ares({ data }) {
                 })
             )}
           </div>
-          <div>
+          <div className="avail">
             <h2>Available Upgrades</h2>
             <AvailableBoons available={available} />
           </div>
@@ -223,6 +223,7 @@ export const query = graphql`
               type
               iconurl
               other
+              other2
             }
           }
         }

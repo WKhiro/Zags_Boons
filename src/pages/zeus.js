@@ -223,6 +223,7 @@ export const query = graphql`
               type
               iconurl
               other
+              other2
             }
           }
         }
