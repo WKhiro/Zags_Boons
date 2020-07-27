@@ -51,6 +51,7 @@ const Header = ({ siteTitle, menuLinks }) => (
               break
             default:
               linkClass = "linkFormat"
+              break
           }
           return (
             <Nav.Item key={uuidv4()}>

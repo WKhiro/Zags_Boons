@@ -24,67 +24,18 @@
 }
 
 .box2 > * {
-  flex: 1 1 300px;
+  flex: 1 1 100%;
 }
 
 /* media only screen? */
 
 @media (max-width: 1400px) {
   .box2 > * {
-    flex: 1 1 150px;
+    flex: 1 1 100%;
   }
   .box2 {
     border: none;
   }
-}
-
-.too {
-  color: white;
-  border: 2px solid purple;
-  border-radius: 12px;
-  padding: 10px;
-}
-
-.too > img,
-.too > h4 {
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0;
-}
-
-.too > img {
-  margin-right: 10px;
-}
-
-.pug {
-  border: 2px solid red;
-}
-
-.tool {
-  border-width: 2px !important;
-  border-color: white !important;
-}
-
-.tool > p {
-  color: white;
-  margin: 0;
-}
-
-.testin {
-  color: white;
-  border: 2px solid gold;
-  border-radius: 12px;
-  display: inline-block;
-  padding: 10px;
-  margin: 2px;
-  vertical-align: top;
-}
-
-.testin > img,
-.testin > h3,
-.testin > h4 {
-  display: inline-block;
-  margin: 0;
 }
 
 .spaceBoon {

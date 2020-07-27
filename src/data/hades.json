@@ -980,7 +980,13 @@
                 "name": "Curse of Longing",
                 "type": "Duo",
                 "iconurl": "https://gamepedia.cursecdn.com/hades_gamepedia_en/1/1f/Curse_of_Longing.png?version=83166ed2b10049847fe9599635665752",
-                "other": []
+                "other": [
+                  "Crush Shot",
+                  "Passion Flare",
+                  "Heartbreak Flourish",
+                  "Heartbreak Strike",
+                  "Passion Dash"
+                ]
               },
               {
                 "name": "Merciful End",
@@ -1338,11 +1344,12 @@
                   "Zeus' Aid"
                 ],
                 "other2": [
-                  "Curse of Vengeance",
-                  "Frozen Touch",
-                  "Heaven's Vengeance",
-                  "Holy Shield",
-                  "Wave of Despair"
+                  "Ares' Aid",
+                  "Blade Dash",
+                  "Curse of Agony",
+                  "Curse of Pain",
+                  "Slicing Shot",
+                  "Slicing Flare"
                 ]
               }
             ]

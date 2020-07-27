@@ -30,119 +30,90 @@ export default function Ares({ data }) {
   }
 
   const updateLists = boonIndex => {
-    // Used to reference the upgrade's data (effects, rarity bonuses)
+    // References all of an upgrade boon's data (effects, rarity bonuses)
     let upgradeData = ""
-    // Name of the boon that was just clicked on
+    // Object containing all of an upgrade boon's data EXCEPT its "upgrades" field
+    let upgradeObject = {}
+    // Name of the boon that was clicked on, or acquired
     const clickedBoon = godData.boons[boonIndex].name
+    const clickedBoonUpgrades = godData.boons[boonIndex].upgrades
 
-    godData.boons[boonIndex].upgrades.forEach(upgrade => {
+    // Check if the available boons list contains clickedBoon
+    if (available.some(e => e.name === clickedBoon)) {
+      // Remove clickedBoon from the list since we have now acquired it
+      available.splice(
+        available
+          .map(boon => {
+            return boon.name
+          })
+          .indexOf(clickedBoon),
+        1
+      )
+    }
+
+    clickedBoonUpgrades.forEach(upgrade => {
       // Find the upgrade's data in the general boon list
       upgradeData = godData.boons.find(boon => boon.name === upgrade.name)
 
-      // Check if any potential upgrades become avaliable with the addition of the clicked boon
-      if (
-        potential.some(
-          e => e.name === upgrade.name && e.other.includes(clickedBoon)
-        )
-      ) {
-        // Add unlocked upgrade to the available list, and remove from potential list
-        available.push({
-          name: upgradeData.name,
-          description: upgradeData.description,
-          type: upgradeData.type,
-          iconurl: upgradeData.iconurl,
-          effect: upgradeData.effect,
-          rare: upgradeData.rare,
-          epic: upgradeData.epic,
-          heroic: upgradeData.heroic,
-        })
-        potential.splice(
-          potential
-            .map(boon => {
-              return boon.name
-            })
-            .indexOf(upgradeData.name),
-          1
-        )
+      // Get everything besides the upgrade boon's upgrades array
+      upgradeObject = {
+        name: upgradeData.name,
+        description: upgradeData.description,
+        type: upgradeData.type,
+        iconurl: upgradeData.iconurl,
+        effect: upgradeData.effect,
+        rare: upgradeData.rare,
+        epic: upgradeData.epic,
+        heroic: upgradeData.heroic,
       }
 
-      // 'Vengeful Mood' boon double prerequisite check
-      if (upgrade.other2) {
-        // If 'Vengeful Mood' is in the potential list and the clicked boon is a prerequisite
-        if (
-          upgrade.other2.includes(clickedBoon) &&
-          potential.some(boon => boon.name === upgradeData.name)
-        ) {
-          // Remove one of the prerequisites
-          potential.find(boon => boon.name === upgradeData.name).other2 = []
-        }
-      }
-
-      // Check if the clicked boon is in the available list
-      if (available.some(e => e.name === clickedBoon)) {
-        // Remove it from the available list because we now have it (clicked on it)
-        available.splice(
-          available
-            .map(boon => {
-              return boon.name
-            })
-            .indexOf(clickedBoon),
-          1
-        )
-      }
-
-      // Add upgrades with no other prerequisite boons to the available list if it's not already there
-      if (
-        upgrade.other.length === 0 &&
-        !available.some(e => e.name === upgradeData.name)
-      ) {
-        available.push({
-          name: upgradeData.name,
-          description: upgradeData.description,
-          type: upgradeData.type,
-          iconurl: upgradeData.iconurl,
-          effect: upgradeData.effect,
-          rare: upgradeData.rare,
-          epic: upgradeData.epic,
-          heroic: upgradeData.heroic,
-        })
-      }
-
-      // The upgrade isn't in either list; add it to the potential list
-      if (
-        !potential.some(e => e.name === upgradeData.name) &&
-        !available.some(e => e.name === upgradeData.name)
-      ) {
-        // 'Vengeful Mood' boon clause
-        if (upgrade.other2) {
-          if (!upgrade.other2.includes(clickedBoon)) {
-            potential.push({
-              name: upgradeData.name,
-              description: upgradeData.description,
-              type: upgradeData.type,
-              iconurl: upgradeData.iconurl,
-              effect: upgradeData.effect,
-              rare: upgradeData.rare,
-              epic: upgradeData.epic,
-              heroic: upgradeData.heroic,
-              other: upgrade.other,
-              other2: upgrade.other2,
-            })
+      switch (upgradeData.type) {
+        // Upgrades that only required clickedBoon as a prerequisite
+        case "Normal":
+        case "Artemis":
+        case "Athena":
+        case "Poseidon":
+          if (!available.some(e => e.name === upgradeData.name)) {
+            available.push(upgradeObject)
           }
-        } else {
-          potential.push({
-            name: upgradeData.name,
-            description: upgradeData.description,
-            type: upgradeData.type,
-            iconurl: upgradeData.iconurl,
-            effect: upgradeData.effect,
-            rare: upgradeData.rare,
-            epic: upgradeData.epic,
-            heroic: upgradeData.heroic,
-            other: upgrade.other,
-            other2: [],
-          })
-        }
+          break
+        // Duo boons will never go into the available boons list for respective God pages
+        case "Duo":
+          // 'Vengeful Mood' boon double prerequisite check
+          if (upgradeData.name === "Vengeful Mood") {
+            // If 'Vengeful Mood' is in the potential list and the clicked boon is a prerequisite
+            if (
+              potential.some(
+                e =>
+                  e.name === upgradeData.name && e.other2.includes(clickedBoon)
+              )
+            ) {
+              // Remove one of the prerequisites
+              potential.find(e => e.name === upgradeData.name).other2 = []
+            }
+            upgradeObject = Object.assign(
+              { other2: upgrade.other2 },
+              upgradeObject
+            )
+          }
+
+          if (!potential.some(e => e.name === upgradeData.name)) {
+            // Get the other prerequisites needed for Duo boons
+            upgradeObject = Object.assign(
+              { other: upgrade.other },
+              upgradeObject
+            )
+            potential.push(upgradeObject)
+          }
+          break
+        case "Legendary":
+          // Check if the Legendary boon has been acquired
+          if (!available.some(e => e.name === upgradeData.name)) {
+            available.push(upgradeObject)
+          }
+          break
+        default:
+          break
       }
     })
   }

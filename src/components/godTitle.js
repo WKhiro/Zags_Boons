@@ -31,6 +31,7 @@ export default function GodTitle(props) {
       break
     default:
       titleClass = "titleFormat"
+      break
   }
   // Eager loading prevents image flicker
   return (
