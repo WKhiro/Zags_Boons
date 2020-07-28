@@ -13,7 +13,7 @@ export default function IndexPage({ data }) {
       <div className="descriptionContainer">
         <p className="description">
           This website is currently being created for the early-access PC game,
-          Hades, by SuperGiant Games. The main character, Zagreus, collects a
+          Hades, by Supergiant Games. The main character, Zagreus, collects a
           variety of upgrades known as "boons" from the Gods upon Olympus during
           his escape from the Underworld. Since there are so many boons that
           Zagreus can obtain, I wanted to create a website that would allow for
