@@ -17,48 +17,51 @@
 }
 
 .testimg {
-  width: 100px;
-  height: 100px;
+  width: 40px;
+  height: 40px;
 }
 
 h5 {
   margin: 0;
 }
 
+.boonOn,
 .boonOff {
   max-width: 80px;
   max-height: 80px;
-  filter: drop-shadow(5px 5px 5px #222);
+  margin-right: 20px;
 }
 
+.boonOn:hover,
 .boonOff:hover {
   opacity: 0.8;
 }
 
 .boonOn {
-  max-width: 80px;
-  max-height: 80px;
   filter: drop-shadow(0 0 10px #fff) drop-shadow(0 0 30px aqua);
 }
 
-.boonOn:hover {
-  opacity: 0.8;
+.boonOff {
+  filter: drop-shadow(5px 5px 5px #222);
 }
 
-.common {
+.common,
+.rare,
+.epic,
+.heroic {
   color: white;
 }
 
 .rare {
-  color: blue;
+  text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
 }
 
 .epic {
-  color: purple;
+  text-shadow: -1px 0 purple, 0 1px purple, 1px 0 purple, 0 -1px purple;
 }
 
 .heroic {
-  color: red;
+  text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
 }
 
 .legendary {
@@ -74,11 +77,13 @@ h5 {
   border-color: white !important;
   background: black !important;
   opacity: 1 !important;
+  font-family: "Belleza" !important;
 }
 
 .tool > p {
   color: white;
   margin: 0;
+  font-size: 16px;
 }
 
 .spaceBoon {
@@ -88,7 +93,7 @@ h5 {
 .too {
   color: white;
   background: black;
-  border: 2px solid purple;
+  border: 5px double white;
   border-radius: 12px;
   padding: 10px;
 }

@@ -630,5 +630,7 @@ pre tt:after {
 }
 
 footer {
+  margin-top: 20px;
   color: white;
+  font-family: "Belleza";
 }

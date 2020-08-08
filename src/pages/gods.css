@@ -24,14 +24,14 @@
 }
 
 .box2 > * {
-  flex: 1 1 100%;
+  flex: 1 1 250px;
 }
 
 /* media only screen? */
 
 @media (max-width: 1400px) {
   .box2 > * {
-    flex: 1 1 100%;
+    flex: 1 1 200px;
   }
   .box2 {
     border: none;
@@ -48,6 +48,7 @@
 
 h2 {
   color: white;
+  font-family: "Belleza";
 }
 
 h5 {
@@ -59,9 +60,9 @@ h5 {
   z-index: 2;
   display: flex;
   flex-flow: row wrap;
-  border: 2px solid red;
   margin: 0 100px 0 100px;
   position: relative;
+  min-height: 600px;
 }
 
 @media screen and (max-width: 800px) {

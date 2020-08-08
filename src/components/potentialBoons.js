@@ -44,7 +44,7 @@ export default function PotentialBoons(props) {
               alt=""
             />
             <NormalTooltip id={element.name} boonData={element} />
-            <h4>{element.name.toUpperCase()}</h4>
+            <h4>{element.name}</h4>
             {element.other.map(reqs => {
               return <h5 key={uuidv4()}>+ {reqs}</h5>
             })}

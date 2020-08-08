@@ -30,96 +30,88 @@ export default function Aphrodite({ data }) {
   }
 
   const updateLists = boonIndex => {
-    // References all of an upgrade boon's data (effects, rarity bonuses)
+    // Used to reference the upgrade's data (effects, rarity bonuses)
     let upgradeData = ""
-    // Object containing all of an upgrade boon's data EXCEPT its "upgrades" field
-    let upgradeObject = {}
-    // Name of the boon that was clicked on, or acquired
+    // Name of the boon that was just clicked on
     const clickedBoon = godData.boons[boonIndex].name
-    const clickedBoonUpgrades = godData.boons[boonIndex].upgrades
 
-    // Check if the available boons list contains clickedBoon
-    if (available.some(e => e.name === clickedBoon)) {
-      // Remove clickedBoon from the list since we have now acquired it
-      available.splice(
-        available
-          .map(boon => {
-            return boon.name
-          })
-          .indexOf(clickedBoon),
-        1
-      )
-    }
-
-    clickedBoonUpgrades.forEach(upgrade => {
+    godData.boons[boonIndex].upgrades.forEach(upgrade => {
       // Find the upgrade's data in the general boon list
       upgradeData = godData.boons.find(boon => boon.name === upgrade.name)
 
-      // Get everything besides the upgrade boon's upgrades array
-      upgradeObject = {
-        name: upgradeData.name,
-        description: upgradeData.description,
-        type: upgradeData.type,
-        iconurl: upgradeData.iconurl,
-        effect: upgradeData.effect,
-        rare: upgradeData.rare,
-        epic: upgradeData.epic,
-        heroic: upgradeData.heroic,
+      // Check if any potential upgrades become avaliable with the addition of the clicked boon
+      if (
+        potential.some(
+          e => e.name === upgrade.name && e.other.includes(clickedBoon)
+        )
+      ) {
+        // Add unlocked upgrade to the available list, and remove from potential list
+        available.push({
+          name: upgradeData.name,
+          description: upgradeData.description,
+          type: upgradeData.type,
+          iconurl: upgradeData.iconurl,
+          effect: upgradeData.effect,
+          rare: upgradeData.rare,
+          epic: upgradeData.epic,
+          heroic: upgradeData.heroic,
+        })
+        potential.splice(
+          potential
+            .map(boon => {
+              return boon.name
+            })
+            .indexOf(upgradeData.name),
+          1
+        )
       }
 
-      switch (upgradeData.type) {
-        // Upgrades that only required clickedBoon as a prerequisite
-        case "Normal":
-        case "Artemis":
-        case "Athena":
-        case "Poseidon":
-        case "Zeus":
-          if (!available.some(e => e.name === upgradeData.name)) {
-            available.push(upgradeObject)
-          }
-          break
-        // Duo boons will never go into the available boons list for respective God pages
-        case "Duo":
-          if (!potential.some(e => e.name === upgradeData.name)) {
-            // Get the other prerequisites needed for Duo boons
-            upgradeObject = Object.assign(
-              { other: upgrade.other },
-              upgradeObject
-            )
-            potential.push(upgradeObject)
-          }
-          break
-        case "Legendary":
-          // Check if the Legendary boon's prerequisites are completely fulfilled with clickedBoon
-          if (
-            potential.some(
-              e => e.name === upgrade.name && e.other.includes(clickedBoon)
-            )
-          ) {
-            available.push(upgradeObject)
-            potential.splice(
-              potential
-                .map(boon => {
-                  return boon.name
-                })
-                .indexOf(upgradeData.name),
-              1
-            )
-          }
-          // Otherwise add the Legendary boon to potential boons list if it's not already there
-          else if (
-            !potential.some(e => e.name === upgradeData.name) &&
-            !available.some(e => e.name === upgradeData.name)
-          ) {
-            upgradeObject = Object.assign(
-              { other: upgrade.other },
-              upgradeObject
-            )
-            potential.push(upgradeObject)
-          }
-          break
-        default:
-          break
+      // Check if the clicked boon is in the available list
+      if (available.some(e => e.name === clickedBoon)) {
+        // Remove it from the available list because we now have it (clicked on it)
+        available.splice(
+          available
+            .map(boon => {
+              return boon.name
+            })
+            .indexOf(clickedBoon),
+          1
+        )
+      }
+
+      // Add upgrades with no other prerequisite boons to the available list if it's not already there
+      if (
+        upgrade.other.length === 0 &&
+        !available.some(e => e.name === upgradeData.name)
+      ) {
+        available.push({
+          name: upgradeData.name,
+          description: upgradeData.description,
+          type: upgradeData.type,
+          iconurl: upgradeData.iconurl,
+          effect: upgradeData.effect,
+          rare: upgradeData.rare,
+          epic: upgradeData.epic,
+          heroic: upgradeData.heroic,
+        })
+      }
+
+      // The upgrade isn't in either list; add it to the potential list
+      if (
+        !potential.some(e => e.name === upgradeData.name) &&
+        !available.some(e => e.name === upgradeData.name)
+      ) {
+        potential.push({
+          name: upgradeData.name,
+          description: upgradeData.description,
+          type: upgradeData.type,
+          iconurl: upgradeData.iconurl,
+          effect: upgradeData.effect,
+          rare: upgradeData.rare,
+          epic: upgradeData.epic,
+          heroic: upgradeData.heroic,
+          other: upgrade.other,
+        })
       }
     })
   }
