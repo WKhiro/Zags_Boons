@@ -1,7 +1,7 @@
 .testin {
   color: white;
-  background: black;
-  border: 2px solid gold;
+  background: #092912;
+  border: 2px solid #457d55;
   border-radius: 12px;
   display: inline-block;
   padding: 10px;
@@ -14,6 +14,10 @@
 .testin > h4 {
   display: inline-block;
   margin: 0;
+}
+
+.testin > img {
+  margin-right: 10px;
 }
 
 .testimg {
@@ -74,8 +78,9 @@ h5 {
 
 .tool {
   border-width: 2px !important;
-  border-color: white !important;
-  background: black !important;
+  border-color: yellow !important;
+  background: #1a1a1a !important;
+  border-radius: 12px !important;
   opacity: 1 !important;
   font-family: "Belleza" !important;
 }
@@ -92,8 +97,9 @@ h5 {
 
 .too {
   color: white;
-  background: black;
-  border: 5px double white;
+  background: #092912;
+  border: 2px solid #457d55;
+  margin: 2px;
   border-radius: 12px;
   padding: 10px;
 }

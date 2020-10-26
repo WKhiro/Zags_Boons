@@ -10,7 +10,13 @@ export default function NormalTooltip(props) {
       specialClass = "duo"
     }
     return (
-      <ReactTooltip className="tool" place="top" id={props.id} type="dark">
+      <ReactTooltip
+        className="tool"
+        place="top"
+        id={props.id}
+        type="dark"
+        arrowColor="transparent"
+      >
         <h5>{boonData.name}</h5>
         <p>{boonData.description}</p>
         <p>
@@ -21,7 +27,13 @@ export default function NormalTooltip(props) {
     )
   } else {
     return (
-      <ReactTooltip className="tool" place="top" id={props.id} type="dark">
+      <ReactTooltip
+        className="tool"
+        place="top"
+        id={props.id}
+        type="dark"
+        arrowColor="transparent"
+      >
         <h5>{boonData.name}</h5>
         <p>{boonData.description}</p>
         <p>
