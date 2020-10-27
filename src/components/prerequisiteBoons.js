@@ -4,7 +4,7 @@ import NormalTooltip from "./normalTooltip"
 
 export default function PrerequisiteBoons(props) {
   // Presentation role removes eslint error
-  var boonData = props.boonData
+  let boonData = props.boonData
   return (
     <>
       <img

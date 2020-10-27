@@ -6,13 +6,13 @@ import { v4 as uuidv4 } from "uuid"
 export default function AvailableBoons(props) {
   const available = props.available
   return available.map(boonElement => {
-    var s = boonElement.name + "-up"
+    let s = boonElement.name + "-up"
     return (
-      <div key={uuidv4()} className="testin">
+      <div key={uuidv4()} className="available">
         <img
           data-tip
           data-for={s}
-          className="testimg"
+          className="imgSize"
           src={boonElement.iconurl}
           alt=""
         />

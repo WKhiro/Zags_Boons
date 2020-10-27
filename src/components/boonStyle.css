@@ -1,32 +1,51 @@
-.testin {
-  color: white;
-  background: #092912;
-  border: 2px solid #457d55;
-  border-radius: 12px;
-  display: inline-block;
-  padding: 10px;
-  margin: 2px;
-  vertical-align: top;
-}
-
-.testin > img,
-.testin > h3,
-.testin > h4 {
-  display: inline-block;
-  margin: 0;
-}
-
-.testin > img {
-  margin-right: 10px;
-}
-
-.testimg {
+.imgSize {
   width: 40px;
   height: 40px;
 }
 
-h5 {
+.available,
+.potential {
+  color: white;
+  background: #092912;
+  border: 2px solid #457d55;
+  border-radius: 12px;
+  padding: 10px;
+  margin: 2px;
+}
+
+.available {
+  display: inline-block;
+}
+
+.available > img,
+.available > h4,
+.potential > img,
+.potential > h4 {
+  display: inline-block;
   margin: 0;
+}
+
+.available > img {
+  margin-right: 5px;
+}
+
+.potential > img {
+  margin-right: 5px;
+}
+
+.available > h4,
+.potential > h4,
+.potential > h5 {
+  font-family: "Belleza" !important;
+}
+
+.potential > h5 {
+  margin-left: 20px;
+}
+
+.additional {
+  color: gold;
+  padding-top: 10px;
 }
 
 .boonOn,
@@ -73,7 +92,7 @@ h5 {
 }
 
 .duo {
-  color: lime;
+  color: #a0ff70;
 }
 
 .tool {
@@ -82,41 +101,34 @@ h5 {
   background: #1a1a1a !important;
   border-radius: 12px !important;
   opacity: 1 !important;
+}
+
+.tool > p,
+.tool > h4,
+.tool > h5 {
   font-family: "Belleza" !important;
+  color: white;
+}
+
+.tool > h4 {
+  margin: 0 0 5px 0;
+}
+
+.tool > h5 {
+  margin: 0 0 10px 0;
 }
 
 .tool > p {
-  color: white;
-  margin: 0;
+  margin: 0 0 0 20px;
   font-size: 16px;
 }
 
-.spaceBoon {
-  margin-bottom: 100px;
+.tool > .legendary {
+  color: orange;
 }
 
-.too {
-  color: white;
-  background: #092912;
-  border: 2px solid #457d55;
-  margin: 2px;
-  border-radius: 12px;
-  padding: 10px;
-}
-
-.too > img,
-.too > h4 {
-  margin: 0;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.too > img {
-  margin-right: 10px;
-}
-
-.too > h4 {
-  padding-top: 10px;
+.tool > .duo {
+  color: #a0ff70;
 }
 
 .titleFormat,

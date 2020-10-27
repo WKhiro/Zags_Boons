@@ -3,8 +3,8 @@ import "./boonStyle.css"
 import ReactTooltip from "react-tooltip"
 
 export default function NormalTooltip(props) {
-  var boonData = props.boonData
-  var specialClass = "legendary"
+  let boonData = props.boonData
+  let specialClass = "legendary"
   if (boonData.type === "Legendary" || boonData.type === "Duo") {
     if (boonData.type === "Duo") {
       specialClass = "duo"
@@ -17,8 +17,8 @@ export default function NormalTooltip(props) {
         type="dark"
         arrowColor="transparent"
       >
-        <h5>{boonData.name}</h5>
-        <p>{boonData.description}</p>
+        <h4 className={specialClass}>{boonData.name}</h4>
+        <h5>{boonData.description}</h5>
         <p>
           <span className={specialClass}>Effect: </span>
           {boonData.effect}
@@ -34,8 +34,8 @@ export default function NormalTooltip(props) {
         type="dark"
         arrowColor="transparent"
       >
-        <h5>{boonData.name}</h5>
-        <p>{boonData.description}</p>
+        <h4>{boonData.name}</h4>
+        <h5>{boonData.description}</h5>
         <p>
           <span className="common">Common: </span>
           {boonData.effect}

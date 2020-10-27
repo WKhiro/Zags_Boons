@@ -49,7 +49,6 @@
 .zeusHeader:hover {
   text-decoration: none;
   color: white;
-  opacity: 0.8;
 }
 
 .aphroditeHeader:hover,
@@ -121,6 +120,10 @@
   text-shadow: 0px 0px 8px red;
   font-family: "Xtra";
   font-weight: bold;
+}
+
+.navbar-brand:hover {
+  text-shadow: 0px 0px 16px red;
 }
 
 .spacing {

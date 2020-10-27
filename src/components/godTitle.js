@@ -3,7 +3,7 @@ import "./boonStyle.css"
 import Img from "gatsby-image"
 
 export default function GodTitle(props) {
-  var titleClass = "titleFormat"
+  let titleClass = "titleFormat"
   switch (props.name) {
     case "aphrodite":
       titleClass = "aphroditeTitle"

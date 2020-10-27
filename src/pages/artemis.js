@@ -16,12 +16,12 @@ export default function Artemis({ data }) {
   const godName = Object.keys(data.dataJson.gods[0])
   // Artemis's boon list in this case
   const godData = gods[0][godName]
-  var [display, setDisplay] = useState([false])
+  let [display, setDisplay] = useState([false])
   // On-off styling for boons on click
-  var boonClass = ""
-  var available = []
-  var potential = []
-  var displayingList = []
+  let boonClass = ""
+  let available = []
+  let potential = []
+  let displayingList = []
 
   const toggleDisplay = index => () => {
     let displayCopy = [...display]
