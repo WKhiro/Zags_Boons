@@ -624,13 +624,22 @@ pre tt:after {
 .backTest {
   background: black;
   margin: 0 auto;
-  padding: 0px 1.0875rem 1.45rem;
+  padding: 0px 1.0875rem 0px;
   padding-top: 0;
   min-height: calc(100vh - 40px);
 }
 
 footer {
-  margin-top: 20px;
   color: white;
   font-family: "Belleza";
+  margin-top: 100px;
+}
+
+.git {
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.git:hover {
+  opacity: 0.8;
 }

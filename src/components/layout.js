@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import { Helmet } from "react-helmet"
 
 import Header from "./header"
+import Github from "../images/github.png"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -47,6 +48,9 @@ const Layout = ({ children }) => {
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://github.com/WKhiro/Zags_Boons">
+            <img className="git" src={Github} alt="" />
+          </a>
         </footer>
       </div>
     </>
