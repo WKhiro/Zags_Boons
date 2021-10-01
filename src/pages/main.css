@@ -18,19 +18,33 @@
 
 .descriptionContainer {
   max-width: 30%;
-  display: inline-block;
   padding-top: 50px;
 }
 
+.imgContainer {
+  max-width: 50%;
+  height: auto;
+  margin-right: 100px;
+}
+
 .zag {
-  max-width: 600px;
-  max-height: 300px;
-  display: inline-block;
   border: 2px solid gray;
   border-radius: 12px;
-  margin-right: 100px;
 }
 
 .zag:hover {
   opacity: 0.8;
+}
+
+@media (max-width: 1000px) {
+  .parent {
+    flex-direction: column;
+  }
+  .imgContainer {
+    margin-top: 50px;
+    margin-right: 0px;
+  }
+  .descriptionContainer {
+    max-width: 80%;
+  }
 }

@@ -9,7 +9,10 @@ export default function IndexPage({ data }) {
     <Layout>
       <SEO title="Home" />
       <div className="parent">
-        <a href="https://store.steampowered.com/app/1145360/Hades/">
+        <a
+          className="imgContainer"
+          href="https://store.steampowered.com/app/1145360/Hades/"
+        >
           <img className="zag" src={Zagreus} alt="" />
         </a>
         <div className="descriptionContainer">
